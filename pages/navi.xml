@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nav>
+
+	<elem>
+		<name>Startseite</name>
+		<link>Startseite.php</link>
+	</elem>
+	
+	<elem>
+		<name>Mitwirkende</name>
+		<link>Mitwirkende.php</link>
+	</elem>
+	<elem>
+		<name>Collectorspace</name>
+		<link>Collectorspace.php</link>
+	</elem>
+	<elem>
+		<name>Makerspace</name>
+		<link>Makerspace.php</link>
+	</elem>
+	<elem>
+		<name>Reflectorspace</name>
+		<link>Reflectorspace.php</link>
+	</elem>
+
+	
+	<elem>
+		<name>AG-Anmeldung</name>
+		<link>AG-Anmeldung.php</link>
+	</elem>
+</nav>
