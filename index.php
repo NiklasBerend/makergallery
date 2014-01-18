@@ -22,7 +22,7 @@
 			},1000,"easeOutQuint");
 		});
 		
-		/*youtube-gallery Start */
+		/*youtube-gallery Start*/
 		$(".youtube-video-gallery").youtubeVideoGallery();
 	  
 	 	/*youtube-gallery End*/
