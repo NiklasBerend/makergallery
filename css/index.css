@@ -121,8 +121,15 @@ iframe {
 }
 .gallery .slides > ul > li {
 	width: 10%;
-	display: inline-block;
+	float: left;
 	white-space: nowrap;
+}
+.gallery .slides > ul:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
 }
 .gallery .slides > ul li .image,
 .gallery .slides > ul li .info {
