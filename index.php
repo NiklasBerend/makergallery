@@ -189,11 +189,9 @@
 				foreach($navi_xml->children() as $elem) {
 					
 					print '<li id="'.$elem->name.'">';
-					print '<div class="wrapper">';
 					
 					include ("pages/".$elem->link);
 							
-					print '</div>';
 					print '</li>';
 				}
                 

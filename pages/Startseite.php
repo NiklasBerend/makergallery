@@ -1,3 +1,4 @@
+<div class="wrapper">
 </br>
 <h1>Makergallery.de</h1>
 <h2>Eine Online-Ausstellung zum Thema:</br> 
@@ -17,6 +18,9 @@
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23mlab14" data-widget-id="423410425057648641">Tweets über "#mlab14"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-
+</div>
+<div class="parallax_image">
+<img src="..."/>
+</div>
 
 
