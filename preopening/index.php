@@ -38,9 +38,9 @@
     	<p>
         <h1>Die makergallery öffnet am 16.3.2013.</h1>
             
-        <h3>Alle Informationen </br>zum <i>Kurs #2 Kinderzimmer Productions</i> finden Sie unter <a href="http://medialiteracylab.de/2-kinderzimmer-productions/" target="_blank" style="color:white">medialiteracylab.de.</a></br>
-        Zur <i>Google + Community geht´s</i> <a href="http....." target="_blank" style="color: white">hier.</a></br>
-        Oder folgen Sie uns auf <a href="http://twitter.com/_MLAB" target="_blank" style="color:white"><i>Twitter</i></a></h3> 
+        <h3>Alle Informationen </br>zum <strong><i>Kurs #2 Kinderzimmer Productions</i></strong> finden Sie unter <a href="http://medialiteracylab.de/2-kinderzimmer-productions/" target="_blank" style="color:white" style="text-decoration: none;">medialiteracylab.de.</a></br>
+        Zur <strong><i>Google + Community</i></strong> geht´s <a href="http....." target="_blank" style="color: white" text-decoration: none;>hier.</a></br>
+        Oder folgen Sie uns auf <a href="http://twitter.com/_MLAB" target="_blank" style="color:white" text-decoration: none;><strong><i>Twitter</i></strong></a></h3> 
         </p>
     </div>
 </body>	

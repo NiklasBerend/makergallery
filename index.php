@@ -1,6 +1,6 @@
 <html>
 <head>
-<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/youtube-video-gallery.css" type="text/css"/>
 <link rel=”shortcut icon” href=”Makergallery/favicon.ico” type=”image/x-icon” />
 
@@ -49,7 +49,14 @@
 <style type="text/css">
 
 
+	h1 {font-family: 'Open Sans', sans-serif; font-weight: 600;
+	}
 	
+	h2 {font-family: 'Open Sans', sans-serif; font-weight: 400;
+	}
+	
+	h3 {font-family: 'Open Sans', sans-serif; font-weight: 300;
+	}
 
 	body {
 		margin: 0;
@@ -64,7 +71,7 @@
 		width: 100%;
 		position: relative;
 		left: 0;
-		font-family: 'Quicksand', sans-serif;
+		font-family: 'Open Sans', sans-serif; font-weight: 300;
 	}
 	
 	#paging > li {
@@ -82,8 +89,7 @@
 		height: 40px;
 		z-index: 500;
 		background-color: #ccc;
-		font-family: 'Quicksand', sans-serif;
-		font-weight: bold;
+		font-family: 'Open Sans', sans-serif; font-weight: 700;
 	}
 	.nav ul {
 		margin: 0;
@@ -149,16 +155,7 @@
 		max-width:	840px;
 	}
 	
-	.twitter-timeline {
-		margin-left: 750px;
-		margin-right: 50px;
-		margin-top: -450px;
-		heigth: 400px;
-		width: 300px;
-		position: relative;
-		border: 1px dottet grey;
-	}
-		
+	
 		
 </style>
 </head>
