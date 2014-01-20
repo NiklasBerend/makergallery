@@ -2,6 +2,8 @@
 <head>
 <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/youtube-video-gallery.css" type="text/css"/>
+<link rel=”shortcut icon” href=”Makergallery/favicon.ico” type=”image/x-icon” />
+
 <meta charset="utf-8" content="encoding"/>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery_easing.js"></script>
@@ -81,6 +83,7 @@
 		z-index: 500;
 		background-color: #ccc;
 		font-family: 'Quicksand', sans-serif;
+		font-weight: bold;
 	}
 	.nav ul {
 		margin: 0;
@@ -119,6 +122,7 @@
 	
 	#Reflectorspace {
 		background-color: #2e4f68;
+		color: white;
 	}
 	#supportspace {
 		background-color: #a2abae;
@@ -135,7 +139,8 @@
 		margin-right: 20px;
 	}
 	#player {
-		width: 300px;
+		width: 100%;
+		height: 100%;
 	}
 	
 	iframe {

@@ -1,5 +1,7 @@
 </br>
-<h1>"Makergallery.de" - Die Online-Ausstellung</h1>
+<h1>Makergallery.de</h1>
+<h2>Eine Online-Ausstellung zum Thema:</br> 
+"Was <i>machen</i> Kinder und Jugendliche mit digitalen Medien?"</h2> 
 
 
 

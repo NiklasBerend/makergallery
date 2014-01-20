@@ -2,7 +2,7 @@
 <nav>
 
 	<elem>
-		<name>Startseite</name>
+		<name>Eingang</name>
 		<link>Startseite.php</link>
 	</elem>
 	
@@ -23,9 +23,4 @@
 		<link>Reflectorspace.php</link>
 	</elem>
 
-	
-	<elem>
-		<name>AG-Anmeldung</name>
-		<link>AG-Anmeldung.php</link>
-	</elem>
 </nav>
