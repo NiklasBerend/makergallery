@@ -12,11 +12,12 @@
 		font-size: 20px;
 		font-family: Arial, Helvetica, sans-serif;
 		background-image: url(curtain.jpg);
-		background-size: 100%;
+		background-size: cover;
 		background-position: center;
 	}
 	.wrapper {
-		margin: 0 auto;
+		margin: 100px auto 0 auto;
+		padding: 50 0px;
 		max-width: 960px; /* IPAD */
 		min-width: 480px; /* IPHONE */
 	}
