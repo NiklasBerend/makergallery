@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper3">
 </br>
 <h1>Galerie der Beispiele</h1>
 <img src="img/joystick.png" align="left" vspace="10" hspace="20"/>
@@ -9,6 +9,6 @@
 
 </div>
 <div class="parallax_image3">
-<img src="..."/>
+<img src="img/makey.jpg"/>
 </div>
 

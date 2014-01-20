@@ -2,10 +2,15 @@
 <head>
 <meta charset="utf-8" content="encoding"/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://apis.google.com/js/platform.js">
+  {lang: 'de'}
+</script>
+
 <style type="text/css">	
 	
-	h1 { 'font-family: 'Open Sans', sans-serif; font-weight: 700 }
-	h3 { 'font-family: 'Open Sans', sans-serif; font-weight: 300 }
+	h1 { font-family: 'Raleway', sans-serif; font-weight: 700 }
+	h3 { font-family: 'Raleway', sans-serif; font-weight: 300 }
 	
 	body {
 		
@@ -29,6 +34,18 @@
 		text-align: center;
 		color: #fff;
 	}
+	
+	#twitter {
+		margin: 0 auto;
+		margin-left: 400px;
+	}
+	
+	.g-page {
+		margin: 0 auto;
+		margin-left: 800px;
+		margin-bottom: 100px;
+		
+	}
 		
 		
 </style>
@@ -45,3 +62,11 @@
     </div>
 </body>	
 </html>
+
+<div id="twitter">
+	<a href="https://twitter.com/_MLAB" class="twitter-follow-button" data-show-count="false" data-lang="de" data-size="large">@_MLAB folgen</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+</div>
+
+<div class="g-page" data-width="277" data-href="//plus.google.com/107891845940983654015" data-layout="landscape" data-rel="publisher"></div>
