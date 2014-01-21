@@ -1,4 +1,4 @@
-<div class="wrapper3">
+<div class="wrapper">
 </br>
 <h1>Galerie der Beispiele</h1>
 <img src="img/joystick.png" align="left" vspace="10" hspace="20"/>

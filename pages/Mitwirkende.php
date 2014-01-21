@@ -1,4 +1,4 @@
-<div class="wrapper1">
+<div class="wrapper">
 </br>
 <h1>Galerie der Mitwirkenden</h1>
 </div>

@@ -1,3 +1,5 @@
+var animation_speed = 1000; //Milliseconds
+
 $(document).ready(function(e) {
 		
 	$(".nav li").bind("click", function() {
@@ -104,7 +106,7 @@ function slideshow_go_to(element,type) {
 				$(element).find(".slides ul").animate({
 					
 					left: "-" + (count * 100) + "%"
-				});
+				},animation_speed);
 				$(element).find(".slides ul > li, .thumbs li").removeClass("current");
 				$(element).find(".slides ul > li:last-child, .thumbs li:last-child").addClass("current");
 			}
@@ -113,7 +115,7 @@ function slideshow_go_to(element,type) {
 				$(element).find(".slides ul").animate({
 					
 					left: "+=100%"
-				});
+				},animation_speed);
 				$(element).find(".slides ul > li.current, .thumbs li.current").prev().addClass("prev");
 				$(element).find(".slides ul > li, .thumbs li").removeClass("current");
 				$(element).find(".slides ul > li.prev, .thumbs li.prev").addClass("current").removeClass("prev");
@@ -127,7 +129,7 @@ function slideshow_go_to(element,type) {
 				$(element).find(".slides ul").animate({
 					
 					left: "0"
-				});
+				},animation_speed);
 				$(element).find(".slides ul > li, .thumbs li").removeClass("current");
 				$(element).find(".slides ul > li:first-child, .thumbs li:first-child").addClass("current");
 			}
@@ -136,7 +138,7 @@ function slideshow_go_to(element,type) {
 				$(element).find(".slides ul").animate({
 					
 					left: "-=100%"
-				});
+				},animation_speed);
 				$(element).find(".slides ul > li.current, .thumbs li.current").next().addClass("next");
 				$(element).find(".slides ul > li, .thumbs li").removeClass("current");
 				$(element).find(".slides ul > li.next, .thumbs li.next").addClass("current").removeClass("next");
@@ -148,7 +150,7 @@ function slideshow_go_to(element,type) {
 			$(element).find(".slides ul").animate({
 					
 				left: "-" + (type*100) + "%"
-			});
+			},animation_speed);
 			$(element).find(".slides ul > li, .thumbs li").removeClass("current");
 			$(element).find(".slides ul li:nth-child(" + (type+1) + "), .thumbs li:nth-child(" + (type+1) + ")").addClass("current");
 			break;
@@ -159,13 +161,13 @@ function slideshow_go_to(element,type) {
 		$(element).find(".thumbs ul").animate({
 			
 			left: parseInt($(element).find(".thumbs").width()) - ($(element).find(".thumbs li.current").index()+1)*200
-		});
+		},animation_speed);
 	}
 	else {
 		
 		$(element).find(".thumbs ul").animate({
 			
 			left: 0
-		});
+		},animation_speed);
 	}
 }

@@ -1,4 +1,4 @@
-<div class="wrapper2">
+<div class="wrapper">
 </br>
 <h1>Galerie der Fundorte</h1>
 <img src="img/globus.png" align="left" vspace="10" hspace="20" />
