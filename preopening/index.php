@@ -22,23 +22,23 @@
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
 		background-image: url(curtain.jpg);
-		background-size: cover;
+		background-size: 1280px;
 		background-position: center;
+		background-repeat: repeat-x;
 	}
 	.wrapper {
-		margin: 300px auto 0 auto;
-		padding: 50 0px;
-		max-width: 960px; /* IPAD */
+		margin: 0 auto;
+		padding: 50px 0 0 0;
+		max-width: 600px; /* IPAD */
 		min-width: 480px; /* IPHONE */
 	}
 	.wrapper > * {
 		text-align: center;
-		color: #fff;
+		color: #2C2B29;
 	}
 	
 	#twitter {
-		margin: 0 auto;
-		margin-left: 400px;
+		text-align: center;
 	}
 	
 		
