@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nav>
-
-	<elem>
-		<name>Eingang</name>
-		<link>Startseite.php</link>
-	</elem>
-	
 	<elem>
 		<name>Mitwirkende</name>
-		<link>Mitwirkende.php</link>
+		<link>mitwirkende</link>
 	</elem>
 	<elem>
 		<name>Collectorspace</name>
-		<link>Collectorspace.php</link>
+		<link>collectorspace</link>
 	</elem>
 	<elem>
 		<name>Makerspace</name>
-		<link>Makerspace.php</link>
+		<link>makerspace</link>
 	</elem>
 	<elem>
 		<name>Reflectorspace</name>
-		<link>Reflectorspace.php</link>
+		<link>reflectorspace</link>
 	</elem>
-
+	<elem>
+		<name>Erdgeschoss</name>
+		<link></link>
+	</elem>
+	<elem>
+		<name>Untergeschoss</name>
+		<link>impressum</link>
+	</elem>
 </nav>

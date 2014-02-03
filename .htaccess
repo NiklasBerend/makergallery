@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteBase /makergallery
+RewriteCond %{REQUEST_URI} !^/makergallery/js/(.*) [NC]
+RewriteCond %{REQUEST_URI} !^/makergallery/css/(.*) [NC]
+RewriteCond %{REQUEST_URI} !^/makergallery/files/(.*) [NC]
+RewriteCond %{REQUEST_URI} !^/makergallery/favicon.ico [NC]
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+ExpiresActive On
+ExpiresDefault "access"
