@@ -30,11 +30,12 @@
 					
 					foreach($navi_xml->children() as $elem) {
 						
-						print '<li><a href="'.$global_url_prefix.$elem->link.'">'.$elem->name.'</a></li>';
+						print '<li class="'.strtolower($elem->name).'"><a title="'.$elem->name.'" href="'.$global_url_prefix.$elem->link.'"></a></li>';
 					}
 				
 				?>
             </ul>
+            <div id="elevator"></div>
         </nav>
         <div id="paging">
 			<?php
