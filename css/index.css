@@ -109,8 +109,6 @@ body .container {
 
 section h2 {
 	text-align: center;
-	top: 50%;
-	position: relative;
 	margin: 0;
 }
 
@@ -145,6 +143,33 @@ section[ref='impressum'] {
 .wrapper img {
 	width: 180px;
 	margin-right: 20px;
+}
+.exhibits {
+	max-width: 840px;
+	padding: 20px 0;
+	margin: 0 auto;
+	overflow: scroll;
+}
+.exhibits ul {
+	width: 1000%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.exhibits ul li {
+	display: inline-block;
+	margin: 10px;
+	width: 1.5%;
+	height: 150px;
+}
+.exhibits ul li:first-child {
+	margin-left: 0;
+}
+.exhibits ul li:last-child {
+	margin-right: 0;
+}
+.exhibits ul li img {
+	width: 100%;
 }
 
 

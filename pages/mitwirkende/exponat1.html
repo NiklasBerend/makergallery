@@ -25,8 +25,10 @@
     	<nav class="nav">
         	<ul>
             	<?php
+				
+					$navi_xml = simplexml_load_file("xml/navi.xml");
 					
-					foreach($contents->children() as $elem) {
+					foreach($navi_xml->children() as $elem) {
 						
 						print '<li class="'.strtolower($elem->name).'"><a title="'.$elem->name.'" href="'.$global_url_prefix.$elem->link.'"></a></li>';
 					}
@@ -37,30 +39,13 @@
         </nav>
         <div id="paging">
 			<?php
+			
+				$navi_xml = simplexml_load_file("xml/navi.xml");
 					
-				foreach($contents->children() as $elem) {
+				foreach($navi_xml->children() as $elem) {
 					
 					print '<section ref="'.$elem->link.'">';
-					print innerXML($elem->content->info);
-					print '<div class="exhibits">';
-					print '<ul>';
-					
-					if (isset($elem->content->exhibits)) {
-					
-						foreach($elem->content->exhibits->children() as $exhibit) {
-							
-							print '<li class="'.$exhibit->attributes()->type.'">';
-							print '<div class="container">';
-							
-							print '<a href="'.$exhibit->href.'"><img class="thumbnail" src="'.$exhibit->thumbnail.'" alt="'.$exhibit->title.'"></a>';
-							
-							print '</div>';
-							print '</li>';
-						}
-					}
-					
-					print '</ul>';
-					print '</div>';
+					print '<h2>'.$elem->name.'</h2>';
 					print '</section>';
 				}
                 

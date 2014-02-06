@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nav>
+	<elem>
+		<name>Mitwirkende</name>
+		<link>mitwirkende</link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<h2>Mitwirkende</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+			</info>
+			<exhibits>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+			</exhibits>
+		</content>
+	</elem>
+	<elem>
+		<name>Collectorspace</name>
+		<link>collectorspace</link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<h2>Collectorspace</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+			</info>
+			<exhibits>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+			</exhibits>
+		</content>
+	</elem>
+	<elem>
+		<name>Makerspace</name>
+		<link>makerspace</link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<h2>Makerspace</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+			</info>
+			<exhibits>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+			</exhibits>
+		</content>
+	</elem>
+	<elem>
+		<name>Reflectorspace</name>
+		<link>reflectorspace</link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<h2>Reflectorspace</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+			</info>
+			<exhibits>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat1.html</href>
+				</exhibit>
+			</exhibits>
+		</content>
+	</elem>
+	<elem>
+		<name>Erdgeschoss</name>
+		<link></link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<h2>Willkommen</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+			</info>
+		</content>
+	</elem>
+	<elem>
+		<name>Untergeschoss</name>
+		<link>impressum</link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<h2>Impressum</h2>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+			</info>
+		</content>
+	</elem>
+</nav>

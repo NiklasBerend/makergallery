@@ -37,13 +37,13 @@ function scroll_eventlistener() {
 }
 
 function set_elevator_to(section) {
+		
+	if (section < 0) {
+		
+		section = 0;
+	}
 	
 	if (elevator_position != section) {
-		
-		if (section < 0) {
-			
-			section = 0;
-		}
 		
 		new_href = $(".nav ul li:nth-child(" + (section+1) + ") a").attr("href");
 		
