@@ -5,8 +5,4 @@ RewriteCond %{REQUEST_URI} !^/makergallery/js/(.*) [NC]
 RewriteCond %{REQUEST_URI} !^/makergallery/css/(.*) [NC]
 RewriteCond %{REQUEST_URI} !^/makergallery/files/(.*) [NC]
 RewriteCond %{REQUEST_URI} !^/makergallery/favicon.ico [NC]
-<<<<<<< HEAD
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
-=======
-RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
->>>>>>> d3b7c55f158ae2531199df888eff7717748b7500
