@@ -4,7 +4,7 @@ var elevator_position = 4;
 var first_page_load = true;
 var elevator_speed = 500;
 var paging_speed = 200;
-var scrollPosition;
+var page_is_locked = false;
 
 $(document).ready(function(e) {
 		
@@ -67,40 +67,12 @@ function exhibits() {
 		
 		e.preventDefault();
 		
-		href = $(this).attr("href");
-		
-		//lock scroll position
-		scrollPosition = [
-		  self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
-		  self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
-		];
-		var html = jQuery('html'); // it would make more sense to apply this to body, but IE7 won't have that
-		html.data('scroll-position', scrollPosition);
-		html.data('previous-overflow', html.css('overflow'));
-		html.css('overflow', 'hidden');
-		window.scrollTo(scrollPosition[0], scrollPosition[1]);
-		
-		/* UNLOCK SCROLL POSITION */
-		// un-lock scroll position
-		/*
-		var html = jQuery('html');
-		var scrollPosition = html.data('scroll-position');
-		html.css('overflow', html.data('previous-overflow'));
-		window.scrollTo(scrollPosition[0], scrollPosition[1])
-		*/
-
-		
-		content = '<div class="wrapper"><h1>TEST</h1><p>Ein Text der nachgeladen wurde</p></div>';
-		
-		$(this).parents("section").find(">.container .room").html(content);
-		$(this).parents("section").find(">.container").animate({
+		if (history && history.pushState) {
+				
+			history.pushState({page:$(this).attr("href")}, null, $(this).attr("href"));
 			
-			left: "-100%"
-		});
-		$(".nav").animate({
-			
-			left: "-50px"
-		});
+			get_page_by_request_uri(location.pathname);
+		}
 	});
 	
 	$(".exhibits ul").each(function() {
@@ -266,6 +238,68 @@ function get_page_by_request_uri(uri) {
 	
 	section = request.substring(0,request.indexOf("/"));
 	
+	if (request.replace(/[^\/]/g, "").length > 1) {
+		
+		/* There's a subpage */
+		page_is_locked = true;
+		
+		$('html').css('overflow', 'hidden');
+		$(document).scrollTop($("section[ref='" + section + "']").offset().top);
+		
+		$("section[ref='" + section + "']").find("> .container").animate({
+			
+			left: "-100%"
+		});
+		$(".nav").animate({
+			
+			left: "-50px"
+		});
+	}
+	else {
+		
+		if (page_is_locked) {
+			
+			page_is_locked = false;
+		
+			$('html').css('overflow', "visible");
+			$(document).scrollTop($("section[ref='" + section + "']").offset().top);
+		}
+		
+		/* There's no subpage */
+		$("section[ref='" + section + "']").find("> .container").animate({
+			
+			left: "0"
+		});
+		$(".nav").animate({
+			
+			left: "0"
+		});
+	}
+	
+	/*
+	
+		
+	
+	
+	
+
+	
+	content = '<div class="wrapper"><h1>TEST</h1><p>Ein Text der nachgeladen wurde</p></div>';
+	
+	$(this).parents("section").find(">.container .room").html(content);
+	$(this).parents("section").find(">.container").animate({
+		
+		left: "-100%"
+	});
+	$(".nav").animate({
+		
+		left: "-50px"
+	});
+	
+	*/
+	
+	
+	
 	/* SCROLLEVENT */
 	scroll_to(section);
 }
@@ -280,11 +314,14 @@ function scroll_to(section) {
 		$(document).scrollTop($("section[ref='" + section + "']").offset().top);
 	}
 	else {
+		
+		if (parseInt($("section[ref='" + section + "']").offset().top) != parseInt($(document).scrollTop())) {
 
-		$('html, body').animate({ 
-		   scrollTop: $("section[ref='" + section + "']").offset().top}, 
-		   1000, 
-		   "easeOutQuint"
-		);	
+			$('html, body').animate({ 
+			   scrollTop: $("section[ref='" + section + "']").offset().top}, 
+			   1000, 
+			   "easeOutQuint"
+			);	
+		}
 	}
 }
