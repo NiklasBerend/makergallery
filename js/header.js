@@ -9,6 +9,7 @@ $(document).ready(function(e) {
 	check_location();
 	navigation_eventlistener();
 	scroll_eventlistener();
+	exhibits_calc();
 	
 	$(window).bind("popstate",function(e) {
 		
@@ -20,6 +21,21 @@ $(document).ready(function(e) {
 		get_page_by_request_uri(location.pathname);
 	});
 });
+
+function exhibits_calc() {
+	
+	$(".exhibits ul").each(function() {
+		
+		list_width = 0;
+		
+		$(this).find("li").each(function() {
+			
+			list_width+= $(this).outerWidth(true);
+		});
+		
+		$(this).css("width",list_width + "px");
+	});
+}
 
 function scroll_eventlistener() {
 

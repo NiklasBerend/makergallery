@@ -148,10 +148,9 @@ section[ref='impressum'] {
 	max-width: 840px;
 	padding: 20px 0;
 	margin: 0 auto;
-	overflow: scroll;
+	overflow-x: scroll;
 }
 .exhibits ul {
-	width: 1000%;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -159,7 +158,7 @@ section[ref='impressum'] {
 .exhibits ul li {
 	display: inline-block;
 	margin: 10px;
-	width: 1.5%;
+	width: 150px;
 	height: 150px;
 }
 .exhibits ul li:first-child {

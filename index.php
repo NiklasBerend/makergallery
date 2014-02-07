@@ -42,10 +42,11 @@
 					
 					print '<section ref="'.$elem->link.'">';
 					print innerXML($elem->content->info);
-					print '<div class="exhibits">';
-					print '<ul>';
 					
 					if (isset($elem->content->exhibits)) {
+						
+						print '<div class="exhibits">';
+						print '<ul>';
 					
 						foreach($elem->content->exhibits->children() as $exhibit) {
 							
@@ -57,10 +58,11 @@
 							print '</div>';
 							print '</li>';
 						}
+						
+						print '</ul>';
+						print '</div>';
 					}
 					
-					print '</ul>';
-					print '</div>';
 					print '</section>';
 				}
                 
