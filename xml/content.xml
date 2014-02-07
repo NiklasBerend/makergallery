@@ -19,7 +19,12 @@
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
 					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>pages/mitwirkende/exponat1.html</href>
+					<href>pages/mitwirkende/exponat2.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat3.html</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
@@ -29,7 +34,12 @@
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
 					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>pages/mitwirkende/exponat1.html</href>
+					<href>pages/mitwirkende/exponat2.html</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
+					<href>pages/mitwirkende/exponat3.html</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
@@ -39,22 +49,12 @@
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
 					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>pages/mitwirkende/exponat1.html</href>
+					<href>pages/mitwirkende/exponat2.html</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
 					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>pages/mitwirkende/exponat1.html</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>pages/mitwirkende/exponat1.html</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>pages/mitwirkende/exponat1.html</href>
+					<href>pages/mitwirkende/exponat3.html</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>

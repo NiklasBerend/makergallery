@@ -41,11 +41,14 @@
 				foreach($contents->children() as $elem) {
 					
 					print '<section ref="'.$elem->link.'">';
+					print '<div class="container">';
+					print '<div class="floor">';
 					print innerXML($elem->content->info);
 					
 					if (isset($elem->content->exhibits)) {
 						
 						print '<div class="exhibits">';
+						print '<div class="container">';
 						print '<ul>';
 					
 						foreach($elem->content->exhibits->children() as $exhibit) {
@@ -60,6 +63,15 @@
 						}
 						
 						print '</ul>';
+						print '</div>';
+						print '<div class="navi">';
+						print '<a class="next"></a>';
+						print '<a class="prev"></a>';
+						print '</div>';
+						print '</div>';
+						print '</div>';
+						print '<div class="room">';
+						print '</div>';
 						print '</div>';
 					}
 					

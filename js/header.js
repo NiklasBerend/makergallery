@@ -3,6 +3,8 @@ var initialURL = location.href;
 var elevator_position = 4;
 var first_page_load = true;
 var elevator_speed = 500;
+var paging_speed = 200;
+var scrollPosition;
 
 $(document).ready(function(e) {
 		
@@ -10,6 +12,7 @@ $(document).ready(function(e) {
 	navigation_eventlistener();
 	scroll_eventlistener();
 	exhibits();
+	responsive_listeners();
 	
 	$(window).bind("popstate",function(e) {
 		
@@ -22,7 +25,75 @@ $(document).ready(function(e) {
 	});
 });
 
+function responsive_listeners() {
+	
+	responsive_design();
+	
+	$(window).resize(function() {
+		
+		responsive_design();
+	});
+}
+
+function responsive_design() {
+	
+	window_width = $(this).width();
+		
+	/* Tablet */
+	if (window_width < 980) {
+	
+		$("body").addClass("tablet");
+		
+		/* Smartphone */
+		if (window_width < 640) {
+			
+			$("body").addClass("mobile");
+		}
+		else {
+			
+			$("body").removeClass("mobile");
+		}
+	}
+	else {
+		
+		$("body").removeClass("tablet");
+		$("body").removeClass("mobile");
+	}
+}
+
 function exhibits() {
+	
+	$(document).on("click",".exhibits > .container ul li a", function(e) {
+		
+		e.preventDefault();
+		
+		href = $(this).attr("href");
+		
+		//lock scroll position
+		scrollPosition = [
+		  self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+		  self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+		];
+		var html = jQuery('html'); // it would make more sense to apply this to body, but IE7 won't have that
+		html.data('scroll-position', scrollPosition);
+		html.data('previous-overflow', html.css('overflow'));
+		html.css('overflow', 'hidden');
+		window.scrollTo(scrollPosition[0], scrollPosition[1]);
+		
+
+		
+		content = '<div class="wrapper"><h1>TEST</h1><p>Ein Text der nachgeladen wurde</p></div>';
+		
+		$(this).parents("section").find(">.container .room").html(content);
+		$(this).parents("section").find(">.container").animate({
+			
+			left: "-100%"
+		});
+		$(".nav").animate({
+			
+			left: "-50px"
+		});
+	});
 	
 	$(".exhibits ul").each(function() {
 		
@@ -56,6 +127,49 @@ function exhibits() {
 					left: "-" + max_left + "px"
 				});
 			}
+		}
+	});
+	
+	$(document).on("click",".exhibits .navi a", function() {
+		
+		max_left = $(this).parents(".exhibits").find("ul").width() - $(this).parents(".exhibits").width();
+		li_width = $(this).parents(".exhibits").find("ul > li:nth-child(2)").outerWidth(true);
+		
+		switch($(this).attr("class")) {
+			
+			case "next":
+			
+				if ((parseFloat($(this).parents(".exhibits").find("ul").css("left")) * (-1)) < max_left) {
+					
+					current_elem = Math.floor((parseFloat($(this).parents(".exhibits").find("ul").css("left"))*(-1))/li_width);
+					
+					current_elem++;
+					
+					calc_width = (current_elem * li_width * (-1))+"px";
+					
+					$(this).parents(".exhibits").find("ul").animate({
+						
+						left: calc_width
+					},paging_speed);
+				}
+				break;
+				
+			case "prev":
+			
+				if ((parseFloat($(this).parents(".exhibits").find("ul").css("left")) * (-1)) > 0) {
+					
+					current_elem = Math.ceil((parseFloat($(this).parents(".exhibits").find("ul").css("left"))*(-1))/li_width);
+					
+					current_elem--;
+					
+					calc_width = (current_elem * li_width * (-1))+"px";
+					
+					$(this).parents(".exhibits").find("ul").animate({
+						
+						left: calc_width
+					},paging_speed);
+				}
+				break;
 		}
 	});
 }
