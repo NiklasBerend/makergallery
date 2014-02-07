@@ -148,7 +148,7 @@ section[ref='impressum'] {
 	max-width: 840px;
 	padding: 20px 0;
 	margin: 0 auto;
-	overflow-x: scroll;
+	overflow: hidden;
 }
 .exhibits ul {
 	margin: 0;

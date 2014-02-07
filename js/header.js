@@ -9,7 +9,7 @@ $(document).ready(function(e) {
 	check_location();
 	navigation_eventlistener();
 	scroll_eventlistener();
-	exhibits_calc();
+	exhibits();
 	
 	$(window).bind("popstate",function(e) {
 		
@@ -22,7 +22,7 @@ $(document).ready(function(e) {
 	});
 });
 
-function exhibits_calc() {
+function exhibits() {
 	
 	$(".exhibits ul").each(function() {
 		
@@ -34,6 +34,29 @@ function exhibits_calc() {
 		});
 		
 		$(this).css("width",list_width + "px");
+	});
+	$(".exhibits ul").draggable({
+		
+		axis: 'x',
+		stop: function(event,ui) {
+			
+			max_left = $(ui.helper).width() - $(ui.helper).parent().width();
+			
+			if (parseFloat($(ui.helper).css("left")) > 0) {
+				
+				$(ui.helper).animate({
+					
+					left: 0
+				});
+			}
+			else if ((parseFloat($(ui.helper).css("left")) * (-1)) > max_left) {
+				
+				$(ui.helper).animate({
+					
+					left: "-" + max_left + "px"
+				});
+			}
+		}
 	});
 }
 
