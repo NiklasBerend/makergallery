@@ -80,6 +80,14 @@ function exhibits() {
 		html.css('overflow', 'hidden');
 		window.scrollTo(scrollPosition[0], scrollPosition[1]);
 		
+		/* UNLOCK SCROLL POSITION */
+		// un-lock scroll position
+		/*
+		var html = jQuery('html');
+		var scrollPosition = html.data('scroll-position');
+		html.css('overflow', html.data('previous-overflow'));
+		window.scrollTo(scrollPosition[0], scrollPosition[1])
+		*/
 
 		
 		content = '<div class="wrapper"><h1>TEST</h1><p>Ein Text der nachgeladen wurde</p></div>';
