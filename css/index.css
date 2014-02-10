@@ -72,10 +72,10 @@ body > .container {
 	background-color: #1e1e1e;
 }
 #back_button {
-	width: 60px;
-	height: 60px;
-	background-image: url(arrow-left.png);
-	background-size: 50px;
+	width: 80px;
+	height: 80px;
+	background-image: url(exit.png);
+	background-size: 70px;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: fixed;
@@ -232,8 +232,8 @@ section[ref='impressum'] {
 }
 .exhibits .navi a {
 	display: block;
-	width: 65px;
-	height: 65px;
+	width: 84px;
+	height: 84px;
 	margin-top: -130px;
 	position: absolute;
 	cursor: pointer;
@@ -241,13 +241,15 @@ section[ref='impressum'] {
 
 .exhibits .navi .next {
 	right: 0;
-	margin-right: -70px;
+	margin-right: -100px;
 	background: url(arrow-right.png);
+	background-repeat: no-repeat; 
 }
 .exhibits .navi .prev {
 	left: 0;
-	left: -80px;
+	left: -110px;
 	background: url(arrow-left.png);
+	background-repeat: no-repeat;
 	
 	
 }
