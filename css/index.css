@@ -51,10 +51,11 @@ body > .container {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 50px;
+	border-right: 2px solid gray;
+	width: 60px;
 	height: 100%;
 	z-index: 500;
-	background: rgba(0,0,0,0.5);
+	background: white;
 }
 .nav #elevator {
 	background-color: #ddd;
@@ -76,46 +77,44 @@ body > .container {
 }
 .nav ul li {
 	display: inline-block;
-	line-height: 50px;
+	line-height: 70px;
 	cursor: pointer;
 	font-size: 16px;
 }
 .nav ul li a {
 	display: block;
-	height: 50px;
+	height: 70px;
 	width: 50px;
 	text-decoration: none;
 }
 .nav ul li:hover {
-	background-color: #000;
-	color: #fff;
+	content: url(elevator.png);
+	
+	
 }
 .nav ul li a:after {
 	font-size: 20px;
-	color: #1e1e1e;
 	border-bottom: 1px solid #ddd;
 	position: absolute;
 	line-height: 50px;
 	width: 50px;
 	text-align: center;
 }
-.nav ul li:hover a:after {
-	color: #fff;
-}
+
 .nav ul li.mitwirkende a:after {
-	content: '4';
+	content: url(four.png);
 }
 .nav ul li.collectorspace a:after {
-	content: '3';
+	content: url(three.png);
 }
 .nav ul li.makerspace a:after {
-	content: '2';
+	content: url(two.png);
 }
 .nav ul li.reflectorspace a:after {
-	content: '1';
+	content: url(one.png);
 }
 .nav ul li.erdgeschoss a:after {
-	content: 'E';
+	content: url(home.png);
 }
 .nav ul li.untergeschoss a:after {
 	content: 'U';
@@ -135,10 +134,11 @@ section[ref='collectorspace'] {
 }
 
 section[ref='makerspace'] {
-	background-color: #dd7683;
+	background: linear-gradient(135deg, rgba(221,118,131,1) 0%,rgba(221,118,131,1) 17%,rgba(221,118,131,1) 22%,rgba(201,132,152,1) 38%,rgba(125,185,232,0) 100%); /* W3C */
 }
+
 section[ref='reflectorspace'] {
-	background-color: #2e4f68;
+	background: linear-gradient(45deg, rgba(46,79,104,1) 0%,rgba(46,79,104,1) 17%,rgba(46,79,104,1) 22%,rgba(62,101,130,1) 38%,rgba(125,185,232,0) 100%); /* W3C */
 	color: white;
 }
 section[ref=''] {
@@ -166,6 +166,7 @@ section[ref='impressum'] {
 .exhibits > .container {
 	overflow: hidden;
 	padding: 20px 0;
+	border-top: 1px solid black;
 }
 .exhibits ul {
 	margin: 0;
@@ -187,6 +188,7 @@ section[ref='impressum'] {
 }
 .exhibits ul li img {
 	width: 100%;
+	border: 1.5px solid white;
 }
 .exhibits .navi {
 	position: absolute;
@@ -197,23 +199,24 @@ section[ref='impressum'] {
 }
 .exhibits .navi a {
 	display: block;
-	width: 50px;
-	height: 50px;
-	background-color: #f00;
-	margin-top: -120px;
+	width: 65px;
+	height: 65px;
+	margin-top: -130px;
 	position: absolute;
 	cursor: pointer;
 }
-.exhibits .navi a:hover {
-	background-color: #fff;
-}
+
 .exhibits .navi .next {
 	right: 0;
-	right: -60px;
+	margin-right: -70px;
+	background: url(arrow-right.png);
 }
 .exhibits .navi .prev {
 	left: 0;
-	left: -60px;
+	left: -80px;
+	background: url(arrow-left.png);
+	
+	
 }
 
 
