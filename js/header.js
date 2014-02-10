@@ -185,7 +185,7 @@ function set_elevator_to(section) {
 			history.pushState({page:new_href}, null, new_href);
 		}
 		
-		new_position = section * $(".nav ul li").height();
+		new_position = section * $(".nav ul li").height() + 36;
 		
 		/* New position for elevator */
 		$("#elevator").animate({

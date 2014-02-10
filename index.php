@@ -34,6 +34,7 @@
 				?>
             </ul>
             <div id="elevator"></div>
+            <div id="elevator_bg"></div>
         </nav>
         <div id="paging">
 			<?php

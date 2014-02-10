@@ -51,27 +51,36 @@ body > .container {
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-right: 2px solid gray;
-	width: 60px;
+	width: 70px;
 	height: 100%;
 	z-index: 500;
 	background: white;
 }
 .nav #elevator {
-	background-color: #ddd;
+	background-color: #fff;
 	width: 50px;
 	height: 50px;
 	position: absolute;
 	top: 200px;
 	z-index: 50;
 }
+.nav #elevator_bg {
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	top: 36px;
+	background-color: #1e1e1e;
+}
 .nav ul {
 	margin: 0;
-	padding: 0;
+	padding: 36px 0 0 0;
+	background-image: url(navi_top.png);
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: top;
 	list-style: none;
-	margin: 0 auto;
+	width: 60px;
 	display: block;
-	max-width: auto;
 	position: relative;
 	z-index: 100;
 }
@@ -83,14 +92,10 @@ body > .container {
 }
 .nav ul li a {
 	display: block;
-	height: 70px;
+	height: 50px;
 	width: 50px;
 	text-decoration: none;
-}
-.nav ul li:hover {
-	content: url(elevator.png);
-	
-	
+	color: #999;
 }
 .nav ul li a:after {
 	font-size: 20px;
@@ -102,19 +107,19 @@ body > .container {
 }
 
 .nav ul li.mitwirkende a:after {
-	content: url(four.png);
+	content: '4';
 }
 .nav ul li.collectorspace a:after {
-	content: url(three.png);
+	content: '3';
 }
 .nav ul li.makerspace a:after {
-	content: url(two.png);
+	content: '2';
 }
 .nav ul li.reflectorspace a:after {
-	content: url(one.png);
+	content: '1';
 }
 .nav ul li.erdgeschoss a:after {
-	content: url(home.png);
+	content: 'E';
 }
 .nav ul li.untergeschoss a:after {
 	content: 'U';
