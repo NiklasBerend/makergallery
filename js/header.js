@@ -297,31 +297,6 @@ function get_page_by_request_uri(uri) {
 			left: "-60px"
 		});
 	}
-	
-	/*
-	
-		
-	
-	
-	
-
-	
-	content = '<div class="wrapper"><h1>TEST</h1><p>Ein Text der nachgeladen wurde</p></div>';
-	
-	$(this).parents("section").find(">.container .room").html(content);
-	$(this).parents("section").find(">.container").animate({
-		
-		left: "-100%"
-	});
-	$(".nav").animate({
-		
-		left: "-50px"
-	});
-	
-	*/
-	
-	
-	
 	/* SCROLLEVENT */
 	scroll_to(section);
 }

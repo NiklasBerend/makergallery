@@ -78,7 +78,7 @@ body > .container {
 	background-size: 50px;
 	background-repeat: no-repeat;
 	background-position: center;
-	position: absolute;
+	position: fixed;
 	display: block;
 	cursor: pointer;
 	top: 0;
