@@ -23,6 +23,10 @@ $(document).ready(function(e) {
 		
 		get_page_by_request_uri(location.pathname);
 	});
+	$(document).on("click","#back_button",function() {
+		
+		history.go("-1");
+	});
 });
 
 function responsive_listeners() {
@@ -246,13 +250,27 @@ function get_page_by_request_uri(uri) {
 		$('html').css('overflow', 'hidden');
 		$(document).scrollTop($("section[ref='" + section + "']").offset().top);
 		
-		$("section[ref='" + section + "']").find("> .container").animate({
-			
-			left: "-100%"
-		});
-		$(".nav").animate({
-			
-			left: "-50px"
+		$.ajax({
+		
+			url: global_url_prefix + "pages/" + request.substr(0,request.length-1) + ".html",
+			type: "GET",
+			success: function(data) {
+				
+				$("section[ref='" + section + "']").find("> .container .room").html(data);
+				
+				$("section[ref='" + section + "']").find("> .container").animate({
+					
+					left: "-100%"
+				});
+				$("#back_button").animate({
+					
+					left: "0"
+				});
+				$(".nav").animate({
+					
+					left: "-70px"
+				});
+			}
 		});
 	}
 	else {
@@ -273,6 +291,10 @@ function get_page_by_request_uri(uri) {
 		$(".nav").animate({
 			
 			left: "0"
+		});
+		$("#back_button").animate({
+			
+			left: "-60px"
 		});
 	}
 	
