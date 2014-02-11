@@ -6,7 +6,7 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2 style="text-align: left;color:black; font-size: 60px;">Galerie der Mitwirkenden</h2>
+					<h2>Galerie der Mitwirkenden</h2>
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 				</div>
 			</info>
@@ -80,8 +80,8 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2 style="text-align: left;color:#748412; font-size: 60px;">Galerie der Fundorte</h2>
-					<p style="text-align: justify;">Hier werden unter anderem werden fremde Beispiele als Sammlungen dokumentiert ausgestellt. <br />
+					<h2>Galerie der Fundorte</h2>
+					<p>Hier werden unter anderem werden fremde Beispiele als Sammlungen dokumentiert ausgestellt. <br />
 					Die Exponate wurden im Collector-Space gesammelt und systematisiert. <br />
 					Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
 					</p>
@@ -137,8 +137,8 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2 style="text-align: left;color:#dd7683; font-size: 60px;">Galerie der Beispiele</h2>
-<p style="text-align: justify;">Hier werden unter anderem selbst gemachte Produkte der Kursteilnehmenden und “Making-Of”-Geschichten ausgestellt. <br />
+					<h2>Galerie der Beispiele</h2>
+<p>Hier werden unter anderem selbst gemachte Produkte der Kursteilnehmenden und “Making-Of”-Geschichten ausgestellt. <br />
 					Die Exponate wurden im Maker-Space erarbeitet. <br />
 					Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
 					</p>
@@ -174,8 +174,8 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2 style="text-align: left;color:#2e4f68; font-size: 60px;">Galerie der Reflexionen</h2>
-					<p style="text-align: justify;">Hier werden unter anderem Aufzeichnungen von Inputs, Diskussionen und erarbeitete Gedanken-Artefakte ausgestellt. <br />
+					<h2>Galerie der Reflexionen</h2>
+					<p>Hier werden unter anderem Aufzeichnungen von Inputs, Diskussionen und erarbeitete Gedanken-Artefakte ausgestellt. <br />
 					Die Exponate wurden im Reflector-Space diskutiert und erarbeitet. <br />
 					Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
 					</p>
@@ -211,8 +211,8 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2 style="text-align: left;color:black; font-size: 90px;">Makergallery.de</h2>
-					<p style="font-size: 25px; color: #dd7683;">Exponate aus dem Offenen Online Kurs "Kinderzimmer Productions"</p>
+					<h2>Makergallery.de</h2>
+					<p>Exponate aus dem Offenen Online Kurs "Kinderzimmer Productions"</p>
 				</div>
 			</info>
 		</content>
@@ -223,7 +223,7 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2 style="text-align: left;color:black; font-size: 50px;">Impressum | Kontakt</h2>
+					<h2>Impressum | Kontakt</h2>
 					<p>
 					Media Literacy Lab<br />
 					AG Medienpädagogik<br />

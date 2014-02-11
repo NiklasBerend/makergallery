@@ -73,18 +73,19 @@ body > .container {
 	background-color: #1e1e1e;
 }
 #back_button {
-	width: 80px;
-	height: 80px;
-	background-image: url(exit.png);
-	background-size: 70px;
+	width: 70px;
+	height: 70px;
+	background-image: url(arrow_left.php?color=ffffff);
+	background-size: 50px;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: fixed;
 	display: block;
 	cursor: pointer;
-	top: 0;
+	top: 50%;
 	left: -60px;
 	z-index: 100;
+	margin-top: -35px;
 }
 .nav ul {
 	margin: 0;
@@ -154,44 +155,118 @@ body > .container {
 	content: 'U';
 }
 
-section h2 {
-	text-align: center;
+section .floor .wrapper > h2:first-child {
 	margin: 0;
+	font-size: 55px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+section .floor .wrapper > h2:first-child:before {
+	display: inline-block;
+	text-align: center;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	border: 3px solid;
+	border-color: #000;
+	position: relative;
+	border-radius: 80px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	margin-right: 20px;
+}
+section h2 + p {
+	text-align: justify;
 }
 
 section[ref='mitwirkende'] {
 	background-color: #CCC;
 }
+section[ref='mitwirkende'] h2 {
+	color:#000000;
+}
+section[ref='mitwirkende'] .exhibits .navi .next {
+	background-image: url(arrow_right.php?color=000000);
+}
+section[ref='mitwirkende'] .exhibits .navi .prev {
+	background-image: url(arrow_left.php?color=000000);
+}
+section[ref='mitwirkende'] .floor .wrapper > h2:first-child:before {
+	border-color: #000;
+	content: '4';
+}
 
 section[ref='collectorspace'] {
 	background-color: #EEE;
+}
+section[ref='collectorspace'] h2 {
+	color:#748412;
+}
+section[ref='collectorspace'] .exhibits .navi .next {
+	background-image: url(arrow_right.php?color=748412);
+}
+section[ref='collectorspace'] .exhibits .navi .prev {
+	background-image: url(arrow_left.php?color=748412);
+}
+section[ref='collectorspace'] .floor .wrapper > h2:first-child:before {
+	border-color: #748412;
+	content: '3';
 }
 
 section[ref='makerspace'] {
 	background: #CCC;
 }
+section[ref='makerspace'] h2 {
+	color: #dd7683;
+}
+section[ref='makerspace'] .exhibits .navi .next {
+	background-image: url(arrow_right.php?color=dd7683);
+}
+section[ref='makerspace'] .exhibits .navi .prev {
+	background-image: url(arrow_left.php?color=dd7683);
+}
+section[ref='makerspace'] .floor .wrapper > h2:first-child:before {
+	border-color: #dd7683;
+	content: '2';
+}
 
 section[ref='reflectorspace'] {
 	background: #EEE;
 }
+section[ref='reflectorspace'] h2 {
+	color: #2e4f68;
+}
+section[ref='reflectorspace'] .exhibits .navi .next {
+	background-image: url(arrow_right.php?color=2e4f68);
+}
+section[ref='reflectorspace'] .exhibits .navi .prev {
+	background-image: url(arrow_left.php?color=2e4f68);
+}
+section[ref='reflectorspace'] .floor .wrapper > h2:first-child:before {
+	border-color: #2e4f68;
+	content: '1';
+}
+
 section[ref=''] {
 	background-color: #CCC;
+}
+section[ref=''] h2 {
+	font-size: 90px;
+}
+
+section[ref=''] .floor .wrapper > h2:first-child:before {
+	content: 'E';
 }
 section[ref='impressum'] {
 	background-color: #EEE;
 }
-
-.wrapper_room {
-	max-width: 840px;
-	padding: 20px 60px;
-	margin: 15 auto;
-	background: white;
-	border: 5px groove white;
+section[ref='impressum'] .floor .wrapper > h2:first-child:before {
+	content: 'U';
 }
 
 .wrapper {
 	max-width: 840px;
-	padding: 20px 60px;
+	padding: 60px 60px;
 	margin: 0 auto;
 }
 .wrapper img {
@@ -238,24 +313,27 @@ section[ref='impressum'] {
 }
 .exhibits .navi a {
 	display: block;
-	width: 84px;
-	height: 84px;
+	width: 50px;
+	height: 50px;
 	margin-top: -130px;
 	position: absolute;
 	cursor: pointer;
+	background-size: 50px;
+	background-repeat: no-repeat; 
 }
 
 .exhibits .navi .next {
 	right: 0;
-	margin-right: -100px;
-	background: url(arrow-right.png);
-	background-repeat: no-repeat; 
+	margin-right: -70px;
+	background-image: url(arrow_right.php?color=000000);
+}
+.exhibits .navi .next:hover {
+	background-image: url(arrow_right.php?color=ffffff);
 }
 .exhibits .navi .prev {
 	left: 0;
-	left: -110px;
-	background: url(arrow-left.png);
-	background-repeat: no-repeat;
+	margin-left: -70px;
+	background-image: url(arrow_left.php?color=000000);
 }
 
 
