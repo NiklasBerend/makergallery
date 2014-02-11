@@ -49,6 +49,7 @@
 					
 					if (isset($elem->content->exhibits)) {
 						
+						print '<div class="absolute">';
 						print '<div class="exhibits">';
 						print '<div class="container">';
 						print '<ul>';
@@ -69,6 +70,7 @@
 						print '<div class="navi">';
 						print '<a class="next"></a>';
 						print '<a class="prev"></a>';
+						print '</div>';
 						print '</div>';
 						print '</div>';
 						print '</div>';
