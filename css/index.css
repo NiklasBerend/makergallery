@@ -37,6 +37,26 @@ body {
 	background: gray;
 	overflow: scroll;
 }
+#paging section > .container .floor .wrapper {
+	height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	position: relative;
+}
+#paging section > .container .scroll {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	padding-top: 155px;
+	top: 0;
+	left: 0;
+}
+#paging section > .container .scroll div {
+	overflow: scroll;
+	height: 100%;
+	padding: 0 60px;
+}
 
 #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 40px;
@@ -339,6 +359,10 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 	max-width: 840px;
 	margin: 0 auto;
 	position: relative;
+	padding: 0 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .exhibits > .container {
 	overflow: hidden;
@@ -365,10 +389,15 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 }
 .exhibits ul li img {
 	width: 100%;
-	}
+}
 .exhibits .navi {
+	left: 0;
 	position: absolute;
 	width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0 60px;
 }
 .tablet .exhibits .navi {
 	display: none;
@@ -386,7 +415,7 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 
 .exhibits .navi .next {
 	right: 0;
-	margin-right: -70px;
+	margin-right: -10px;
 	background-image: url(arrow_right.php?color=000000);
 }
 .exhibits .navi .next:hover {
@@ -394,7 +423,7 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 }
 .exhibits .navi .prev {
 	left: 0;
-	margin-left: -70px;
+	margin-left: -10px;
 	background-image: url(arrow_left.php?color=000000);
 }
 
