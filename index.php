@@ -15,6 +15,7 @@
 ?>
 </script>
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery.js"></script>
+<script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery.sharrre.min.js"></script>
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery.ui.touch-punch.min.js"></script>
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery_easing.js"></script>

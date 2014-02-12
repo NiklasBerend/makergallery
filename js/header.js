@@ -226,6 +226,47 @@ function navigation_eventlistener() {
 	});
 }
 
+function social_listeners() {
+	
+	$('.twitter').sharrre({
+	  share: {
+		twitter: true
+	  },
+	  enableCounter: false,
+	  enableHover: false,
+	  enableTracking: true,
+	  buttons: { twitter: {via: '_JulienH'}},
+	  click: function(api, options){
+		api.simulateClick();
+		api.openPopup('twitter');
+	  }
+	});
+	$('.facebook').sharrre({
+	  share: {
+		facebook: true
+	  },
+	  enableCounter: false,
+	  enableHover: false,
+	  enableTracking: true,
+	  click: function(api, options){
+		api.simulateClick();
+		api.openPopup('facebook');
+	  }
+	});
+	$('.googleplus').sharrre({
+	  share: {
+		googlePlus: true
+	  },
+	  enableCounter: false,
+	  enableHover: false,
+	  enableTracking: true,
+	  click: function(api, options){
+		api.simulateClick();
+		api.openPopup('googlePlus');
+	  }
+	});
+}
+
 function get_page_by_request_uri(uri) {
 	
 	urlparts = uri.split("/");
@@ -257,6 +298,19 @@ function get_page_by_request_uri(uri) {
 			success: function(data) {
 				
 				$("section[ref='" + section + "']").find("> .container .room").html(data);
+				
+				exhibit_title = $("section[ref='" + section + "']").find("> .container .room .wrapper > h1").text();
+				
+    			social  = '<div class="social" style="display: none;">';
+				social += '<div class="twitter" data-url="' + global_url_prefix + request + '" data-title="Tweet" data-text="' + exhibit_title + '"></div>';
+				social += '<div class="facebook" data-url="' + global_url_prefix + request + '" data-title="Like" data-text="' + exhibit_title + '"></div>';
+				social += '<div class="googleplus" data-url="' + global_url_prefix + request + '" data-title="+1" data-text="' + exhibit_title + '"></div>';
+				social += '</div>';
+				
+				$("section[ref='" + section + "']").find("> .container .room .wrapper").append(social);
+				$("section[ref='" + section + "']").find("> .container .room .wrapper .social").slideDown(500);
+				
+				social_listeners();
 				
 				$("section[ref='" + section + "']").find("> .container").animate({
 					
