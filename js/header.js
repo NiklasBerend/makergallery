@@ -24,8 +24,24 @@ $(document).ready(function(e) {
 		get_page_by_request_uri(location.pathname);
 	});
 	$(document).on("click","#back_button",function() {
+			
+		urlparts = location.pathname.split("/");
+
+		request = "";
 		
-		history.go("-1");
+		for(i=1;i<urlparts.length;i++) {
+			
+			if (global_url_prefix.indexOf(urlparts[i]) == -1) {
+				
+				request+= urlparts[i] + "/";
+			}
+		}
+		
+		section = request.substring(0,request.indexOf("/"));
+		
+		history.pushState({page:global_url_prefix + section}, null, global_url_prefix + section);
+		
+		get_page_by_request_uri(location.pathname);
 	});
 });
 
@@ -162,14 +178,13 @@ function scroll_eventlistener() {
 
 	$(window).bind("scroll", function() {
     
-      position_top = parseInt($(document).scrollTop());
-    
-      window_height = $(window).height();
+		position_top = parseInt($(document).scrollTop());
 	  
-	  section_number = Math.floor(position_top/window_height);
-	  
-	  set_elevator_to(section_number);
-	  
+		window_height = $(window).height();
+		
+		section_number = Math.floor(position_top/window_height);
+		
+		set_elevator_to(section_number);
     });
 }
 
@@ -184,7 +199,7 @@ function set_elevator_to(section) {
 		
 		new_href = $(".nav ul li:nth-child(" + (section+1) + ") a").attr("href");
 		
-		if (history.state.page != new_href) {
+		if (history.state != null && history.state.page != new_href) {
 		
 			history.pushState({page:new_href}, null, new_href);
 		}
@@ -204,8 +219,6 @@ function set_elevator_to(section) {
 function check_location() {
 	
 	if (history && history.pushState) {
-			
-		history.pushState({page:location.pathname}, null, location.pathname);
 		
 		get_page_by_request_uri(location.pathname);
 	}
@@ -289,6 +302,7 @@ function get_page_by_request_uri(uri) {
 		page_is_locked = true;
 		
 		$('html').css('overflow', 'hidden');
+		
 		$(document).scrollTop($("section[ref='" + section + "']").offset().top);
 		
 		$.ajax({
@@ -350,9 +364,9 @@ function get_page_by_request_uri(uri) {
 			
 			left: "-60px"
 		});
+		/* SCROLLEVENT */
+		scroll_to(section);
 	}
-	/* SCROLLEVENT */
-	scroll_to(section);
 }
 
 function scroll_to(section) {

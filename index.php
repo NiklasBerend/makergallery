@@ -60,7 +60,7 @@
 							print '<li class="'.$exhibit->attributes()->type.'">';
 							print '<div class="container">';
 							
-							print '<a href="'.$exhibit->href.'"><img class="thumbnail" src="'.$exhibit->thumbnail.'" alt="'.$exhibit->title.'"></a>';
+							print '<a href="'.$exhibit->href.'"><img class="thumbnail" src="'.$global_url_prefix.$exhibit->thumbnail.'" alt="'.$exhibit->title.'"></a>';
 							
 							print '</div>';
 							print '</li>';
