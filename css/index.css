@@ -34,7 +34,7 @@ body {
 }
 #paging section > .container .room {
 	left: 100%;
-	background: gray;
+	background: white;
 	overflow: scroll;
 }
 #paging section > .container .floor .wrapper {
@@ -58,6 +58,12 @@ body {
 	padding: 0 60px;
 }
 
+#paging section > .container .room .wrapper .kontakt {
+	border-left: 2px solid #000; 
+	height: 200px; 
+	margin-left: 400px;
+}
+
 #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 40px;
 	text-transform: uppercase;
@@ -67,12 +73,12 @@ body {
 #paging section > .container .room .wrapper > h2 {
 	font-size: 20px;
 	text-transform: capitalize;
-	font-weight: 400;
+	font-weight: 600;
 	text-align: left;
 }
 
 #paging section > .container .room .wrapper .key-facts {
-	border-left: 2px solid white; 
+	border-left: 2px solid #000; 
 	height: 200px; 
 	margin-left: 400px;
 }
@@ -80,7 +86,7 @@ body {
 #paging section > .container .room .wrapper > div > h3 {
 	font-size: 20px;
 	text-transform: capitalize;
-	font-weight: 300;
+	font-weight: 600;
 	text-align: left;
 	margin-left: 40px;
 }
@@ -123,7 +129,7 @@ body > .container {
 #back_button {
 	width: 70px;
 	height: 70px;
-	background-image: url(arrow_left.php?color=ffffff);
+	background-image: url(arrow_left.php?color=000000);
 	background-size: 50px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -351,10 +357,7 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 	width: 100%;
 	bottom: 0;
 }
-.wrapper img {
-	width: 180px;
-	margin-right: 20px;
-}
+
 .exhibits {
 	max-width: 840px;
 	margin: 0 auto;

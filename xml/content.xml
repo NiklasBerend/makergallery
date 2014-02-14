@@ -13,63 +13,33 @@
 			<exhibits>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat1</href>
+					<thumbnail>files/thumbnails/joeran.jpg</thumbnail>
+					<href>mitwirkende/joeran</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat2</href>
+					<thumbnail>files/thumbnails/siller.jpg</thumbnail>
+					<href>mitwirkende/friederike</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat3</href>
+					<thumbnail>files/thumbnails/jasmin.jpg</thumbnail>
+					<href>mitwirkende/jasmin</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat1</href>
+					<thumbnail>files/thumbnails/tabea.jpg</thumbnail>
+					<href>mitwirkende/tabea</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat2</href>
+					<thumbnail>files/thumbnails/niklas.png</thumbnail>
+					<href>mitwirkende/niklas</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat3</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat2</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat3</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>mitwirkende/exponat1</href>
+					<thumbnail>files/thumbnails/max.png</thumbnail>
+					<href>mitwirkende/max</href>
 				</exhibit>
 			</exhibits>
 		</content>
@@ -147,7 +117,7 @@
 			<exhibits>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail2.png</thumbnail>
+					<thumbnail>files/thumbnails/thumbnail2.jpg</thumbnail>
 					<href>makerspace/dummy</href>
 				</exhibit>
 				<exhibit type="video">
@@ -157,13 +127,8 @@
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>makerspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>makerspace/exponat1</href>
+					<thumbnail>files/thumbnails/thumbnail3.jpg</thumbnail>
+					<href>makerspace/logic</href>
 				</exhibit>
 			</exhibits>
 		</content>
