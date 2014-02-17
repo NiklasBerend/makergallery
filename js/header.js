@@ -16,6 +16,7 @@ $(document).ready(function(e) {
 	
 	$(window).on('hashchange', function(){
 		
+		console.log("TEST");
 		return false;
 	});
 	
