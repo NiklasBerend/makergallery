@@ -14,9 +14,9 @@ $(document).ready(function(e) {
 	exhibits();
 	responsive_listeners();
 	
-	$(window).on('hashchange', function(e){
+	$(window).on('hashchange', function(){
 		
-		e.preventDefault();
+		return false;
 	});
 	
 	$(window).bind("popstate",function(e) {
