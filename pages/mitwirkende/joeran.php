@@ -1,7 +1,11 @@
+<?php
+	include ("../../php/helper.php");
+?>
+
 <div class="wrapper"> 
     
     <h1>Jöran</h1>
-    <img src="files/thumbnails/joeran.jpg"</img>
+    <img src="<?php print $global_url_prefix?>files/thumbnails/joeran.jpg"</img>
    
     <div class="kontakt">
     <h3>Kontakt</h3>
