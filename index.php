@@ -19,6 +19,17 @@
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery.ui.touch-punch.min.js"></script>
 <script type="text/javascript" src="<?php print $global_url_prefix?>js/jquery_easing.js"></script>
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_shortname = 'makergallery'; // required: replace example with your forum shortname
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
 <link rel="stylesheet" href="<?php print $global_url_prefix?>css/index.css"/>
 </head>
 <body> 

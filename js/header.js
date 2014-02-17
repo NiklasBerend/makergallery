@@ -278,6 +278,15 @@ function social_listeners() {
 		api.openPopup('googlePlus');
 	  }
 	});
+
+	/* DISQUS */
+	DISQUS.reset({
+	  reload: true,
+	  config: function () {  
+		this.page.identifier = "disqus_thread";  
+		this.page.url = document.URL;
+	  }
+	});
 }
 
 function get_page_by_request_uri(uri) {
@@ -307,7 +316,7 @@ function get_page_by_request_uri(uri) {
 		
 		$.ajax({
 		
-			url: global_url_prefix + "pages/" + request.substr(0,request.length-1) + ".html",
+			url: global_url_prefix + "pages/" + request.substr(0,request.length-1) + ".php",
 			type: "GET",
 			success: function(data) {
 				
@@ -320,6 +329,11 @@ function get_page_by_request_uri(uri) {
 				social += '<div class="facebook" data-url="' + global_url_prefix + request + '" data-title="Like" data-text="' + exhibit_title + '"></div>';
 				social += '<div class="googleplus" data-url="' + global_url_prefix + request + '" data-title="+1" data-text="' + exhibit_title + '"></div>';
 				social += '</div>';
+				
+				if (section == "makerspace" || section == "reflectorspace" ||  section == "collectorspace") {
+					
+					social += '<div id="disqus_thread"></div>';
+				}
 				
 				$("section[ref='" + section + "']").find("> .container .room .wrapper").append(social);
 				$("section[ref='" + section + "']").find("> .container .room .wrapper .social").slideDown(500);

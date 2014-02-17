@@ -461,3 +461,6 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 .social iframe {
 	display: none;
 }
+#disqus_thread {
+	margin-top: 30px;
+}
