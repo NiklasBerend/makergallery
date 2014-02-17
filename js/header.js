@@ -14,7 +14,7 @@ $(document).ready(function(e) {
 	exhibits();
 	responsive_listeners();
 	
-	$(window).hashchange(function(e) {
+	$(window).on('hashchange', function(e){
 		
 		e.preventDefault();
 	});
