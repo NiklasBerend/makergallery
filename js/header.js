@@ -279,7 +279,22 @@ function social_listeners() {
 	  }
 	});
 
-	/* DISQUS */
+	if(typeof DISQUS == 'undefined') {
+		
+		window.setTimeout(function() {
+			
+			render_disqus();
+			
+		},500);
+	}
+	else {
+		render_disqus();
+	}
+}
+
+function render_disqus() {
+	
+	/* RENDER DISQUS */
 	DISQUS.reset({
 	  reload: true,
 	  config: function () {
