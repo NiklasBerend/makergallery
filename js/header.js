@@ -337,6 +337,9 @@ function get_page_by_request_uri(uri) {
 				$("section[ref='" + section + "']").find("> .container .room .wrapper").append(social);
 				$("section[ref='" + section + "']").find("> .container .room .wrapper .social").slideDown(500);
 				
+				/* Change title of page */
+				document.title = "Makergallery | " + exhibit_title;
+				
 				social_listeners();
 				
 				$("section[ref='" + section + "']").find("> .container").animate({
@@ -357,6 +360,8 @@ function get_page_by_request_uri(uri) {
 	else {
 		
 		if (page_is_locked) {
+			
+			document.title = "Makergallery";
 			
 			page_is_locked = false;
 		
