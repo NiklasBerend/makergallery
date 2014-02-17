@@ -285,7 +285,7 @@ function social_listeners() {
 			
 			render_disqus();
 			
-		},500);
+		},1000);
 	}
 	else {
 		render_disqus();
