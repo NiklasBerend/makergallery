@@ -28,7 +28,7 @@
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/tabea.jpg</thumbnail>
+					<thumbnail>files/thumbnails/tabea.jpeg</thumbnail>
 					<href>mitwirkende/tabea</href>
 				</exhibit>
 				<exhibit type="video">
@@ -63,41 +63,6 @@
 					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
 					<href>collectorspace/dummyzwei</href>
 				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/exponat1</href>
-				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -116,19 +81,24 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>MakeyMakey@school</title>
 					<thumbnail>files/thumbnails/thumbnail2.jpg</thumbnail>
 					<href>makerspace/dummy</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>LeFloid</title>
 					<thumbnail>files/thumbnails/lefloid.jpg</thumbnail>
 					<href>makerspace/LeFloid</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Logic Tutorial</title>
 					<thumbnail>files/thumbnails/thumbnail3.jpg</thumbnail>
 					<href>makerspace/logic</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Kodu</title>
+					<thumbnail>files/thumbnails/kodu.jpg</thumbnail>
+					<href>makerspace/kodu</href>
 				</exhibit>
 			</exhibits>
 		</content>
