@@ -284,6 +284,7 @@ function social_listeners() {
 	  reload: true,
 	  config: function () {
 		this.page.url = document.URL;
+		this.page.title = document.title;
 	  }
 	});
 }
