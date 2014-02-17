@@ -282,8 +282,7 @@ function social_listeners() {
 	/* DISQUS */
 	DISQUS.reset({
 	  reload: true,
-	  config: function () {  
-		this.page.identifier = "disqus_thread";  
+	  config: function () {
 		this.page.url = document.URL;
 	  }
 	});
