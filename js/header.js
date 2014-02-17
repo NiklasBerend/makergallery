@@ -14,6 +14,11 @@ $(document).ready(function(e) {
 	exhibits();
 	responsive_listeners();
 	
+	$(window).hashchange(function(e) {
+		
+		e.preventDefault();
+	});
+	
 	$(window).bind("popstate",function(e) {
 		
 		// Ignore inital popstate that some browsers fire on page load
