@@ -34,7 +34,7 @@ body {
 }
 #paging section > .container .room {
 	left: 100%;
-	background: white;
+	background: #fff;
 	overflow: scroll;
 }
 #paging section > .container .floor .wrapper {
@@ -153,7 +153,7 @@ body {
 	height: 100px;
 	position: absolute;
 	bottom: -100px;
-	background-color: #fff;
+	background-color: #000;
 }
 body > .container {
 	width: 100%;
@@ -306,7 +306,7 @@ section h2 + p {
 }
 
 section[ref='mitwirkende'] {
-	background-color: #CCC;
+	background-color: #fff;
 }
 section[ref='mitwirkende'] h2 {
 	color:#000000;
@@ -326,7 +326,7 @@ section[ref='mitwirkende'] .exhibits > .container {
 }
 
 section[ref='collectorspace'] {
-	background-color: #EEE;
+	background-color: #fff;
 }
 section[ref='collectorspace'] h2 {
 	color:#748412;
@@ -346,7 +346,7 @@ section[ref='collectorspace'] .exhibits > .container {
 }
 
 section[ref='makerspace'] {
-	background: #CCC;
+	background: #fff;
 }
 section[ref='makerspace'] h2 {
 	color: #dd7683;
@@ -366,7 +366,7 @@ section[ref='makerspace'] .exhibits > .container {
 }
 
 section[ref='reflectorspace'] {
-	background: #EEE;
+	background: #fff;
 }
 section[ref='reflectorspace'] h2 {
 	color: #2e4f68;
@@ -386,7 +386,7 @@ section[ref='reflectorspace'] .exhibits > .container {
 }
 
 section[ref=''] {
-	background-color: #CCC;
+	background-color: #fff;
 }
 section[ref=''] h2 {
 	font-size: 90px;
@@ -396,7 +396,7 @@ section[ref=''] .floor .wrapper > h2:first-child:before {
 	content: 'E';
 }
 section[ref='impressum'] {
-	background-color: #EEE;
+	background-color: #fff;
 }
 section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 	content: 'U';
