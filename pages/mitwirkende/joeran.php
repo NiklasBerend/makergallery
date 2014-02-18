@@ -5,14 +5,14 @@
 <div class="wrapper"> 
     
     <h1>Jöran</h1>
-    <img src="<?php print $global_url_prefix?>files/thumbnails/joeran.jpg"</img>
+    <img src="<?php print $global_url_prefix?>files/img/joeran.jpg"</img>
    
     <div class="kontakt">
     <h3>Kontakt</h3>
     <ul style="font-size: 14px;">
-    <li>Twitter: @jmm_hamburg</li>
-    <li>Mail: post@joeran.de</li>
-    <li>Website: joeran.de</li>
+    <li>Twitter: <a href="https://twitter.com/jmm_hamburg" target="_blank">@jmm_hamburg</a></li>
+    <li>Mail: <a href="mailto: post@joeran.de">post@joeran.de</a></li>
+    <li>Website: <a href="http://www.joeran.de" target="_blank">joeran.de</a></li>
     <li>Rolle: Konzept & Organisation</li>
     </ul>
     </div>

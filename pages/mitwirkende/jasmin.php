@@ -5,14 +5,14 @@
 <div class="wrapper"> 
     
     <h1>Jasmin</h1>
-    <img src="<?php print $global_url_prefix?>files/thumbnails/jasmin.jpg" />
+    <img src="<?php print $global_url_prefix?>files/img/jasmin.jpg" />
    
     <div class="kontakt">
     <h3>Kontakt</h3>
     <ul style="font-size: 14px;">
-    <li>Twitter: @JasminBastian1</li>
-    <li>Mail: jasmin.bastian@medialiteracylab.de</li>
-    <li>Website: www.jasmin-bastian.de/</li>
+    <li>Twitter: <a href="https://twitter.com/JasminBastian1" target="_blank">@JasminBastian1</a></li>
+    <li>Mail: <a href="mailto: jasmin.bastian@medialiteracylab.de">jasmin.bastian@medialiteracylab.de</a></li>
+    <li>Website: <a href="http://www.jasmin-bastian.de/" target="_blank">jasmin-bastian.de</a></li>
     <li>Rolle: Konzept & Organisation</li>
     </ul>
     </div>

@@ -82,7 +82,7 @@
 			<exhibits>
 				<exhibit type="video">
 					<title>MakeyMakey@school</title>
-					<thumbnail>files/thumbnails/thumbnail2.jpg</thumbnail>
+					<thumbnail>files/thumbnails/makeymakey.jpg</thumbnail>
 					<href>makerspace/dummy</href>
 				</exhibit>
 				<exhibit type="video">
@@ -119,8 +119,8 @@
 			<exhibits>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>reflectorspace/exponat1</href>
+					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
+					<href>reflectorspace/minecraft</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Titel des Exponats</title>

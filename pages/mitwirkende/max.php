@@ -10,8 +10,8 @@
     <div class="kontakt">
     <h3>Kontakt</h3>
     <ul style="font-size: 14px;">
-    <li>Twitter: @jmm_hamburg</li>
-    <li>Mail: max.froelich@medialiteracylab.de</li>
+    <li>Twitter: <a href="https://www.twitter.com/@max_parallax" target="_blank">@max_parallax</a></li>
+    <li>Mail: <a href="mailto: max.froelich@medialiteracylab.de">max.froelich@medialiteracylab.de</a></li>
     <li>Rolle: Wiki | AG´s</li>
     </ul>
     </div>

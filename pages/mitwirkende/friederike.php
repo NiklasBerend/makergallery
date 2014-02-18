@@ -10,9 +10,9 @@
     <div class="kontakt">
     <h3>Kontakt</h3>
     <ul style="font-size: 14px;">
-    <li>Twitter: @FJoSiller</li>
-    <li>Mail: siller@uni-mainz.de</li>
-    <li>Website: friederike-siller.me</li>
+    <li>Twitter: <a href="https://www.twitter.com/@FJoSiller" target="_blank">@FJoSiller</a></li>
+    <li>Mail: <a href="mailto:siller@uni-mainz.de">siller@uni-mainz.de</a></li>
+    <li>Website: <a href="http://www.friederike-siller.me" target="_blank">friederike-siller.me</a></li>
     <li>Rolle: Konzept & Organisation</li>
     </ul>
     </div>

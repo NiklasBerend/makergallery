@@ -10,8 +10,8 @@
     <div class="kontakt">
     <h3>Kontakt</h3>
     <ul style="font-size: 14px;">
-    <li>Twitter: @nikimedia</li>
-    <li>Mail: niklas.berend@medialiteracylab.de</li>
+    <li>Twitter: <a href="https://twitter.com/nikimedia" target="_blank">@nikimedia</a></li>
+    <li>Mail: <a href="mailto: niklas.berend@medialiteracylab.de">niklas.berend@medialiteracylab.de</a></li>
     <li>Rolle: Technik | Webdesign</li>
     </ul>
     </div>

@@ -1,15 +1,14 @@
 <div class="wrapper"> 
     
-    <h1>Kodu</h1>
-    <iframe width="300" height="200" src="//www.youtube.com/embed/kSPWGrsFAwE" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
+    <h1>Minecraft für Eltern erklärt</h1>
    
+    <iframe width="300" height="200" src="//www.youtube.com/embed/Qb7y8eH66p0" frameborder="0" allowfullscreen" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
+      
     <div class="key-facts">
     <h3>Key Facts</h3>
     <ul style="font-size: 14px;">
-    <li>AG: Kodu Mainz</li>
-    <li>Wann: 31.01. - 14.02.2014</li>
-    <li>Urheber: AG Kodu Mainz</li>
-    <li>Link zum Spiel: <a href="http://www.so.cl/#/post?i=2L1mkvZiobKHaKnj" target ="_blank">Demo</a></li>
+    <li>Wann: 16.02.2014</li>
+    <li>Urheber: Guido und Paul Brombach</li>
     <li>Lizenz: CC BY 3.0 DE</li>
     </ul>
     </div>

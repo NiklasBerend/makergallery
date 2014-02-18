@@ -5,13 +5,13 @@
 <div class="wrapper"> 
     
     <h1>Tabea</h1>
-    <img src="<?php print $global_url_prefix?>files/thumbnails/joeran.jpg" />
+    <img src="<?php print $global_url_prefix?>files/thumbnails/tabea.jpg" />
    
     <div class="kontakt">
     <h3>Kontakt</h3>
     <ul style="font-size: 14px;">
-    <li>Twitter: @htm_siebertz</li>
-    <li>Mail: tabea.siebertz@medialiteracylab.de</li>
+    <li>Twitter: <a href="https://www.twitter.com/@htm_siebertz" target="_blank">@htm_siebertz</a></li>
+    <li>Mail: <a href="mailto: tabea.siebertz@medialiteracylab.de">tabea.siebertz@medialiteracylab.de</a></li>
     <li>Rolle: Konzept & Organisation</li>
     </ul>
     </div>
