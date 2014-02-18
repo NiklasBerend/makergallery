@@ -1,5 +1,7 @@
 <?php
 
+	$path_up = "";
+
 	include("php/helper.php");
 ?>
 <html>

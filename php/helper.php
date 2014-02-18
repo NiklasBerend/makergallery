@@ -1,6 +1,8 @@
 <?php
 
-	$contents = simplexml_load_file("xml/content.xml");
+	global $path_up;
+
+	$contents = simplexml_load_file($path_up."xml/content.xml");
 
 	if ($_SERVER["HTTP_HOST"] == "localhost") {
 	

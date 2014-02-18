@@ -1,3 +1,9 @@
+<?php
+
+	$path_up = "../../";
+	
+	include ($path_up."php/helper.php");
+?>
 <div class="wrapper"> 
     
     <h1>MaKeyMakey @ School</h1>
