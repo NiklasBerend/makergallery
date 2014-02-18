@@ -5,7 +5,7 @@
 <div class="wrapper"> 
     
     <h1>Tabea</h1>
-    <img src="<?php print $global_url_prefix?>files/thumbnails/tabea.jpg" />
+    <img src="<?php print $global_url_prefix?>files/img/siebertz.jpg" />
    
     <div class="kontakt">
     <h3>Kontakt</h3>
