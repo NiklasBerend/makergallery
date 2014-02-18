@@ -16,7 +16,6 @@ $(document).ready(function(e) {
 	
 	$(window).on('hashchange', function(){
 		
-		console.log("TEST");
 		return false;
 	});
 	
@@ -254,7 +253,7 @@ function social_listeners() {
 	  enableCounter: false,
 	  enableHover: false,
 	  enableTracking: true,
-	  buttons: { twitter: {via: '_JulienH'}},
+	  buttons: { twitter: {via: '_MLAB'}},
 	  click: function(api, options){
 		api.simulateClick();
 		api.openPopup('twitter');
@@ -300,14 +299,17 @@ function social_listeners() {
 
 function render_disqus() {
 	
-	/* RENDER DISQUS */
-	DISQUS.reset({
-	  reload: true,
-	  config: function () {
-		this.page.url = document.URL;
-		this.page.title = document.title;
-	  }
-	});
+	/* CHECK IF DISQUS DIV EXISTS */
+	if ($("#disqus_thread").length > 0) {
+		
+		DISQUS.reset({
+		  reload: true,
+		  config: function () {
+			this.page.url = document.URL;
+			this.page.title = document.title;
+		  }
+		});
+	}
 }
 
 function get_page_by_request_uri(uri) {

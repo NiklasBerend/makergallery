@@ -39,9 +39,6 @@ body {
 }
 #paging section > .container .floor .wrapper {
 	height: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 	position: relative;
 }
 #paging section > .container .scroll {
@@ -58,15 +55,84 @@ body {
 	padding: 0 60px;
 }
 
-#paging section > .container .room .wrapper .kontakt {
-	height: 200px; 
-	margin-left: 400px;
+#paging section > .container .room .wrapper .info {
+	width: 100%;
+}
+#paging section > .container .room .wrapper .info:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#paging section > .container .room .wrapper .info h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: left;
+	margin: 0 0 20px 0;
+}
+#paging section > .container .room .wrapper .info .left {
+	float: left;
+	width: 50%;
+}
+#paging section > .container .room .wrapper .info .right {
+	float: right;
+	width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0 0 0 20px;
+}
+.mobile #paging section > .container .room .wrapper .info .right {
+	padding: 20px 0 0 0;
+}
+.mobile #paging section > .container .room .wrapper .info .left,
+.mobile #paging section > .container .room .wrapper .info .right {
+	float: none;
+	width: 100%;
+}
+#paging section > .container .room .wrapper .info .left > * {
+	max-width: 100%;
+}
+#paging section > .container .room .wrapper .info .left .iframe-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+#paging section > .container .room .wrapper .info .left .iframe-container > * {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	border: 0;
+}
+#paging section > .container .room .wrapper .info + hr {
+	margin: 30px 0;
 }
 
 #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+#paging section > .container .room .wrapper .info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#paging section > .container .room .wrapper .info ul li {
+	line-height: 30px;
+	min-height: 30px;
+	font-size: 18px;
+	font-weight: lighter;
+}
+#paging section > .container .room .wrapper .info ul li span {
+	display: inline-block;
+	width: 85px;
+	font-weight: bolder;
 }
 
 #paging section > .container .room .wrapper > h2 {
@@ -79,14 +145,6 @@ body {
 #paging section > .container .room .wrapper .key-facts {
 	height: 200px; 
 	margin-left: 400px;
-}
-
-#paging section > .container .room .wrapper > div > h3 {
-	font-size: 20px;
-	text-transform: capitalize;
-	font-weight: 600;
-	text-align: left;
-	margin-left: 40px;
 }
 
 #paging section:after {
@@ -125,8 +183,8 @@ body > .container {
 	background-color: #1e1e1e;
 }
 #back_button {
-	width: 70px;
-	height: 70px;
+	width: 60px;
+	height: 60px;
 	background-image: url(arrow_left.php?color=000000);
 	background-size: 50px;
 	background-repeat: no-repeat;
@@ -348,6 +406,9 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 	max-width: 840px;
 	padding: 60px 60px;
 	margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .absolute {
@@ -443,6 +504,7 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 	vertical-align: top;
 	margin-right: 20px;
 	cursor: pointer;
+	overflow: hidden;
 }
 .social > div:last-child {
 	margin-right: 0;
