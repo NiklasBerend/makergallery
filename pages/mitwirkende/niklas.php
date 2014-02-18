@@ -9,7 +9,7 @@
     <h1>Niklas</h1>
         <div class="info">
             <div class="left">
-                 <img src="<?php print $global_url_prefix?>files/thumbnails/niklas.png" />
+                 <img src="<?php print $global_url_prefix?>files/img/berend.png" />
             </div>
             <div class="right">
                 <h3>Kontakt</h3>
