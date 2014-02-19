@@ -7,19 +7,23 @@
 <div class="wrapper"> 
     
     <h1>Kodu</h1>
-    <iframe width="300" height="200" src="//www.youtube.com/embed/kSPWGrsFAwE" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
-   
-    <div class="key-facts">
-    <h3>Key Facts</h3>
-    <ul style="font-size: 14px;">
-    <li>AG: Kodu Mainz</li>
-    <li>Wann: 31.01. - 14.02.2014</li>
-    <li>Urheber: AG Kodu Mainz</li>
-    <li>Link zum Spiel: <a href="http://www.so.cl/#/post?i=2L1mkvZiobKHaKnj" target ="_blank">Demo</a></li>
-    <li>Lizenz: CC BY 3.0 DE</li>
-    </ul>
-    </div>
-    </br>
+        <div class="info">
+    		<div class="left">
+        		<div class="iframe-container">
+   					 <iframe src="//www.youtube.com/embed/kSPWGrsFAwE" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
+   				</div>
+             </div>
+            <div class="right">
+                <h3>Key Facts</h3>
+                <ul>
+                    <li><span>AG</span> Kodu Mainz</li>
+                    <li><span>Wann</span> 31.01. - 14.02.2014</li>
+                    <li><span>Urheber</span> AG Kodu Mainz</li>
+                    <li><span>Link zum Spiel</span> <a href="http://www.so.cl/#/post?i=2L1mkvZiobKHaKnj" target ="_blank">Demo</a></li>
+                    <li><span>Lizenz</span> CC BY 3.0 DE</li>
+                </ul>
+            </div>
+    	</div>
     <hr/>
 	<h2>Über das Exponat</h2>
     <p style="text-align: justify">Die Arbeitsgruppe MakeyMakeyMainz hat in einer Grundschule im Rhein-Mainz-Gebiet das MaKeyMaKey          ausprobiert.

@@ -16,10 +16,10 @@
         <div class="right">
             <h3>Key Facts</h3>
             <ul style="font-size: 14px;">
-            <li>LeFloid Mainz</li>
-            <li>01.02.2014 - 11.02.2014</li>
-            <li>Hier stehen die Urheber, also die Namen der AG Mitglieder</li>
-            <li>Lizenz: CC BY 3.0 DE</li>
+            <li><span>AG</span>LeFloid Mainz</li>
+            <li><span>Wann</span>01.02.2014 - 11.02.2014</li>
+            <li><span>Urheber</span>Hier stehen die Urheber, also die Namen der AG Mitglieder</li>
+            <li><span>Lizenz</span> CC BY 3.0 DE</li>
             </ul>
         </div>
     </div>

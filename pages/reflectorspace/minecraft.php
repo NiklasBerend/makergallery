@@ -7,18 +7,21 @@
 <div class="wrapper"> 
     
     <h1>Minecraft für Eltern erklärt</h1>
-   
-    <iframe width="300" height="200" src="//www.youtube.com/embed/Qb7y8eH66p0" frameborder="0" allowfullscreen" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
-      
-    <div class="key-facts">
-    <h3>Key Facts</h3>
-    <ul style="font-size: 14px;">
-    <li>Wann: 16.02.2014</li>
-    <li>Urheber: Guido und Paul Brombach</li>
-    <li>Lizenz: CC BY 3.0 DE</li>
-    </ul>
-    </div>
-    </br>
+        <div class="info">
+    		<div class="left">
+        		<div class="iframe-container">
+   					<iframe src="//www.youtube.com/embed/Qb7y8eH66p0" frameborder="0" allowfullscreen></iframe>
+                 </div>
+             </div>
+           <div class="right">
+                <h3>Key Facts</h3>
+                <ul>
+                <li><span>Wann</span> 16.02.2014</li>
+                <li><span>Urheber</span> Guido und Paul Brombach</li>
+                <li><span>Lizenz</span> CC BY 3.0 DE</li>
+                </ul>
+            </div>
+    	</div>
     <hr/>
 	<h2>Über das Exponat</h2>
     <p style="text-align: justify">Die Arbeitsgruppe MakeyMakeyMainz hat in einer Grundschule im Rhein-Mainz-Gebiet das MaKeyMaKey          ausprobiert.
