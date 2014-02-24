@@ -6,9 +6,16 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	font-weight: lighter;
 	background: #eee;
 	height: 100%;
 	min-height: 100%;
+}
+body.mobile {
+	font-size: 16px;
+	line-height: 22px;
 }
 #paging {
 	margin: 0;
@@ -25,6 +32,9 @@ body {
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 100px;
+}
+#paging section:last-child {
+	margin-bottom: 0;
 }
 #paging section > .container {
 	position: relative;
@@ -43,22 +53,20 @@ body {
 }
 #paging section > .container .floor .wrapper {
 	height: 100%;
+	padding-bottom: 190px;
 	position: relative;
+}
+.mobile #paging section > .container .floor .wrapper {
+	padding-bottom: 120px;
+}
+#paging section > .container .floor .wrapper.fullsize {
+	padding-bottom: 10px;
 }
 #paging section > .container .scroll {
 	height: 100%;
 	width: 100%;
-	position: absolute;
-	padding-top: 155px;
-	top: 0;
-	left: 0;
-}
-#paging section > .container .scroll div {
 	overflow: scroll;
-	height: 100%;
-	padding: 0 60px;
 }
-
 #paging section > .container .room .wrapper .info {
 	width: 100%;
 }
@@ -119,6 +127,7 @@ body {
 
 #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 40px;
+	line-height: 50px;
 	text-transform: uppercase;
 	font-weight: 300;
 }
@@ -269,16 +278,19 @@ body > .container {
 	content: 'U';
 }
 
-section .floor .wrapper > h2:first-child {
+section .floor .wrapper .scroll > h2:first-child {
 	margin: 0;
 	font-size: 55px;
+	line-height: 60px;
 	text-transform: uppercase;
 	font-weight: 300;
 }
-.mobile section .floor .wrapper > h2:first-child {
+.mobile section .floor .wrapper .scroll > h2:first-child,
+.mobile #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 30px;
+	line-height: 40px;
 }
-section .floor .wrapper > h2:first-child:before {
+section .floor .wrapper .scroll > h2:first-child:before {
 	display: inline-block;
 	text-align: center;
 	height: 70px;
@@ -292,11 +304,14 @@ section .floor .wrapper > h2:first-child:before {
 	-webkit-border-radius: 80px;
 	margin-right: 20px;
 }
-.mobile section .floor .wrapper > h2:first-child:before {
-	height: 42px;
-	width: 42px;
-	line-height: 42px;
-	border: 2px solid;
+.mobile section .floor .wrapper .scroll > h2:first-child:before {
+	content: '' !important;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	margin-right: 0;
+	border: none;
+	width: 0;
+	height: 0;
 }
 section h2 + p {
 	text-align: justify;
@@ -311,6 +326,7 @@ section #no-columns {
 	-moz-column-count: 1;
 	-webkit-column-count: 1;
 	column-count: 1;
+	text-align: left;
 }
 .tablet section h2 + p {
 	-moz-column-count: 2;
@@ -335,7 +351,7 @@ section[ref='mitwirkende'] .exhibits .navi .next {
 section[ref='mitwirkende'] .exhibits .navi .prev {
 	background-image: url(arrow_left.php?color=000000);
 }
-section[ref='mitwirkende'] .floor .wrapper > h2:first-child:before {
+section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #000;
 	content: '4';
 }
@@ -355,7 +371,7 @@ section[ref='collectorspace'] .exhibits .navi .next {
 section[ref='collectorspace'] .exhibits .navi .prev {
 	background-image: url(arrow_left.php?color=748412);
 }
-section[ref='collectorspace'] .floor .wrapper > h2:first-child:before {
+section[ref='collectorspace'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #748412;
 	content: '3';
 }
@@ -375,7 +391,7 @@ section[ref='makerspace'] .exhibits .navi .next {
 section[ref='makerspace'] .exhibits .navi .prev {
 	background-image: url(arrow_left.php?color=dd7683);
 }
-section[ref='makerspace'] .floor .wrapper > h2:first-child:before {
+section[ref='makerspace'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #dd7683;
 	content: '2';
 }
@@ -395,7 +411,7 @@ section[ref='reflectorspace'] .exhibits .navi .next {
 section[ref='reflectorspace'] .exhibits .navi .prev {
 	background-image: url(arrow_left.php?color=2e4f68);
 }
-section[ref='reflectorspace'] .floor .wrapper > h2:first-child:before {
+section[ref='reflectorspace'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #2e4f68;
 	content: '1';
 }
@@ -410,13 +426,13 @@ section[ref=''] h2 {
 	font-size: 90px;
 }
 
-section[ref=''] .floor .wrapper > h2:first-child:before {
+section[ref=''] .floor .wrapper .scroll > h2:first-child:before {
 	content: 'E';
 }
 section[ref='impressum'] {
 	background-color: #fff;
 }
-section[ref='impressum'] .floor .wrapper > h2:first-child:before {
+section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	content: 'U';
 }
 
@@ -429,7 +445,7 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
     box-sizing: border-box;
 }
 .mobile .wrapper {
-	padding: 30px 60px;
+	padding: 30px 10px 30px 60px;
 }
 
 .absolute {
@@ -447,10 +463,17 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.mobile .exhibits {
+	padding: 0 10px 0 60px;
+}
 .exhibits > .container {
 	overflow: hidden;
 	padding: 20px 0;
 	border-top: 3px solid;
+}
+.mobile .exhibits > .container {
+	padding: 0;
+	border-top: none;
 }
 .exhibits ul {
 	margin: 0;
@@ -463,6 +486,10 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
 	margin: 10px;
 	width: 150px;
 	height: 150px;
+}
+.mobile .exhibits ul li {
+	width: 100px;
+	height: 100px;
 }
 .exhibits ul li:first-child {
 	margin-left: 0;

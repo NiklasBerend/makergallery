@@ -12,8 +12,8 @@ $(document).ready(function(e) {
 	check_location();
 	navigation_eventlistener();
 	scroll_eventlistener();
-	exhibits();
 	responsive_listeners();
+	exhibits();
 	
 	$(window).on('hashchange', function(){
 		
@@ -48,6 +48,8 @@ $(document).ready(function(e) {
 		history.pushState({page:global_url_prefix + section}, null, global_url_prefix + section);
 		
 		get_page_by_request_uri(location.pathname);
+		
+		$("section").removeClass("in_room");
 	});
 });
 
@@ -84,6 +86,23 @@ function responsive_design() {
 		
 		$("body").removeClass("tablet");
 		$("body").removeClass("mobile");
+	}
+	
+	request = "";
+	
+	for(i=1;i<urlparts.length;i++) {
+		
+		if (global_url_prefix.indexOf(urlparts[i]) == -1) {
+			
+			request+= urlparts[i] + "/";
+		}
+	}
+	
+	/* Rearrange subpage vertical adjustment */
+	if ($("section.in_room").length > 0) {
+		
+		/* Current section on subpage */
+		$(document).scrollTop($("section.in_room").offset().top);
 	}
 }
 
@@ -371,6 +390,7 @@ function get_page_by_request_uri(uri) {
 					
 					left: "-100%"
 				});
+				$("section[ref='" + section + "']").addClass("in_room");
 				$("#back_button").animate({
 					
 					left: "0"

@@ -6,8 +6,10 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2>Galerie der Mitwirkenden</h2>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+					<div class="scroll">
+						<h2>Galerie der Mitwirkenden</h2>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+					</div>
 				</div>
 			</info>
 			<exhibits>
@@ -50,11 +52,13 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2>Galerie der Fundorte</h2>
-					<p>Hier werden unter anderem werden fremde Beispiele als Sammlungen dokumentiert aus&#173;gestellt. <br />
-					Die Exponate wurden im Collector-Space gesammelt und systematisiert. <br />
-					Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen End&#173;geräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
-					</p>
+					<div class="scroll">
+						<h2>Galerie der Fundorte</h2>
+						<p>Hier werden unter anderem werden fremde Beispiele als Sammlungen dokumentiert ausgestellt. <br />
+						Die Exponate wurden im Collector-Space gesammelt und systematisiert. <br />
+						Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
+						</p>
+					</div>
 				</div>
 			</info>
 			<exhibits>
@@ -72,11 +76,13 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2>Galerie der Beispiele</h2>
-<p>Hier werden unter anderem selbst gemachte Produkte der Kursteilnehmenden und “Making-Of”-Geschichten ausgestellt. <br />
-					Die Exponate wurden im Maker-Space erarbeitet. <br />
-					Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
-					</p>
+					<div class="scroll">
+						<h2>Galerie der Beispiele</h2>
+	<p>Hier werden unter anderem selbst gemachte Produkte der Kursteilnehmenden und “Making-Of”-Geschichten ausgestellt. <br />
+						Die Exponate wurden im Maker-Space erarbeitet. <br />
+						Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
+						</p>
+					</div>
 				</div>
 			</info>
 			<exhibits>
@@ -109,11 +115,13 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2>Galerie der Reflexionen</h2>
-					<p>Hier werden unter anderem Aufzeichnungen von Inputs, Diskussionen und erarbeitete Gedanken-Artefakte ausgestellt. <br />
-					Die Exponate wurden im Reflector-Space diskutiert und erarbeitet. <br />
-					Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
-					</p>
+					<div class="scroll">
+						<h2>Galerie der Reflexionen</h2>
+						<p>Hier werden unter anderem Aufzeichnungen von Inputs, Diskussionen und erarbeitete Gedanken-Artefakte ausgestellt. <br />
+						Die Exponate wurden im Reflector-Space diskutiert und erarbeitet. <br />
+						Bewegen Sie sich mit den Pfeilen, mit der Maus oder per Fingerdruck (auf Mobilen Endgeräten) durch die Übersicht. Durch Klick auf ein Vorschaubild betreten Sie den dazugehörigen Ausstellungsraum. Dort erwarten Sie detaillierte Informationen zu den Exponaten.
+						</p>
+					</div>
 				</div>
 			</info>
 			<exhibits>
@@ -146,8 +154,10 @@
 		<content>
 			<info>
 				<div class="wrapper">
-					<h2>Makergallery.de</h2>
-					<p id="no-columns">Exponate aus dem Offenen Online Kurs "Kinderzimmer Productions"</p>
+					<div class="scroll">
+						<h2>Makergallery.de</h2>
+						<p id="no-columns">Exponate aus dem Offenen Online Kurs "Kinderzimmer Productions"</p>
+					</div>
 				</div>
 			</info>
 		</content>
@@ -157,44 +167,41 @@
 		<link>impressum</link>
 		<content>
 			<info>
-				<div class="wrapper">
-					<h2>Impressum | Kontakt</h2>
-					
+				<div class="wrapper fullsize">
 					<div class="scroll">
-						<div>
-							<h3>Impressum</h3>
-							<p>
-							Media Literacy Lab<br/>
-							AG Medienpädagogik<br/>
-							Institut für Erziehungswissenschaft<br/>
-							Johannes Gutenberg-Universität Mainz<br/>
-							Jakob-Welder-Weg 12<br />
-							55 128 Mainz<br/>
-							<br/>
-							E-Mail: kontakt@medialiteracylab.de<br/>
-							Tel:    06131-39-26718<br/>
-							</p>
-							<h3>Kontakt</h3>
-							<p>
-							Sie haben Fragen und Anregungen zum Media Literacy Lab? Schreiben Sie uns!<br/>
-							
-							kontakt@medialiteracylab.de<br/>
-							
-							Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
-							
-							support@medialiteracylab.de<br/>
-							
-							Ein Projekt der AG Medienpädagogik an der Johannes Gutenberg-Universität Mainz.<br/>
-							
-							Jun.-Prof. Dr. Friederike Siller<br/>
-							Johannes Gutenberg-Universität Mainz<br/>
-							Institut für Erziehungswissenschaft<br/>
-							Jakob-Welder-Weg 12<br />
-							55 128 Mainz<br />
-							
-							siller(at)uni-mainz.de
-							</p>
-						</div>
+						<h2>Impressum | Kontakt</h2>
+						<h3>Impressum</h3>
+						<p>
+						Media Literacy Lab<br/>
+						AG Medienpädagogik<br/>
+						Institut für Erziehungswissenschaft<br/>
+						Johannes Gutenberg-Universität Mainz<br/>
+						Jakob-Welder-Weg 12<br />
+						55 128 Mainz<br/>
+						<br/>
+						E-Mail: kontakt@medialiteracylab.de<br/>
+						Tel:    06131-39-26718<br/>
+						</p>
+						<h3>Kontakt</h3>
+						<p>
+						Sie haben Fragen und Anregungen zum Media Literacy Lab? Schreiben Sie uns!<br/>
+						
+						kontakt@medialiteracylab.de<br/>
+						
+						Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
+						
+						support@medialiteracylab.de<br/>
+						
+						Ein Projekt der AG Medienpädagogik an der Johannes Gutenberg-Universität Mainz.<br/>
+						
+						Jun.-Prof. Dr. Friederike Siller<br/>
+						Johannes Gutenberg-Universität Mainz<br/>
+						Institut für Erziehungswissenschaft<br/>
+						Jakob-Welder-Weg 12<br />
+						55 128 Mainz<br />
+						
+						siller(at)uni-mainz.de
+						</p>
 					</div>
 				</div>
 			</info>
