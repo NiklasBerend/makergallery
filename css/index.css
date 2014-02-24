@@ -439,7 +439,7 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 }
 
 .wrapper {
-	max-width: 840px;
+	max-width: 1140px;
 	padding: 60px 60px;
 	margin: 0 auto;
     -webkit-box-sizing: border-box;
@@ -457,7 +457,7 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 }
 
 .exhibits {
-	max-width: 840px;
+	max-width: 1140px;
 	margin: 0 auto;
 	position: relative;
 	padding: 0 60px;
