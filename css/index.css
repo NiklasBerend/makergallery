@@ -1,12 +1,15 @@
-
+html {
+	height: 100%;
+	min-height: 500px;
+}
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	background: #eee;
+	height: 100%;
+	min-height: 100%;
 }
-
-
 #paging {
 	margin: 0;
 	padding: 0;
@@ -272,6 +275,9 @@ section .floor .wrapper > h2:first-child {
 	text-transform: uppercase;
 	font-weight: 300;
 }
+.mobile section .floor .wrapper > h2:first-child {
+	font-size: 30px;
+}
 section .floor .wrapper > h2:first-child:before {
 	display: inline-block;
 	text-align: center;
@@ -286,6 +292,12 @@ section .floor .wrapper > h2:first-child:before {
 	-webkit-border-radius: 80px;
 	margin-right: 20px;
 }
+.mobile section .floor .wrapper > h2:first-child:before {
+	height: 42px;
+	width: 42px;
+	line-height: 42px;
+	border: 2px solid;
+}
 section h2 + p {
 	text-align: justify;
 	-moz-column-count: 3;
@@ -294,6 +306,11 @@ section h2 + p {
 	-moz-column-gap: 40px;
 	-webkit-column-gap: 40px;
 	column-gap: 40px;
+}
+section #no-columns {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
 }
 .tablet section h2 + p {
 	-moz-column-count: 2;
@@ -410,6 +427,9 @@ section[ref='impressum'] .floor .wrapper > h2:first-child:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+.mobile .wrapper {
+	padding: 30px 60px;
 }
 
 .absolute {

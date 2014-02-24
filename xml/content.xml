@@ -147,7 +147,7 @@
 			<info>
 				<div class="wrapper">
 					<h2>Makergallery.de</h2>
-					<p>Exponate aus dem Offenen Online Kurs "Kinderzimmer Productions"</p>
+					<p id="no-columns">Exponate aus dem Offenen Online Kurs "Kinderzimmer Productions"</p>
 				</div>
 			</info>
 		</content>
