@@ -65,6 +65,8 @@ body.mobile {
 #paging section > .container .scroll {
 	height: 100%;
 	width: 100%;
+}
+.mobile #paging section > .container .scroll {
 	overflow: scroll;
 }
 #paging section > .container .room .wrapper .info {
