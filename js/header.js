@@ -2,7 +2,7 @@ var popped = false;
 var initialURL = location.href;
 var elevator_position = 4;
 var first_page_load = true;
-var elevator_speed = 500;
+var elevator_speed = 200;
 var paging_speed = 200;
 var page_is_locked = false;
 
