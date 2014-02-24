@@ -4,6 +4,7 @@ var elevator_position = 4;
 var first_page_load = true;
 var elevator_speed = 200;
 var paging_speed = 200;
+var scrolling_speed = 1500;
 var page_is_locked = false;
 
 $(document).ready(function(e) {
@@ -426,7 +427,7 @@ function scroll_to(section) {
 
 			$('html, body').animate({ 
 			   scrollTop: $("section[ref='" + section + "']").offset().top}, 
-			   1000, 
+			   scrolling_speed, 
 			   "easeOutQuint"
 			);	
 		}
