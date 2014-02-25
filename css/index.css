@@ -57,7 +57,7 @@ body.mobile {
 	position: relative;
 }
 .mobile #paging section > .container .floor .wrapper {
-	padding-bottom: 120px;
+	padding: 10px 10px 120px 10px;
 }
 #paging section > .container .floor .wrapper.fullsize {
 	padding-bottom: 10px;
