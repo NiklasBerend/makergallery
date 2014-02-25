@@ -387,12 +387,6 @@ section #no-columns {
 	display: inline-block;
 	padding: 10px;
 }
-
-section #no-columns .subtitle {
-	display: inline-block;
-	margin: 0;
-	padding: 2px 5px;
-}
 .tablet section h2 + p {
 	-moz-column-count: 2;
 	-webkit-column-count: 2;
@@ -503,8 +497,12 @@ section[ref=''] p {
 	font-weight: bolder;
 	font-size: 35px;
 	line-height:40px;
-	background-color: rgba(0,0,0,.8);
 	width: auto;
+}
+section[ref=''] p span {
+	display: inline-block;
+	background-color: rgba(0,0,0,.8);
+	padding: 0 5px;
 }
 
 section[ref=''] .floor .wrapper .scroll > h2:first-child:before {
