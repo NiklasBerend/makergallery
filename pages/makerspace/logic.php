@@ -4,7 +4,7 @@
 	
 	include ($path_up."php/helper.php");
 ?>
-<div class="wrapper"> 
+<div class="wrapper_room"> 
     
     <h1>Logic 9 Pro Tutorial</h1>
         <div class="info">

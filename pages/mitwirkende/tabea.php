@@ -4,12 +4,12 @@
 	
 	include ($path_up."php/helper.php");
 ?>
-<div class="wrapper"> 
+<div class="wrapper_room"> 
     
     <h1>Tabea</h1>
     <div class="info">
         <div class="left">
-   			 <img src="<?php print $global_url_prefix?>files/img/siebertz.jpg" />
+   			 <img src="<?php print $global_url_prefix?>files/img/siebertz.jpeg" />
         </div>
        <div class="right">
    	  		<h3>Kontakt</h3>

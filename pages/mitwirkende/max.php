@@ -4,12 +4,12 @@
 	
 	include ($path_up."php/helper.php");
 ?>
-<div class="wrapper"> 
+<div class="wrapper_room"> 
     
     <h1>Max</h1>
     	<div class="info">
             <div class="left">
-    			<img src="<?php print $global_url_prefix?>files/thumbnails/max.png" />
+    			<img src="<?php print $global_url_prefix?>files/img/max.jpg" />
             </div>   
     		<div class="right">
                 <h3>Kontakt</h3>

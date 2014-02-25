@@ -69,28 +69,29 @@ body.mobile {
 .mobile #paging section > .container .scroll {
 	overflow: scroll;
 }
-#paging section > .container .room .wrapper .info {
+#paging section > .container .room .wrapper_room .info {
 	width: 100%;
 }
-#paging section > .container .room .wrapper .info:after {
+#paging section > .container .room .wrapper_room .info:after {
 	content: '.';
 	display: block;
 	clear: both;
 	visibility: hidden;
 	height: 0;
 }
-#paging section > .container .room .wrapper .info h3 {
+#paging section > .container .room .wrapper_room .info h3 {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 600;
 	text-align: left;
 	margin: 0 0 20px 0;
 }
-#paging section > .container .room .wrapper .info .left {
+#paging section > .container .room .wrapper_room .info .left {
 	float: left;
 	width: 50%;
 }
-#paging section > .container .room .wrapper .info .right {
+
+#paging section > .container .room .wrapper_room .info .right {
 	float: right;
 	width: 50%;
     -webkit-box-sizing: border-box;
@@ -98,24 +99,27 @@ body.mobile {
     box-sizing: border-box;
 	padding: 0 0 0 20px;
 }
-.mobile #paging section > .container .room .wrapper .info .right {
+.mobile #paging section > .container .room .wrapper_room .info .right {
 	padding: 20px 0 0 0;
 }
-.mobile #paging section > .container .room .wrapper .info .left,
-.mobile #paging section > .container .room .wrapper .info .right {
+.mobile #paging section > .container .room .wrapper_room .info .left,
+.mobile #paging section > .container .room .wrapper_room .info .right {
 	float: none;
 	width: 100%;
 }
-#paging section > .container .room .wrapper .info .left > * {
+
+#paging section > .container .room .wrapper_room .info .left > * {
 	max-width: 100%;
 }
-#paging section > .container .room .wrapper .info .left .iframe-container {
+
+#paging section > .container .room .wrapper_room .info .left .iframe-container {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
 	overflow: hidden;
 }
-#paging section > .container .room .wrapper .info .left .iframe-container > * {
+
+#paging section > .container .room .wrapper_room .info .left .iframe-container > * {
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -123,41 +127,45 @@ body.mobile {
 	position: absolute;
 	border: 0;
 }
-#paging section > .container .room .wrapper .info + hr {
+
+#paging section > .container .room .wrapper_room .info + hr {
 	margin: 30px 0;
 }
 
-#paging section > .container .room .wrapper > h1:first-child {
+#paging section > .container .room .wrapper_room > h1:first-child {
 	font-size: 40px;
 	line-height: 50px;
 	text-transform: uppercase;
 	font-weight: 300;
 }
-#paging section > .container .room .wrapper .info ul {
+
+#paging section > .container .room .wrapper_room .info ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-#paging section > .container .room .wrapper .info ul li {
+
+#paging section > .container .room .wrapper_room .info ul li {
 	line-height: 30px;
 	min-height: 30px;
 	font-size: 18px;
 	font-weight: lighter;
 }
-#paging section > .container .room .wrapper .info ul li span {
+
+#paging section > .container .room .wrapper_room .info ul li span {
 	display: inline-block;
 	width: 85px;
 	font-weight: bolder;
 }
 
-#paging section > .container .room .wrapper > h2 {
+#paging section > .container .room .wrapper_room > h2 {
 	font-size: 20px;
 	text-transform: capitalize;
 	font-weight: 600;
 	text-align: left;
 }
 
-#paging section > .container .room .wrapper .key-facts {
+#paging section > .container .room .wrapper_room .key-facts {
 	height: 200px; 
 	margin-left: 400px;
 }
@@ -212,6 +220,41 @@ body > .container {
 	z-index: 100;
 	margin-top: -35px;
 	margin-left: 20px;
+}
+
+
+.tablet #back_button {
+	width: 40px;
+	height: 40px;
+	background-image: url(arrow_left.php?color=000000);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
+	display: block;
+	cursor: pointer;
+	top: 50%;
+	left: -60px;
+	z-index: 100;
+	margin-top: 60px;
+	margin-left: 5px;
+}
+	
+.mobile #back_button {
+	width: 30px;
+	height: 30px;
+	background-image: url(arrow_left.php?color=000000);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
+	display: block;
+	cursor: pointer;
+	top: 50%;
+	left: -60px;
+	z-index: 100;
+	margin-top: 60px;
+	margin-left: 5px;
 }
 .nav ul {
 	margin: 0;
@@ -451,6 +494,19 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	padding: 30px 10px 30px 60px;
 }
 
+.wrapper_room {
+	max-width: 1140px;
+	padding: 0px 60px;
+	margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mobile .wrapper_room {
+	padding: 30px 10px 30px 60px;
+}
+	
 .absolute {
 	position: absolute;
 	width: 100%;

@@ -43,6 +43,11 @@
 					<thumbnail>files/thumbnails/max.png</thumbnail>
 					<href>mitwirkende/max</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>Titel des Exponats</title>
+					<thumbnail>files/thumbnails/christian.jpg</thumbnail>
+					<href>mitwirkende/christian</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
