@@ -339,6 +339,8 @@ section .floor .wrapper .scroll > h2:first-child {
 	line-height: 60px;
 	text-transform: uppercase;
 	font-weight: 300;
+	display: inline-block;
+	padding: 10px;
 }
 .mobile section .floor .wrapper .scroll > h2:first-child,
 .mobile #paging section > .container .room .wrapper > h1:first-child {
@@ -382,6 +384,14 @@ section #no-columns {
 	-webkit-column-count: 1;
 	column-count: 1;
 	text-align: left;
+	display: inline-block;
+	padding: 10px;
+}
+
+section #no-columns .subtitle {
+	display: inline-block;
+	margin: 0;
+	padding: 2px 5px;
 }
 .tablet section h2 + p {
 	-moz-column-count: 2;

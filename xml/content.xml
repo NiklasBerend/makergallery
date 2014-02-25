@@ -161,7 +161,7 @@
 				<div class="wrapper">
 					<div class="scroll">
 						<h2>Makergallery.de</h2>
-						<p id="no-columns">Exponate <br/> aus dem <br/> Offenen Online Kurs <br/> "Kinderzimmer Productions"</p>
+						<p id="no-columns"><span class="subtitle">Exponate</span> <br/> <span class="subtitle">aus dem</span> <br/> <span>Offenen Online Kurs</span> <br/> <span>"Kinderzimmer Productions"</span></p>
 					</div>
 				</div>
 			</info>
@@ -183,7 +183,6 @@
 							kontakt@medialiteracylab.de<br/>
 							
 							Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
-							
 							support@medialiteracylab.de<br/>
 							
 							Ein Projekt der AG Medienpädagogik an der Johannes Gutenberg-Universität Mainz.<br/>
