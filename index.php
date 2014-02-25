@@ -10,6 +10,8 @@
 <link rel="shortcut icon" href="<?php print $global_url_prefix?>files/imagesfavicon.ico" type="image/x-icon"/>
 <title>Makergallery</title>
 <meta charset="utf-8" content="encoding"/>
+<meta name="viewport" content="width=device-width, maximum-scale=1"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 <script type="text/javascript">
 <?php
 	
