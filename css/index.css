@@ -479,14 +479,17 @@ section[ref='reflectorspace'] .exhibits > .container {
 }
 
 section[ref=''] {
-	background-color: #fff;
+	background-image: url(background2.jpg);
+	background-image: no-repeat;
 }
 section[ref=''] h2 {
-	font-size: 90px;
+	font-size: 150px;
+	color: white;
 }
 
 section[ref=''] .floor .wrapper .scroll > h2:first-child:before {
 	content: 'E';
+	color: white;
 }
 section[ref='impressum'] {
 	background-color: #fff;
