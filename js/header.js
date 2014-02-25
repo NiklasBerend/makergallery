@@ -229,7 +229,7 @@ function set_elevator_to(section) {
 			history.pushState({page:new_href}, null, new_href);
 		}
 		
-		new_position = section * $(".nav ul li").height() + 36;
+		new_position = section * $(".nav ul li").height() + parseInt($(".nav .container ul").css("margin-top"));
 		
 		/* New position for elevator */
 		$("#elevator").animate({
@@ -421,11 +421,11 @@ function get_page_by_request_uri(uri) {
 		});
 		$(".nav").animate({
 			
-			left: "0"
+			left: "-80px"
 		});
 		$("#back_button").animate({
 			
-			left: "-60px"
+			left: "-80px"
 		});
 		/* SCROLLEVENT */
 		scroll_to(section);

@@ -39,18 +39,26 @@
 <body> 
 	<div class="container">
     	<nav class="nav">
-        	<ul>
-            	<?php
-					
-					foreach($contents->children() as $elem) {
-						
-						print '<li class="'.strtolower($elem->name).'"><a title="'.$elem->name.'" href="'.$global_url_prefix.$elem->link.'"></a></li>';
-					}
-				
-				?>
-            </ul>
-            <div id="elevator"></div>
+        	<div class="container">
+                <ul>
+                    <?php
+                        
+                        foreach($contents->children() as $elem) {
+                            
+                            print '<li class="'.strtolower($elem->name).'"><a title="'.$elem->name.'" href="'.$global_url_prefix.$elem->link.'"></a></li>';
+                        }
+                    
+                    ?>
+                </ul>
+                <div id="elevator"></div>
+            </div>
             <div id="elevator_bg"></div>
+            <div id="nav_lug">
+            	<span></span>
+            	<span></span>
+            	<span></span>
+            	<span></span>
+            </div>
         </nav>
         <div id="back_button"></div>
         <div id="paging">
