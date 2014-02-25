@@ -211,6 +211,7 @@ body > .container {
 	left: -60px;
 	z-index: 100;
 	margin-top: -35px;
+	margin-left: 20px;
 }
 .nav ul {
 	margin: 0;

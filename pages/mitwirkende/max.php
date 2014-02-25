@@ -14,9 +14,9 @@
     		<div class="right">
                 <h3>Kontakt</h3>
                 <ul style="font-size: 14px;">
-                <li>Twitter: <a href="https://www.twitter.com/@max_parallax" target="_blank">@max_parallax</a></li>
-                <li>Mail: <a href="mailto: max.froelich@medialiteracylab.de">max.froelich@medialiteracylab.de</a></li>
-                <li>Rolle: Wiki | AG´s | Support</li>
+                <li><span>Twitter</span> <a href="https://www.twitter.com/@max_parallax" target="_blank">@max_parallax</a></li>
+                <li><span>Mail</span> <a href="mailto: max.froelich@medialiteracylab.de">max.froelich@medialiteracylab.de</a></li>
+                <li><span>Rolle</span> Wiki | AG´s | Support</li>
                 </ul>
     		</div>
     	</div>

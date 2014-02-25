@@ -14,9 +14,9 @@
        <div class="right">
    	  		<h3>Kontakt</h3>
             <ul style="font-size: 14px;">
-            <li>Twitter: <a href="https://www.twitter.com/@htm_siebertz" target="_blank">@htm_siebertz</a></li>
-            <li>Mail: <a href="mailto: tabea.siebertz@medialiteracylab.de">tabea.siebertz@medialiteracylab.de</a></li>
-            <li>Rolle: Konzept & Organisation</li>
+            <li><span>Twitter</span> <a href="https://www.twitter.com/@htm_siebertz" target="_blank">@htm_siebertz</a></li>
+            <li><span>Mail</span> <a href="mailto: tabea.siebertz@medialiteracylab.de">tabea.siebertz@medialiteracylab.de</a></li>
+            <li><span>Rolle</span> Konzept & Organisation</li>
             </ul>
        </div>
     </div>    

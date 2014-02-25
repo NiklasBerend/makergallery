@@ -15,7 +15,7 @@
             <h3>Kontakt</h3>
             <ul>
             <li><span>Twitter</span><a href="https://twitter.com/JasminBastian1" target="_blank">@JasminBastian1</a></li>
-            <li><span>Mail</span><a href="mailto: jasmin.bastian@medialiteracylab.de">bastian@medialiteracylab.de</a></li>
+            <li><span>Mail</span><a href="mailto: jasmin.bastian@medialiteracylab.de">jasmin.bastian@medialiteracylab.de</a></li>
             <li><span>Website</span><a href="http://www.jasmin-bastian.de/" target="_blank">jasmin-bastian.de</a></li>
             <li><span>Rolle</span>Konzept & Organisation</li>
             </ul>
