@@ -378,8 +378,8 @@ function get_page_by_request_uri(uri) {
 					social += '<div id="disqus_thread"></div>';
 				}
 				
-				$("section[ref='" + section + "']").find("> .container .room .wrapper_room").append(social);
-				$("section[ref='" + section + "']").find("> .container .room .wrapper_room .social").slideDown(500);
+				$("section[ref='" + section + "']").find("> .container .room .wrapper").append(social);
+				$("section[ref='" + section + "']").find("> .container .room .wrapper .social").slideDown(500);
 				
 				/* Change title of page */
 				document.title = "Makergallery | " + exhibit_title;
@@ -397,7 +397,7 @@ function get_page_by_request_uri(uri) {
 				});
 				$(".nav").animate({
 					
-					left: "-70px"
+					left: "-120px"
 				});
 			}
 		});

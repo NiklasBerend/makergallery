@@ -69,29 +69,29 @@ body.mobile {
 .mobile #paging section > .container .scroll {
 	overflow: scroll;
 }
-#paging section > .container .room .wrapper_room .info {
+#paging section > .container .room .wrapper .info {
 	width: 100%;
 }
-#paging section > .container .room .wrapper_room .info:after {
+#paging section > .container .room .wrapper .info:after {
 	content: '.';
 	display: block;
 	clear: both;
 	visibility: hidden;
 	height: 0;
 }
-#paging section > .container .room .wrapper_room .info h3 {
+#paging section > .container .room .wrapper .info h3 {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 600;
 	text-align: left;
 	margin: 0 0 20px 0;
 }
-#paging section > .container .room .wrapper_room .info .left {
+#paging section > .container .room .wrapper .info .left {
 	float: left;
 	width: 50%;
 }
 
-#paging section > .container .room .wrapper_room .info .right {
+#paging section > .container .room .wrapper .info .right {
 	float: right;
 	width: 50%;
     -webkit-box-sizing: border-box;
@@ -99,27 +99,27 @@ body.mobile {
     box-sizing: border-box;
 	padding: 0 0 0 20px;
 }
-.mobile #paging section > .container .room .wrapper_room .info .right {
+.mobile #paging section > .container .room .wrapper .info .right {
 	padding: 20px 0 0 0;
 }
-.mobile #paging section > .container .room .wrapper_room .info .left,
-.mobile #paging section > .container .room .wrapper_room .info .right {
+.mobile #paging section > .container .room .wrapper .info .left,
+.mobile #paging section > .container .room .wrapper .info .right {
 	float: none;
 	width: 100%;
 }
 
-#paging section > .container .room .wrapper_room .info .left > * {
+#paging section > .container .room .wrapper .info .left > * {
 	max-width: 100%;
 }
 
-#paging section > .container .room .wrapper_room .info .left .iframe-container {
+#paging section > .container .room .wrapper .info .left .iframe-container {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
 	overflow: hidden;
 }
 
-#paging section > .container .room .wrapper_room .info .left .iframe-container > * {
+#paging section > .container .room .wrapper .info .left .iframe-container > * {
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -128,44 +128,58 @@ body.mobile {
 	border: 0;
 }
 
-#paging section > .container .room .wrapper_room .info + hr {
+#paging section > .container .room .wrapper .info + hr {
 	margin: 30px 0;
 }
 
-#paging section > .container .room .wrapper_room > h1:first-child {
+#paging section.in_room > .container .room .wrapper > h1:first-child {
 	font-size: 40px;
 	line-height: 50px;
 	text-transform: uppercase;
 	font-weight: 300;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	background-color: #fff;
+	border-bottom: 1px solid #1e1e1e;
+	text-align: center;
+	padding: 5px 50px;
+	z-index: 50;
+	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-#paging section > .container .room .wrapper_room .info ul {
+#paging section > .container .room .wrapper .info ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-#paging section > .container .room .wrapper_room .info ul li {
+#paging section > .container .room .wrapper .info ul li {
 	line-height: 30px;
 	min-height: 30px;
 	font-size: 18px;
 	font-weight: lighter;
 }
 
-#paging section > .container .room .wrapper_room .info ul li span {
+#paging section > .container .room .wrapper .info ul li span {
 	display: inline-block;
 	width: 85px;
 	font-weight: bolder;
 }
 
-#paging section > .container .room .wrapper_room > h2 {
+#paging section > .container .room .wrapper > h2 {
 	font-size: 20px;
 	text-transform: capitalize;
 	font-weight: 600;
 	text-align: left;
 }
 
-#paging section > .container .room .wrapper_room .key-facts {
+#paging section > .container .room .wrapper .key-facts {
 	height: 200px; 
 	margin-left: 400px;
 }
@@ -222,46 +236,13 @@ body > .container {
 	position: fixed;
 	display: block;
 	cursor: pointer;
-	top: 50%;
 	left: -80px;
 	z-index: 100;
-	margin-top: -35px;
-	margin-left: 20px;
 }
-
-
-.tablet #back_button {
-	width: 40px;
-	height: 40px;
-	background-image: url(arrow_left.php?color=000000);
-	background-size: 30px;
-	background-repeat: no-repeat;
-	background-position: center;
-	position: fixed;
-	display: block;
-	cursor: pointer;
-	top: 50%;
-	left: -60px;
-	z-index: 100;
-	margin-top: 60px;
-	margin-left: 5px;
-}
-	
 .mobile #back_button {
-	width: 30px;
-	height: 30px;
-	background-image: url(arrow_left.php?color=000000);
-	background-size: 20px;
-	background-repeat: no-repeat;
-	background-position: center;
-	position: fixed;
-	display: block;
-	cursor: pointer;
-	top: 50%;
-	left: -60px;
-	z-index: 100;
-	margin-top: 60px;
-	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+	background-size: 40px;
 }
 .nav .container {
 	top: 50%;
@@ -416,7 +397,8 @@ section #no-columns {
 section[ref='mitwirkende'] {
 	background-color: #fff;
 }
-section[ref='mitwirkende'] h2 {
+section[ref='mitwirkende'] h2,
+section[ref='mitwirkende'].in_room > .container .room .wrapper > h1:first-child {
 	color:#000000;
 }
 section[ref='mitwirkende'] .exhibits .navi .next {
@@ -436,7 +418,8 @@ section[ref='mitwirkende'] .exhibits > .container {
 section[ref='collectorspace'] {
 	background-color: #fff;
 }
-section[ref='collectorspace'] h2 {
+section[ref='collectorspace'] h2,
+section[ref='collectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	color:#748412;
 }
 section[ref='collectorspace'] .exhibits .navi .next {
@@ -456,7 +439,8 @@ section[ref='collectorspace'] .exhibits > .container {
 section[ref='makerspace'] {
 	background: #fff;
 }
-section[ref='makerspace'] h2 {
+section[ref='makerspace'] h2,
+section[ref='makerspace'].in_room > .container .room .wrapper > h1:first-child {
 	color: #dd7683;
 }
 section[ref='makerspace'] .exhibits .navi .next {
@@ -476,7 +460,8 @@ section[ref='makerspace'] .exhibits > .container {
 section[ref='reflectorspace'] {
 	background: #fff;
 }
-section[ref='reflectorspace'] h2 {
+section[ref='reflectorspace'] h2,
+section[ref='reflectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	color: #2e4f68;
 }
 section[ref='reflectorspace'] .exhibits .navi .next {
@@ -512,27 +497,14 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 
 .wrapper {
 	max-width: 1020px;
-	padding: 60px 0;
+	padding: 70px 10px;
 	margin: 0 auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 .mobile .wrapper {
-	padding: 30px 10px 30px 60px;
-}
-
-.wrapper_room {
-	max-width: 1140px;
-	padding: 0px 60px;
-	margin: 0 auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.mobile .wrapper_room {
-	padding: 30px 10px 30px 60px;
+	padding: 60px 10px;
 }
 	
 .absolute {
@@ -545,13 +517,13 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	max-width: 1140px;
 	margin: 0 auto;
 	position: relative;
-	padding: 0 60px;
+	padding: 0 70px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.mobile .exhibits {
-	padding: 0 10px 0 60px;
+.tablet .exhibits {
+	padding: 0 10px;
 }
 .exhibits > .container {
 	overflow: hidden;
@@ -612,7 +584,7 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 
 .exhibits .navi .next {
 	right: 0;
-	margin-right: -10px;
+	margin-right: 10px;
 	background-image: url(arrow_right.php?color=000000);
 }
 .exhibits .navi .next:hover {
@@ -620,7 +592,7 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 }
 .exhibits .navi .prev {
 	left: 0;
-	margin-left: -10px;
+	margin-left: 10px;
 	background-image: url(arrow_left.php?color=000000);
 }
 

@@ -4,7 +4,7 @@
 
 	include ($path_up."php/helper.php");
 ?>
-<div class="wrapper_room"> 
+<div class="wrapper"> 
     
     <h1>Jöran</h1>
     
