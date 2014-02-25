@@ -73,7 +73,7 @@ function responsive_design() {
 		$("body").addClass("tablet");
 		
 		/* Smartphone */
-		if (window_width < 640) {
+		if (window_width < 720) {
 			
 			$("body").addClass("mobile");
 		}
