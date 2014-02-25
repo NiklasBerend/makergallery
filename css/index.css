@@ -86,12 +86,12 @@ body.mobile {
 	text-align: left;
 	margin: 0 0 20px 0;
 }
-#paging section > .container .room .wrapper .info .left {
+.left {
 	float: left;
 	width: 50%;
 }
 
-#paging section > .container .room .wrapper .info .right {
+.right {
 	float: right;
 	width: 50%;
     -webkit-box-sizing: border-box;
@@ -99,16 +99,16 @@ body.mobile {
     box-sizing: border-box;
 	padding: 0 0 0 20px;
 }
-.mobile #paging section > .container .room .wrapper .info .right {
+.mobile .right {
 	padding: 20px 0 0 0;
 }
-.mobile #paging section > .container .room .wrapper .info .left,
-.mobile #paging section > .container .room .wrapper .info .right {
+.mobile .left,
+.mobile .right {
 	float: none;
 	width: 100%;
 }
 
-#paging section > .container .room .wrapper .info .left > * {
+#paging .left > * {
 	max-width: 100%;
 }
 

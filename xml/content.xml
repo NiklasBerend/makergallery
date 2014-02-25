@@ -175,38 +175,42 @@
 				<div class="wrapper fullsize">
 					<div class="scroll">
 						<h2>Impressum | Kontakt</h2>
-						<h3>Impressum</h3>
-						<p>
-						Media Literacy Lab<br/>
-						AG Medienpädagogik<br/>
-						Institut für Erziehungswissenschaft<br/>
-						Johannes Gutenberg-Universität Mainz<br/>
-						Jakob-Welder-Weg 12<br />
-						55 128 Mainz<br/>
-						<br/>
-						E-Mail: kontakt@medialiteracylab.de<br/>
-						Tel:    06131-39-26718<br/>
-						</p>
-						<h3>Kontakt</h3>
-						<p>
-						Sie haben Fragen und Anregungen zum Media Literacy Lab? Schreiben Sie uns!<br/>
-						
-						kontakt@medialiteracylab.de<br/>
-						
-						Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
-						
-						support@medialiteracylab.de<br/>
-						
-						Ein Projekt der AG Medienpädagogik an der Johannes Gutenberg-Universität Mainz.<br/>
-						
-						Jun.-Prof. Dr. Friederike Siller<br/>
-						Johannes Gutenberg-Universität Mainz<br/>
-						Institut für Erziehungswissenschaft<br/>
-						Jakob-Welder-Weg 12<br />
-						55 128 Mainz<br />
-						
-						siller(at)uni-mainz.de
-						</p>
+						<div class="left">
+							<h3>Kontakt</h3>
+							<p>
+							Sie haben Fragen und Anregungen zum Media Literacy Lab? Schreiben Sie uns!<br/>
+							
+							kontakt@medialiteracylab.de<br/>
+							
+							Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
+							
+							support@medialiteracylab.de<br/>
+							
+							Ein Projekt der AG Medienpädagogik an der Johannes Gutenberg-Universität Mainz.<br/>
+							
+							Jun.-Prof. Dr. Friederike Siller<br/>
+							Johannes Gutenberg-Universität Mainz<br/>
+							Institut für Erziehungswissenschaft<br/>
+							Jakob-Welder-Weg 12<br />
+							55 128 Mainz<br />
+							
+							siller(at)uni-mainz.de
+							</p>
+						</div>
+						<div class="right">
+							<h3>Impressum</h3>
+							<p>
+							Media Literacy Lab<br/>
+							AG Medienpädagogik<br/>
+							Institut für Erziehungswissenschaft<br/>
+							Johannes Gutenberg-Universität Mainz<br/>
+							Jakob-Welder-Weg 12<br />
+							55 128 Mainz<br/>
+							<br/>
+							E-Mail: kontakt@medialiteracylab.de<br/>
+							Tel:    06131-39-26718<br/>
+							</p>
+						</div>
 					</div>
 				</div>
 			</info>
