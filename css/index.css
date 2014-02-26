@@ -99,6 +99,11 @@ body.mobile {
     box-sizing: border-box;
 	padding: 0 0 0 20px;
 }
+
+.right span {
+	display: inline-block;
+	width: 60px;
+}
 .mobile .right {
 	padding: 20px 0 0 0;
 }
@@ -504,7 +509,7 @@ section[ref='reflectorspace'] .exhibits > .container {
 }
 
 section[ref=''] {
-	background-image: url(background2.jpg);
+	background-image: url(background.jpg);
 	background-size: cover;
 }
 section[ref=''] h2 {
@@ -534,6 +539,13 @@ section[ref='impressum'] {
 }
 section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	content: 'U';
+	border: 3px solid;
+	border-color: #000;
+	position: relative;
+	border-radius: 80px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	margin-right: 20px;
 }
 
 .wrapper {

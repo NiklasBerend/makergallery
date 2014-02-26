@@ -178,12 +178,15 @@
 						<div class="left">
 							<h3>Kontakt</h3>
 							<p>
-							Sie haben Fragen und Anregungen zum Media Literacy Lab? Schreiben Sie uns!<br/>
-							
-							kontakt@medialiteracylab.de<br/>
+							Sie haben Fragen und Anregungen zum Media Literacy Lab? <strong>Schreiben Sie uns!</strong><br/>
+							<br/>
+							<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
+							<br/>
 							
 							Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
-							support@medialiteracylab.de<br/>
+							<a href="mailto: support@medialiteracylab.de">support@medialiteracylab.de</a><br/>
+							<br/>
+							<br/>
 							
 							Ein Projekt der AG Medienpädagogik an der Johannes Gutenberg-Universität Mainz.<br/>
 							
@@ -192,8 +195,8 @@
 							Institut für Erziehungswissenschaft<br/>
 							Jakob-Welder-Weg 12<br />
 							55 128 Mainz<br />
-							
-							siller(at)uni-mainz.de
+							<br/>							
+							<a href="mailto: siller@uni-mainz.de">siller(at)uni-mainz.de</a>
 							</p>
 						</div>
 						<div class="right">
@@ -206,8 +209,8 @@
 							Jakob-Welder-Weg 12<br />
 							55 128 Mainz<br/>
 							<br/>
-							E-Mail: kontakt@medialiteracylab.de<br/>
-							Tel:    06131-39-26718<br/>
+							<span>E-Mail</span> <a href="kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
+							<span>Tel</span> 06131-39-26718<br/>
 							</p>
 						</div>
 					</div>
