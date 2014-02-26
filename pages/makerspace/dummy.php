@@ -12,14 +12,16 @@
    					<iframe src="//www.youtube.com/embed/lnDTfSTbX58" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                 	<div class="license">
-	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.de" target="_blank"><img alt="Creative Commons 			                     	Lizenzvertrag"           																																					  						style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />
+	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.de" target="_blank"><img alt="Creative Commons 			                     	Lizenzvertrag"           																																					  						style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
      				</div>
+                    <div class="creator">
+                    	<strong>Urheber:</strong> Niklas Berend, Jan Cusller, Nina Aue, Sarah Kollross, Christina Sendobry, Merle Flemming, Xenia Likai 
+                    </div>
             </div>
             <div class="right">
                 <h3>Key Facts</h3>
                 <ul>
                 	<li><span>AG</span> MakeyMakeyMainz</li>
-                	<li><span>Urheber</span> AG MakeyMakeyMainz</li>
                 </ul>
             </div>
           </div>

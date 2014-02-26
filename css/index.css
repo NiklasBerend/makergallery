@@ -85,15 +85,20 @@ body.mobile {
 	font-weight: 600;
 	text-align: left;
 	margin: 0 0 20px 0;
+	color: #000;
 }
 .left {
 	float: left;
 	width: 50%;
+	color: #fff;
+	font-weight: bolder;
 }
 
 .right {
 	float: right;
 	width: 50%;
+	color: #fff;
+	font-weight: bolder;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -133,6 +138,20 @@ body.mobile {
 	border: 0;
 }
 
+#paging section > .container .room .wrapper .info .left .license {
+	float: right;
+	margin-top: 10px;
+}
+
+#paging section > .container .room .wrapper .info .left .creator {
+	display: inline-block;
+	font-size: 10px;
+	font-weight: lighter;
+	padding: 7px 5px;	
+	float: left;
+	color: #000;
+}
+
 #paging section > .container .room .wrapper .info + hr {
 	margin: 30px 0;
 }
@@ -169,6 +188,7 @@ body.mobile {
 	min-height: 30px;
 	font-size: 18px;
 	font-weight: lighter;
+	color: #000;
 }
 
 #paging section > .container .room .wrapper .info ul li span {
@@ -440,6 +460,7 @@ section[ref='mitwirkende'] .exhibits .navi .prev {
 section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #000;
 	content: '4';
+	color: #000;
 }
 section[ref='mitwirkende'] .exhibits > .container {
 	border-color: #000;
@@ -461,6 +482,7 @@ section[ref='collectorspace'] .exhibits .navi .prev {
 section[ref='collectorspace'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #748412;
 	content: '3';
+	color: #748412;
 }
 section[ref='collectorspace'] .exhibits > .container {
 	border-color: #748412;
@@ -482,6 +504,7 @@ section[ref='makerspace'] .exhibits .navi .prev {
 section[ref='makerspace'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #dd7683;
 	content: '2';
+	color: #dd7683;
 }
 section[ref='makerspace'] .exhibits > .container {
 	border-color: #dd7683;
@@ -503,6 +526,7 @@ section[ref='reflectorspace'] .exhibits .navi .prev {
 section[ref='reflectorspace'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #2e4f68;
 	content: '1';
+	color: #2e4f68;
 }
 section[ref='reflectorspace'] .exhibits > .container {
 	border-color: #2e4f68;
@@ -535,12 +559,18 @@ section[ref=''] .floor .wrapper .scroll > h2:first-child:before {
 	color: white;
 }
 section[ref='impressum'] {
-	background-color: #fff;
+	background-image: url(impressum2.jpg);
+	background-size: cover;
+}
+section[ref='impressum'] h2 {
+	color: #fff;
+	background-color: rgba(0,0,0,.8);
+	
 }
 section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	content: 'U';
 	border: 3px solid;
-	border-color: #000;
+	border-color: #fff;
 	position: relative;
 	border-radius: 80px;
 	-moz-border-radius: 80px;
