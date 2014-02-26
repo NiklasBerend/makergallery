@@ -48,8 +48,6 @@ $(document).ready(function(e) {
 		history.pushState({page:global_url_prefix + section}, null, global_url_prefix + section);
 		
 		get_page_by_request_uri(location.pathname);
-		
-		$("section").removeClass("in_room");
 	});
 });
 
@@ -429,6 +427,8 @@ function get_page_by_request_uri(uri) {
 		});
 		/* SCROLLEVENT */
 		scroll_to(section);
+		
+		$("section").removeClass("in_room");
 	}
 }
 
