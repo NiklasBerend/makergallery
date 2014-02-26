@@ -14,37 +14,37 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Jöran</title>
 					<thumbnail>files/thumbnails/joeran.jpg</thumbnail>
 					<href>mitwirkende/joeran</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Friederike</title>
 					<thumbnail>files/thumbnails/siller.jpg</thumbnail>
 					<href>mitwirkende/friederike</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Jasmin</title>
 					<thumbnail>files/thumbnails/jasmin.jpg</thumbnail>
 					<href>mitwirkende/jasmin</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Tabea</title>
 					<thumbnail>files/thumbnails/tabea.jpg</thumbnail>
 					<href>mitwirkende/tabea</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Niklas</title>
 					<thumbnail>files/thumbnails/niklas.png</thumbnail>
 					<href>mitwirkende/niklas</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Max</title>
 					<thumbnail>files/thumbnails/max.png</thumbnail>
 					<href>mitwirkende/max</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Christian</title>
 					<thumbnail>files/thumbnails/christian.jpg</thumbnail>
 					<href>mitwirkende/christian</href>
 				</exhibit>
@@ -92,7 +92,7 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
-					<title>MakeyMakey@school</title>
+					<title>MakeyMakey</title>
 					<thumbnail>files/thumbnails/makeymakey.jpg</thumbnail>
 					<href>makerspace/dummy</href>
 				</exhibit>
@@ -102,7 +102,7 @@
 					<href>makerspace/LeFloid</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Logic Tutorial</title>
+					<title>Logic 9</title>
 					<thumbnail>files/thumbnails/thumbnail3.jpg</thumbnail>
 					<href>makerspace/logic</href>
 				</exhibit>
@@ -131,7 +131,7 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
+					<title>Minecraft für Eltern</title>
 					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
 					<href>reflectorspace/minecraft</href>
 				</exhibit>

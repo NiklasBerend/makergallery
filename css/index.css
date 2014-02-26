@@ -650,8 +650,10 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 .exhibits ul li .container .label {
 	position: absolute;
 	bottom: -40px;
-	line-height: 20px;
+	line-height: 25px;
 	font-size: 14px;
+	font-weight:bolder;
+	text-align:center;
 	background-color: rgba(0,0,0,.8);
 	color: #fff;
 	margin: 0;
