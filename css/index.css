@@ -314,6 +314,27 @@ body > .container {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
+.mobile #nav_lug {
+	position: absolute;
+	top: 50%;
+	right: -20px;
+	width: 20px;
+	height: 60px;
+	background-color: rgba(0,0,0,.8);
+	display: block;
+	margin-top: -57.5px;
+	cursor: pointer;
+}
+.mobile #nav_lug span {
+	display: block;
+	margin: 7px;
+	width: 6px;
+	height: 6px;
+	background-color: #fff;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
 .nav ul li.mitwirkende a:after {
 	content: '4';
 }
@@ -497,7 +518,6 @@ section[ref=''] p {
 	font-weight: bolder;
 	font-size: 35px;
 	line-height:40px;
-	width: auto;
 }
 section[ref=''] p span {
 	display: inline-block;
