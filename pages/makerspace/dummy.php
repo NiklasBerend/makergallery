@@ -11,12 +11,14 @@
         		<div class="iframe-container">
    					<iframe src="//www.youtube.com/embed/lnDTfSTbX58" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
-                	<div class="license">
-	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.de" target="_blank"><img alt="Creative Commons 			                     	Lizenzvertrag"           																																					  						style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-     				</div>
-                    <div class="creator">
+                     <div class="creator">
                     	<strong>Urheber:</strong> Niklas Berend, Jan Cusller, Nina Aue, Sarah Kollross, Christina Sendobry, Merle Flemming, Xenia Likai 
                     </div>
+                    <div class="license">
+	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+                      
+                        <span>Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">    	                Creative Commons Namensnennung 4.0 International Lizenz</a>.</span>
+     				</div>
             </div>
             <div class="right">
                 <h3>Key Facts</h3>
