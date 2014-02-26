@@ -60,7 +60,7 @@
             	<span></span>
             </div>
         </nav>
-        <div id="back_button"></div>
+        <div id="back_button" title="Zurück zur Übersicht"></div>
         <div id="paging">
 			<?php
 					
@@ -83,6 +83,7 @@
 							print '<li class="'.$exhibit->attributes()->type.'">';
 							print '<div class="container">';
 							
+							print '<p class="label">'.$exhibit->title.'</p>';
 							print '<a href="'.$exhibit->href.'"><img class="thumbnail" src="'.$global_url_prefix.$exhibit->thumbnail.'" alt="'.$exhibit->title.'"></a>';
 							
 							print '</div>';

@@ -268,6 +268,9 @@ body > .container {
 	left: -80px;
 	z-index: 100;
 }
+#back_button:hover {
+	background-image: url(arrow_left.php?color=CCCCCC);
+}
 .mobile #back_button {
 	width: 50px;
 	height: 50px;
@@ -639,6 +642,32 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 .mobile .exhibits ul li {
 	width: 100px;
 	height: 100px;
+}
+.exhibits ul li .container {
+	position: relative;
+	overflow: hidden;
+}
+.exhibits ul li .container .label {
+	position: absolute;
+	bottom: -40px;
+	line-height: 20px;
+	font-size: 14px;
+	background-color: rgba(0,0,0,.8);
+	color: #fff;
+	margin: 0;
+	padding: 0 5px;
+	display: block;
+	width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.exhibits ul li:hover .container .label {
+	bottom: 0;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 }
 .exhibits ul li:first-child {
 	margin-left: 0;
