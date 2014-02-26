@@ -90,14 +90,12 @@ body.mobile {
 .left {
 	float: left;
 	width: 50%;
-	color: #fff;
 	font-weight: bolder;
 }
 
 .right {
 	float: right;
 	width: 50%;
-	color: #fff;
 	font-weight: bolder;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -559,8 +557,7 @@ section[ref=''] .floor .wrapper .scroll > h2:first-child:before {
 	color: white;
 }
 section[ref='impressum'] {
-	background-image: url(impressum2.jpg);
-	background-size: cover;
+	background: #fff;
 }
 section[ref='impressum'] h2 {
 	color: #fff;
