@@ -7,14 +7,15 @@
 <div class="wrapper"> 
     
     <h1>Jöran</h1>
+    <hr/>
     
     <div class="info">
         <div class="left">
     			<img src="<?php print $global_url_prefix?>files/img/joeran.jpg"</img>
    		</div>
-   		<div class="right">
+   		<div class="team_right">
             <h3>Kontakt</h3>
-            <ul style="font-size: 14px;">
+            <ul>
             <li><span>Twitter</span> <a href="https://twitter.com/jmm_hamburg" target="_blank">@jmm_hamburg</a></li>
             <li><span>Mail</span> <a href="mailto: post@joeran.de">post@joeran.de</a></li>
             <li><span>Website</span> <a href="http://www.joeran.de" target="_blank">joeran.de</a></li>

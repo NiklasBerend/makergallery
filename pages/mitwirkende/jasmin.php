@@ -6,11 +6,12 @@
 ?>
 <div class="wrapper">
     <h1>Jasmin</h1>
+    <hr/>
     <div class="info">
         <div class="left">
         	<img src="<?php print $global_url_prefix?>files/img/jasmin.jpg" />
         </div>
-        <div class="right">
+        <div class="team_right">
             <h3>Kontakt</h3>
             <ul>
             <li><span>Twitter</span><a href="https://twitter.com/JasminBastian1" target="_blank">@JasminBastian1</a></li>

@@ -7,11 +7,12 @@
 <div class="wrapper"> 
     
     <h1>Niklas</h1>
+    <hr/>
         <div class="info">
             <div class="left">
                  <img src="<?php print $global_url_prefix?>files/img/berend.png" />
             </div>
-            <div class="right">
+            <div class="team_right">
                 <h3>Kontakt</h3>
                 <ul style="font-size: 14px;">
                 <li><span>Twitter</span> <a href="https://twitter.com/nikimedia" target="_blank">@nikimedia</a></li>

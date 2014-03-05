@@ -97,6 +97,11 @@
 					<href>makerspace/dummy</href>
 				</exhibit>
 				<exhibit type="video">
+					<title>LEGO Mindstorms</title>
+					<thumbnail>files/thumbnails/mindstorm.png</thumbnail>
+					<href>makerspace/mindstorms</href>
+				</exhibit>
+				<exhibit type="video">
 					<title>LeFloid</title>
 					<thumbnail>files/thumbnails/lefloid.jpg</thumbnail>
 					<href>makerspace/LeFloid</href>

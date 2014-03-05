@@ -5,15 +5,15 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>MaKeyMakey @ School</h1>
+    <h1>LEGO Mindstorms</h1>
     <hr/>
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe src="//www.youtube.com/embed/lnDTfSTbX58" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
+   					<iframe src="//www.youtube.com/embed/videoseries?list=PL5OUtcvm2FddSx8ykN8y_ugbKOTwVsTJQ" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> Niklas Berend, Jan Cusller, Nina Aue, Sarah Kollross, Christina Sendobry, Merle Flemming, Xenia Likai 
+                    	<strong>Urheber:</strong> David Fendel, Thea Rohn, Marco Klopp, Tim Riplinger 
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
@@ -24,9 +24,9 @@
             <div class="right">
                 <h3>Tags</h3>
                 <ul>
-                	<li><span>MakeyMakey</span></li>
-                    <li><span>MIT</span></li>
-                    <li><span>Scratch</span></li>
+                	<li><span>LEGO</span></li>
+                    <li><span>LEGO Mindstorms</span></li>
+                    <li><span>Roboter</span></li>
                     <li><span>Programmieren</span></li>
                     <li><span>Controller</span></li>
                 </ul>
@@ -34,10 +34,7 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Die Arbeitsgruppe MakeyMakeyMainz hat in einer Grundschule im Rhein-Mainz-Gebiet das MaKeyMaKey          ausprobiert.
-    An 5 Stationen konnten 4 Klassen unter Anleitung eines motivierten Teams der JGU Mainz mit Blumen ein virtuelles Piano bedienen,
-    mit einem präparierten Handschuh als "One Hand Band" spielen oder ihre Mitschüler_innen zu Schlagzeug, Gitarre & Co. umfunktionieren.    Außerdem hatte die lokale Arbeitsgruppe noch eine ganz besondere Überraschung für die Kids dabei... Aber seht selbst!
-    P.S.: Außerdem wurden wir eingeladen, ein weiteres Mal in der Schule vorbeizuschauen - aber natürlich nur mit den MaKeyMaKeys ... </p>
+    <p style="text-align: justify">Wir wollten herausfinden, ob und wie LEGO Mindstorms funktioniert. Davon handeln beide Videos. In einem weiteren Schritt geht es uns darum, einen gewissen "pädagogischen" Wert festzustellen. Dies werden wir in einer schriftlichen Ausarbeitung versuchen.</p>
 
        
 </div>
