@@ -277,17 +277,12 @@ function social_listeners() {
 		api.openPopup('twitter');
 	  }
 	});
-	$('.facebook').sharrre({
-	  share: {
-		facebook: true
-	  },
-	  enableCounter: false,
-	  enableHover: false,
-	  enableTracking: true,
-	  click: function(api, options){
-		api.simulateClick();
-		api.openPopup('facebook');
-	  }
+	$('.facebook').bind("click", function() {
+		
+		window.open("http://www.facebook.com/sharer.php?s=100&p[url]=" + encodeURIComponent($(this).attr("data-url")) + "&p[images][0]=" + encodeURIComponent($("#og_image").attr("content")) + "&p[title]=" + encodeURIComponent($(this).attr("data-title")) + "&p[summary]=" + encodeURIComponent($("#og_description").attr("content")), "Facebook Share", "width=400,height=300,resizable=yes");
+		
+		console.log("http://www.facebook.com/sharer.php?s=100&p[url]=" + encodeURIComponent($(this).attr("data-url")) + "&p[images][0]=" + encodeURIComponent($("#og_image").attr("content")) + "&p[title]=" + encodeURIComponent($(this).attr("data-title")) + "&p[summary]=" + encodeURIComponent($("#og_description").attr("content")));
+		
 	});
 	$('.googleplus').sharrre({
 	  share: {
@@ -395,11 +390,9 @@ function get_page_by_request_uri(uri) {
 					}
 				});
 				
-				/*
 				$("#og_title").attr("content",exhibit_title);
 				$("#og_description").attr("content",exhibit_description);
 				$("#og_image").attr("content",exhibit_image);
-				*/
 				
 				social_listeners();
 				
