@@ -13,24 +13,6 @@
 <meta charset="utf-8" content="encoding"/>
 <meta name="viewport" content="width=device-width, maximum-scale=1"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-	FB.init({
-	  appId      : '1403784016550586',
-	  status     : true,
-	  xfbml      : true
-	});
-  };
-
-  (function(d, s, id){
-	 var js, fjs = d.getElementsByTagName(s)[0];
-	 if (d.getElementById(id)) {return;}
-	 js = d.createElement(s); js.id = id;
-	 js.src = "//connect.facebook.net/en_US/all.js";
-	 fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
 <script type="text/javascript">
 <?php
 	
@@ -83,6 +65,24 @@
 <meta id="og_image" property="og:image" content="<?php print $og_image?>"/>
 </head>
 <body> 
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1403784016550586',
+          status     : true,
+          xfbml      : false
+        });
+      };
+    
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 	<div class="container">
     	<nav class="nav">
         	<div class="container">
