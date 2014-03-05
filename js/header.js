@@ -287,9 +287,7 @@ function social_listeners() {
 	  click: function(api, options){
 		api.simulateClick();
 		api.openPopup('facebook');
-	  },
-	  url: $(this).attr("data-url"),
-	  title: $(this).attr("data-text")
+	  }
 	});
 	$('.googleplus').sharrre({
 	  share: {
@@ -301,9 +299,7 @@ function social_listeners() {
 	  click: function(api, options){
 		api.simulateClick();
 		api.openPopup('googlePlus');
-	  },
-	  url: $(this).attr("data-url"),
-	  title: $(this).attr("data-text")
+	  }
 	});
 
 	if(typeof DISQUS == 'undefined') {
@@ -368,6 +364,7 @@ function get_page_by_request_uri(uri) {
 				$("section[ref='" + section + "']").find("> .container .room").html(data);
 				
 				exhibit_title = $("section[ref='" + section + "']").find("> .container .room .wrapper > h1").text();
+				exhibit_description = $("section[ref='" + section + "']").find("> .container .room .wrapper > p").text();
 				
     			social  = '<div class="social" style="display: none;">';
 				social += '<div class="twitter" data-url="' + global_url_prefix + request + '" data-title="Tweet" data-text="' + exhibit_title + '"></div>';
@@ -385,6 +382,22 @@ function get_page_by_request_uri(uri) {
 				
 				/* Change title of page */
 				document.title = "Makergallery | " + exhibit_title;
+				/* Change description of page */
+				$('meta[name=description]').attr("content",exhibit_description);
+				
+				/* Change open graph information */
+				$(".exhibits li a").each(function() {
+					
+					if (request.indexOf($(this).attr("href")) != -1) {
+						
+						exhibit_image = $(this).find("img").attr("src");
+						return true;
+					}
+				});
+				
+				$("#og_title").attr("content",exhibit_title);
+				$("#og_description").attr("content",exhibit_description);
+				$("#og_image").attr("content",exhibit_image);
 				
 				social_listeners();
 				
