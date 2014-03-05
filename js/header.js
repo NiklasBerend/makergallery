@@ -283,6 +283,7 @@ function social_listeners() {
 		  method: 'feed',
 		  link: $(this).attr("data-url"),
 		  caption: $(this).attr("data-text"),
+		  description: $("#og_description").attr("content"),
 		  picture: $("#og_image").attr("content"),
 		}, function(response){});
 		
