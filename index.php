@@ -36,9 +36,33 @@
 	})();
 </script>
 <link rel="stylesheet" href="<?php print $global_url_prefix?>css/index.css"/>
-<meta id="og_title" property="og:title" content="Makergallery"/>
+<?php
+
+	/* STANDARD VALUES FOR OPEN GRAPH */
+	$og_title = 'Makergallery';
+	$og_image = '';
+
+	$request = $_SERVER["REQUEST_URI"];
+	
+	if (strpos($request,"makergallery/") !== FALSE) {
+		
+		$request = substr($request,13,strlen($request));
+	}
+	
+	$request = substr($request,1);
+	
+	$exhibit = $contents->xpath("//exhibit[href='".$request."']");
+	
+	if (isset($exhibit[0])) {
+		
+		$og_title = $exhibit[0]->title;
+		$og_image = $global_url_prefix.$exhibit[0]->thumbnail;
+	}
+	
+?>
+<meta id="og_title" property="og:title" content="<?php print $og_title?>"/>
 <meta id="og_description" property="og:description" content="Description makergallery"/>
-<meta id="og_image" property="og:image" content="thumbnail_image"/>
+<meta id="og_image" property="og:image" content="<?php print $og_image?>"/>
 </head>
 <body> 
 	<div class="container">

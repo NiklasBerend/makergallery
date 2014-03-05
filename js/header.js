@@ -395,9 +395,11 @@ function get_page_by_request_uri(uri) {
 					}
 				});
 				
+				/*
 				$("#og_title").attr("content",exhibit_title);
 				$("#og_description").attr("content",exhibit_description);
 				$("#og_image").attr("content",exhibit_image);
+				*/
 				
 				social_listeners();
 				
