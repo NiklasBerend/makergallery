@@ -279,9 +279,12 @@ function social_listeners() {
 	});
 	$('.facebook').bind("click", function() {
 		
-		window.open("http://www.facebook.com/sharer.php?s=100&p[url]=" + encodeURIComponent($(this).attr("data-url")) + "&p[images][0]=" + encodeURIComponent($("#og_image").attr("content")) + "&p[title]=" + encodeURIComponent($(this).attr("data-title")) + "&p[summary]=" + encodeURIComponent($("#og_description").attr("content")), "Facebook Share", "width=400,height=300,resizable=yes");
-		
-		console.log("http://www.facebook.com/sharer.php?s=100&p[url]=" + encodeURIComponent($(this).attr("data-url")) + "&p[images][0]=" + encodeURIComponent($("#og_image").attr("content")) + "&p[title]=" + encodeURIComponent($(this).attr("data-title")) + "&p[summary]=" + encodeURIComponent($("#og_description").attr("content")));
+		FB.ui({
+		  method: 'feed',
+		  link: $(this).attr("data-url"),
+		  caption: $(this).attr("data-title"),
+		  picture: $("#og_image").attr("content"),
+		}, function(response){});
 		
 	});
 	$('.googleplus').sharrre({
