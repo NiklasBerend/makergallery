@@ -281,9 +281,9 @@ function social_listeners() {
 		
 		FB.ui({
 		  method: 'feed',
-		  link: $(this).attr("data-url"),
-		  caption: $(this).attr("data-title"),
-		  picture: $("#og_image").attr("content"),
+		  link: encodeURIComponent($(this).attr("data-url")),
+		  caption: encodeURIComponent($(this).attr("data-text")),
+		  picture: encodeURIComponent($("#og_image").attr("content")),
 		}, function(response){});
 		
 	});
