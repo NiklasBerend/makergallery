@@ -212,15 +212,18 @@ body.mobile {
 #paging section > .container .room .wrapper .info ul li {
 	line-height: 30px;
 	min-height: 30px;
-	font-size: 12px;
-	font-weight: lighter;
 	color: #000;
+	display: inline;
+	border-radius: 5px;
+	background: #eee;
 }
 
 #paging section > .container .room .wrapper .info ul li span {
-	display: inline-block;
+	display: inline;
 	width: 85px;
-	font-weight: bolder;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 30px;
 }
 
 #paging section > .container .room .wrapper > h2 {
