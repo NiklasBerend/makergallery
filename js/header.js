@@ -287,7 +287,9 @@ function social_listeners() {
 	  click: function(api, options){
 		api.simulateClick();
 		api.openPopup('facebook');
-	  }
+	  },
+	  url: $(this).attr("data-url"),
+	  title: $(this).attr("data-text")
 	});
 	$('.googleplus').sharrre({
 	  share: {
@@ -299,7 +301,9 @@ function social_listeners() {
 	  click: function(api, options){
 		api.simulateClick();
 		api.openPopup('googlePlus');
-	  }
+	  },
+	  url: $(this).attr("data-url"),
+	  title: $(this).attr("data-text")
 	});
 
 	if(typeof DISQUS == 'undefined') {
