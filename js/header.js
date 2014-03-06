@@ -288,17 +288,10 @@ function social_listeners() {
 		}, function(response){});
 		
 	});
-	$('.googleplus').sharrre({
-	  share: {
-		googlePlus: true
-	  },
-	  enableCounter: false,
-	  enableHover: false,
-	  enableTracking: true,
-	  click: function(api, options){
-		api.simulateClick();
-		api.openPopup('googlePlus');
-	  }
+	
+	$('.googleplus').bind("click", function() {
+	
+		window.open("https://plus.google.com/share?url=" + $(this).attr("data-url"),'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
 	});
 
 	if(typeof DISQUS == 'undefined') {
