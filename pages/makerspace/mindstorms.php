@@ -6,7 +6,7 @@
 ?>
 <div class="wrapper">
     <h1>LEGO Mindstorms</h1>
-    <hr/>
+  
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
@@ -24,11 +24,14 @@
             <div class="right">
                 <h3>Tags</h3>
                 <ul>
-                	<li><span>LEGO</span></li>
-                    <li><span>LEGO Mindstorms</span></li>
+                	<li><span>///</span></li>
+                    <li><span>LEGO</span></li>
+                    <li><span>Mindstorms</span></li>
                     <li><span>Roboter</span></li>
+                    <li><span>Parcours</span></li>
                     <li><span>Programmieren</span></li>
-                    <li><span>Controller</span></li>
+                    <li><span>\\\</span></li>
+                    
                 </ul>
             </div>
           </div>

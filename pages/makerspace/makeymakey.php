@@ -6,7 +6,7 @@
 ?>
 <div class="wrapper">
     <h1>MaKeyMakey @ School</h1>
-    <hr/>
+
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
@@ -24,11 +24,15 @@
             <div class="right">
                 <h3>Tags</h3>
                 <ul>
-                	<li><span>MakeyMakey</span></li>
-                    <li><span>MIT</span></li>
-                    <li><span>Scratch</span></li>
-                    <li><span>Programmieren</span></li>
+                	<li><span>///</span></li>
+                    <li><span>MakeyMakey</span></li>
                     <li><span>Controller</span></li>
+                    <li><span>Scratch</span></li>
+                    <li><span>Piano</span></li>
+                    <li><span>Play-Doh</span></li>
+                    <li><span>Mario-Kart</span></li>
+                    <li><span>\\\</span></li>
+                    
                 </ul>
             </div>
           </div>

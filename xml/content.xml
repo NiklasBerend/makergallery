@@ -94,7 +94,7 @@
 				<exhibit type="video">
 					<title>MakeyMakey</title>
 					<thumbnail>files/thumbnails/makeymakey.jpg</thumbnail>
-					<href>makerspace/dummy</href>
+					<href>makerspace/makeymakey</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>LEGO Mindstorms</title>
@@ -141,19 +141,19 @@
 					<href>reflectorspace/minecraft</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>reflectorspace/exponat1</href>
+					<title>#mlabtalk Eric Rosenbaum</title>
+					<thumbnail>files/thumbnails/eric.png</thumbnail>
+					<href>reflectorspace/mlabtalkericrosenbaum</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>reflectorspace/exponat1</href>
+					<title>#mlabtalk Tara Tiger Brown</title>
+					<thumbnail>files/thumbnails/tara.png</thumbnail>
+					<href>reflectorspace/mlabtalktaratigerbrown</href>
 				</exhibit>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>reflectorspace/exponat1</href>
+					<title>Lernumgebung WDR Maus</title>
+					<thumbnail>files/thumbnails/maus.png</thumbnail>
+					<href>reflectorspace/wdrmaus</href>
 				</exhibit>
 			</exhibits>
 		</content>

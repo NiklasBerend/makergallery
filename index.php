@@ -63,7 +63,7 @@
 <meta id="og_image" property="og:image" content="<?php print $og_image?>"/>
 <link rel="canonical" href="<?php print "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
 <title><?php print $og_title?></title>
-<meta name="description" content="Description for this webpage, shows up on Google"/>
+<meta name="description" content="Die Makergallery.de wurde im Rahmen des pMOOCs Kinderzimmer Productions, veranstaltet vom Medialiteracylab (MLab), erstellt. Sie enthält unter anderem Exponate zu MaKeyMaKey, Minecraft, LEGO Mindstorms und die mlabtalks, unter anderem den mit Eric Rosenbaum vom MIT Media Lab und mit Tara Tiger Brown vom LA Makerspace."/>
 </head>
 <body>
     <div id="fb-root"></div>
