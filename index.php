@@ -62,6 +62,7 @@
 <meta id="og_description" property="og:description" content="Description makergallery"/>
 <meta id="og_image" property="og:image" content="<?php print $og_image?>"/>
 <meta itemprop="image" content="<?php print $og_image?>">
+<meta itemprop="name" content="<?php print $og_title?>">
 <link rel="canonical" href="<?php print "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
 <title><?php print $og_title?></title>
 <meta name="description" content="Description for this webpage, shows up on Google"/>
