@@ -4,8 +4,8 @@
 
 	include("php/helper.php");
 ?>
-<html itemscope itemtype="http://schema.org/Article">
-<head prefix="og: http://ogp.me/ns#">
+<html prefix="og: http://ogp.me/ns#">
+<head>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="<?php print $global_url_prefix?>files/imagesfavicon.ico" type="image/x-icon"/>
 <meta charset="utf-8" content="encoding"/>
@@ -61,8 +61,6 @@
 <meta id="og_title" property="og:title" content="<?php print $og_title?>"/>
 <meta id="og_description" property="og:description" content="Description makergallery"/>
 <meta id="og_image" property="og:image" content="<?php print $og_image?>"/>
-<meta itemprop="image" content="<?php print $og_image?>">
-<meta itemprop="name" content="<?php print $og_title?>">
 <link rel="canonical" href="<?php print "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
 <title><?php print $og_title?></title>
 <meta name="description" content="Description for this webpage, shows up on Google"/>
