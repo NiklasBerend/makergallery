@@ -88,35 +88,11 @@ body.mobile {
 	margin: 20px 0;
 	color: #000;
 }
-
-#paging section > .container .room .wrapper .info .team_right h3 {
-	font-size: 24px;
-	text-transform: uppercase;
-	font-weight: 600;
-	text-align: left;
-	margin: 20px 0;
-	color: #000;
-}
-
-#paging section > .container .room .wrapper .info .team_right ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#paging section > .container .room .wrapper .info .team_right ul li {
-	line-height: 30px;
-	min-height: 30px;
-	font-size: 18px;
-	font-weight: lighter;
-	color: #000;
-}
 .left {
 	float: left;
 	width: 50%;
 	font-weight: bolder;
 }
-
 .right {
 	float: right;
 	width: 50%;
@@ -212,18 +188,34 @@ body.mobile {
 #paging section > .container .room .wrapper .info ul li {
 	line-height: 30px;
 	min-height: 30px;
-	color: #000;
-	display: inline;
-	border-radius: 5px;
-	background: #eee;
-}
-
-#paging section > .container .room .wrapper .info ul li span {
-	display: inline;
-	width: 85px;
 	font-weight: 600;
+}
+#paging section[ref='collectorspace'] > .container .room .wrapper .info ul li,
+#paging section[ref='reflectorspace'] > .container .room .wrapper .info ul li,
+#paging section[ref='makerspace'] > .container .room .wrapper .info ul li {
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	color: #1e1e1e;
+	float: left;
+	margin-bottom: 10px;
+}
+#paging section[ref='collectorspace'] > .container .room .wrapper .info ul li span,
+#paging section[ref='reflectorspace'] > .container .room .wrapper .info ul li span,
+#paging section[ref='makerspace'] > .container .room .wrapper .info ul li span {
+	margin: 0 5px;
+	background: #ccc;
+	font-size: 14px;
+	width: auto;
+	display: block;
+}
+#paging section > .container .room .wrapper .info ul li span {
+	display: inline-block;
+	width: 90px;
+	font-weight: 300;
 	font-size: 20px;
-	margin: 30px;
 }
 
 #paging section > .container .room .wrapper > h2 {

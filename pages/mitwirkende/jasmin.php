@@ -11,7 +11,7 @@
         <div class="left">
         	<img src="<?php print $global_url_prefix?>files/img/jasmin.jpg" />
         </div>
-        <div class="team_right">
+        <div class="right">
             <h3>Kontakt</h3>
             <ul>
             <li><span>Twitter</span><a href="https://twitter.com/JasminBastian1" target="_blank">@JasminBastian1</a></li>

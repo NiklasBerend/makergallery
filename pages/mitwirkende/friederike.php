@@ -11,7 +11,7 @@
         <div class="left">
     		<img src="<?php print $global_url_prefix?>files/img/siller.jpg" />
    		</div>
-    	<div class="team_right">
+    	<div class="right">
             <h3>Kontakt</h3>
             <ul style="font-size: 14px;">
             <li><span>Twitter</span> <a href="https://www.twitter.com/@FJoSiller" target="_blank">@FJoSiller</a></li>

@@ -8,8 +8,6 @@
 <head prefix="og: http://ogp.me/ns#">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="<?php print $global_url_prefix?>files/imagesfavicon.ico" type="image/x-icon"/>
-<title>Makergallery</title>
-<meta name="description" content="Description for this webpage, shows up on Google"/>
 <meta charset="utf-8" content="encoding"/>
 <meta name="viewport" content="width=device-width, maximum-scale=1"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -63,6 +61,9 @@
 <meta id="og_title" property="og:title" content="<?php print $og_title?>"/>
 <meta id="og_description" property="og:description" content="Description makergallery"/>
 <meta id="og_image" property="og:image" content="<?php print $og_image?>"/>
+<link rel="canonical" href="<?php print "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
+<title><?php print $og_title?></title>
+<meta name="description" content="Description for this webpage, shows up on Google"/>
 </head>
 <body> 
     <div id="fb-root"></div>

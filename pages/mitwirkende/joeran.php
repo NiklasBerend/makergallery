@@ -13,7 +13,7 @@
         <div class="left">
     			<img src="<?php print $global_url_prefix?>files/img/joeran.jpg"</img>
    		</div>
-   		<div class="team_right">
+   		<div class="right">
             <h3>Kontakt</h3>
             <ul>
             <li><span>Twitter</span> <a href="https://twitter.com/jmm_hamburg" target="_blank">@jmm_hamburg</a></li>
