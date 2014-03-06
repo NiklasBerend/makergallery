@@ -68,9 +68,14 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
-					<title>Titel des Exponats</title>
-					<thumbnail>files/thumbnails/thumbnail1.jpg</thumbnail>
-					<href>collectorspace/dummyzwei</href>
+					<title>mlabtalks</title>
+					<thumbnail>files/thumbnails/mlab.jpg</thumbnail>
+					<href>collectorspace/mlabtalks</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>mlabsupport</title>
+					<thumbnail>files/thumbnails/mlabsupport.png</thumbnail>
+					<href>collectorspace/mlabsupport</href>
 				</exhibit>
 			</exhibits>
 		</content>
