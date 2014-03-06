@@ -291,7 +291,7 @@ function social_listeners() {
 	
 	$('.googleplus').bind("click", function() {
 		
-		url = $(this).attr("data-url").substr(1,$(this).attr("data-url").length-1);
+		url = $(this).attr("data-url").substr(0,$(this).attr("data-url").length-1);
 	
 		window.open("https://plus.google.com/share?url=" + url,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
 	});
