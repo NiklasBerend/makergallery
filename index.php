@@ -131,7 +131,7 @@
 							print '<div class="container">';
 							
 							print '<p class="label">'.$exhibit->title.'</p>';
-							print '<a href="'.$exhibit->href.'"><img class="thumbnail" src="'.$global_url_prefix.$exhibit->thumbnail.'" alt="'.$exhibit->title.'"></a>';
+							print '<a href="'.$global_url_prefix.$exhibit->href.'"><img class="thumbnail" src="'.$global_url_prefix.$exhibit->thumbnail.'" alt="'.$exhibit->title.'"></a>';
 							
 							print '</div>';
 							print '</li>';

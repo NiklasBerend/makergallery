@@ -326,6 +326,11 @@ function render_disqus() {
 
 function get_page_by_request_uri(uri) {
 	
+	if (uri.indexOf("makergallery") != -1) {
+		
+		uri = uri.replace("/makergallery","");
+	}
+	
 	urlparts = uri.split("/");
 	
 	request = "";
@@ -382,7 +387,7 @@ function get_page_by_request_uri(uri) {
 				/* Change open graph information */
 				$(".exhibits li a").each(function() {
 					
-					if (request.indexOf($(this).attr("href")) != -1) {
+					if (window.location.href.indexOf($(this).attr("href")) != -1) {
 						
 						exhibit_image = $(this).find("img").attr("src");
 						return true;
@@ -400,6 +405,8 @@ function get_page_by_request_uri(uri) {
 					left: "-100%"
 				});
 				$("section[ref='" + section + "']").addClass("in_room");
+				
+				
 				$("#back_button").animate({
 					
 					left: "0"
@@ -436,6 +443,7 @@ function get_page_by_request_uri(uri) {
 			
 			left: "-80px"
 		});
+		
 		/* SCROLLEVENT */
 		scroll_to(section);
 		

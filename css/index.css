@@ -166,11 +166,10 @@ body.mobile {
 	font-weight: 300;
 	position: fixed;
 	top: 0;
-	left: 410px;
 	width: 100%;
 	margin: 0;
 	background-color: #fff;
-	text-align: left;
+	text-align: center;
 	padding: 5px 50px;
 	z-index: 50;
 	
@@ -463,7 +462,6 @@ section .floor .wrapper .scroll > h2:first-child {
 .mobile #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 30px;
 	line-height: 40px;
-	margin: -10px;
 }
 section .floor .wrapper .scroll > h2:first-child:before {
 	display: inline-block;
@@ -483,8 +481,8 @@ section .floor .wrapper .scroll > h2:first-child:before {
 	content: '' !important;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
-	margin-right: 0;
-	border: none;
+	margin-right: 0 !important;
+	border: none !important;
 	width: 0;
 	height: 0;
 }
@@ -503,7 +501,6 @@ section #no-columns {
 	column-count: 1;
 	text-align: left;
 	display: inline-block;
-	padding: 10px;
 }
 .tablet section h2 + p {
 	-moz-column-count: 2;
@@ -522,6 +519,9 @@ section[ref='mitwirkende'] {
 section[ref='mitwirkende'] h2,
 section[ref='mitwirkende'].in_room > .container .room .wrapper > h1:first-child {
 	color:#000000;
+}
+section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child {
+	padding: 10px 0;
 }
 section[ref='mitwirkende'] .exhibits .navi .next {
 	background-image: url(arrow_right.php?color=000000);
@@ -545,6 +545,9 @@ section[ref='collectorspace'] h2,
 section[ref='collectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	color:#748412;
 }
+section[ref='collectorspace'] .floor .wrapper .scroll > h2:first-child {
+	padding: 10px 0;
+}
 section[ref='collectorspace'] .exhibits .navi .next {
 	background-image: url(arrow_right.php?color=748412);
 }
@@ -566,6 +569,9 @@ section[ref='makerspace'] {
 section[ref='makerspace'] h2,
 section[ref='makerspace'].in_room > .container .room .wrapper > h1:first-child {
 	color: #dd7683;
+}
+section[ref='makerspace'] .floor .wrapper .scroll > h2:first-child {
+	padding: 10px 0;
 }
 section[ref='makerspace'].in_room > .container .room .wrapper .info .left .iframe-container > *{
 	width: 100%;
@@ -592,6 +598,9 @@ section[ref='reflectorspace'] {
 section[ref='reflectorspace'] h2,
 section[ref='reflectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	color: #2e4f68;
+}
+section[ref='reflectorspace'] .floor .wrapper .scroll > h2:first-child {
+	padding: 10px 0;
 }
 section[ref='reflectorspace'] .exhibits .navi .next {
 	background-image: url(arrow_right.php?color=2e4f68);
@@ -681,7 +690,31 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
     box-sizing: border-box;
 }
 .tablet .exhibits {
-	padding: 0 10px;
+	padding: 70px 10px;
+}
+.in_room .absolute {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	z-index: 500;
+	background: #fff;
+	border-top: 1px solid #000;
+}
+.in_room .absolute .exhibits {
+	padding: 0 70px;
+}
+.in_room .absolute .exhibits .container {
+	padding: 0;
+	border-top: none;
+}
+.in_room .absolute .exhibits .navi {
+	display: none;
+}
+.in_room .absolute .exhibits ul li {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
 }
 .exhibits > .container {
 	overflow: hidden;
