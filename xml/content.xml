@@ -82,6 +82,11 @@
 					<thumbnail>files/thumbnails/freewaregames.png</thumbnail>
 					<href>collectorspace/funfreewaregames</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>Apps furs Kinderzimmer</title>
+					<thumbnail>files/thumbnails/appsfuerskinderzimmer.png</thumbnail>
+					<href>collectorspace/appsfuerskinderzimmer</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -164,6 +169,11 @@
 					<title>Lernumgebung WDR Maus</title>
 					<thumbnail>files/thumbnails/maus.png</thumbnail>
 					<href>reflectorspace/wdrmaus</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Reading as Making</title>
+					<thumbnail>files/thumbnails/readingasmaking.png</thumbnail>
+					<href>reflectorspace/readingasmaking</href>
 				</exhibit>
 			</exhibits>
 		</content>
