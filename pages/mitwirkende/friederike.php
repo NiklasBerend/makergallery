@@ -6,7 +6,7 @@
 ?>
 <div class="wrapper"> 
     <h1>Friederike</h1>
-    <hr/>
+    
     <div class="info">
         <div class="left">
     		<img src="<?php print $global_url_prefix?>files/img/siller.jpg" />

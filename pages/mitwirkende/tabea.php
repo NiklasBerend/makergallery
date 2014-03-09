@@ -7,6 +7,7 @@
 <div class="wrapper"> 
     
     <h1>Tabea</h1>
+    
     <div class="info">
         <div class="left">
    			 <img src="<?php print $global_url_prefix?>files/img/siebertz.jpeg" />

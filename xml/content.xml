@@ -77,6 +77,11 @@
 					<thumbnail>files/thumbnails/mlabsupport.png</thumbnail>
 					<href>collectorspace/mlabsupport</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>funfreewaregames</title>
+					<thumbnail>files/thumbnails/freewaregames.png</thumbnail>
+					<href>collectorspace/funfreewaregames</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>

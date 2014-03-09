@@ -7,8 +7,7 @@
 <div class="wrapper"> 
     
     <h1>Jöran</h1>
-    <hr/>
-    
+       
     <div class="info">
         <div class="left">
     			<img src="<?php print $global_url_prefix?>files/img/joeran.jpg"</img>
