@@ -10,7 +10,7 @@
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe src="http://www.slideshare.net/slideshow/embed_code/32116176" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"></div>
+   					<iframe src="http://www.slideshare.net/slideshow/embed_code/32116708" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
       			</div>
                      <div class="creator">
                     	<strong>Urheber:</strong> AG Kreatives Schreiben (Christian f. Freisleben-Teutscher, Bettina Harling)

@@ -9,8 +9,9 @@
 
         <div class="info">
     		<div class="left">
+            	<div class="iframe-container">
         		<a href="http://goo.gl/5EUfhq" target="_blank"><img src="<?php print $global_url_prefix?>files/img/reading.png" /></a>
-                     
+                 </div>    
                     <div class="creator">
                     	<strong>Urheber:</strong> AG „Makers“ von Cory Doctorow - Lektüregruppe #mlab14
                     </div>

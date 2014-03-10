@@ -92,6 +92,11 @@
 					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
 					<href>collectorspace/kreativesschreiben</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>selfies vs. guidies</title>
+					<thumbnail>files/thumbnails/guidies.png</thumbnail>
+					<href>collectorspace/selfiesvsguidies</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -136,6 +141,21 @@
 					<thumbnail>files/thumbnails/kodu.jpg</thumbnail>
 					<href>makerspace/kodu</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>Gamepics</title>
+					<thumbnail>files/thumbnails/gamepics.png</thumbnail>
+					<href>makerspace/gamepics</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Superfabbies</title>
+					<thumbnail>files/thumbnails/superfabbies.png</thumbnail>
+					<href>makerspace/superfabbies</href>
+				</exhibit>
+				<exhibit>
+					<title>Thimble</title>
+					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
+					<href>makerspace/webmakerthimble</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -179,6 +199,16 @@
 					<title>Reading as Making</title>
 					<thumbnail>files/thumbnails/readingasmaking.png</thumbnail>
 					<href>reflectorspace/readingasmaking</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Webmakertools</title>
+					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
+					<href>reflectorspace/webmakertools</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Lernen mit Minecraft</title>
+					<thumbnail>files/thumbnails/lernenmitminecraft.png</thumbnail>
+					<href>reflectorspace/lernenmitminecraft</href>
 				</exhibit>
 			</exhibits>
 		</content>

@@ -31,6 +31,9 @@
                     <li><span>Piano</span></li>
                     <li><span>Play-Doh</span></li>
                     <li><span>Mario-Kart</span></li>
+                    <li><span>MIT</span></li>
+                    <li><span>Kreativität</span></li>
+                    <li><span>Programmieren</span></li>
                     <li><span>\\\</span></li>
                     
                 </ul>

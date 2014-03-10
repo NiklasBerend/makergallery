@@ -10,7 +10,7 @@
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-                <iframe src="https://docs.google.com/file/d/0B5BoBQY6g5QYVmJmTkVmbFh3N28/preview" style="width="640" heigt="480"></iframe>
+                <iframe src="http://www.slideshare.net/slideshow/embed_code/32116955" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
       			</div>
                      <div class="creator">
