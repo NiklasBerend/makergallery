@@ -87,6 +87,11 @@
 					<thumbnail>files/thumbnails/appsfuerskinderzimmer.png</thumbnail>
 					<href>collectorspace/appsfuerskinderzimmer</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>Kreatives Schreiben</title>
+					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
+					<href>collectorspace/kreativesschreiben</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
