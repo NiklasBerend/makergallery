@@ -156,6 +156,11 @@
 					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
 					<href>makerspace/webmakerthimble</href>
 				</exhibit>
+				<exhibit>
+					<title>Kinder machen Medien</title>
+					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
+					<href>makerspace/reichebeute</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -178,7 +183,7 @@
 				<exhibit type="video">
 					<title>Minecraft für Eltern</title>
 					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
-					<href>reflectorspace/minecraft</href>
+					<href>reflectorspace/minecraftfuereltern</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>#mlabtalk Eric Rosenbaum</title>
