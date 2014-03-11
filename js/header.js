@@ -104,6 +104,21 @@ function responsive_design() {
 	}
 }
 
+function exhibits_list_calc() {
+	
+	$(".exhibits ul").each(function() {
+		
+		list_width = 0;
+		
+		$(this).find("li").each(function() {
+			
+			list_width+= $(this).outerWidth(true);
+		});
+		
+		$(this).css("width",list_width + "px");
+	});
+}
+
 function exhibits() {
 	
 	$(document).on("click",".exhibits > .container ul li a", function(e) {
@@ -118,17 +133,8 @@ function exhibits() {
 		}
 	});
 	
-	$(".exhibits ul").each(function() {
-		
-		list_width = 0;
-		
-		$(this).find("li").each(function() {
-			
-			list_width+= $(this).outerWidth(true);
-		});
-		
-		$(this).css("width",list_width + "px");
-	});
+	exhibits_list_calc();
+	
 	$(".exhibits ul").draggable({
 		
 		axis: 'x',
@@ -405,7 +411,11 @@ function get_page_by_request_uri(uri) {
 					left: "-100%"
 				});
 				$("section[ref='" + section + "']").addClass("in_room");
-				
+				exhibits_list_calc();
+				$("section[ref='" + section + "'] .absolute .exhibits ul").animate({
+					
+					left: 0
+				});
 				
 				$("#back_button").animate({
 					
@@ -448,6 +458,7 @@ function get_page_by_request_uri(uri) {
 		scroll_to(section);
 		
 		$("section").removeClass("in_room");
+		exhibits_list_calc();
 	}
 }
 

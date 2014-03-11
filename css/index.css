@@ -743,7 +743,10 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	padding: 0;
 	border-top: none;
 }
-.in_room .absolute .exhibits .navi {
+.in_room .absolute .exhibits .navi a {
+	margin-top: -60px;
+}
+.in_room .absolute .exhibits .container .label {
 	display: none;
 }
 .in_room .absolute .exhibits ul li {
