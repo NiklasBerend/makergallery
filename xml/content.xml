@@ -71,32 +71,37 @@
 					<title>mlabtalks</title>
 					<thumbnail>files/thumbnails/mlab.jpg</thumbnail>
 					<href>collectorspace/mlabtalks</href>
+					<description> #mlab14,#mlabtalks,Playlist,Kinderzimmer,Productions</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>mlabsupport</title>
 					<thumbnail>files/thumbnails/mlabsupport.png</thumbnail>
 					<href>collectorspace/mlabsupport</href>
+					<description> #mlab14,MLab-Support,Playlist,Kinderzimmer,Productions</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="document">
 					<title>funfreewaregames</title>
 					<thumbnail>files/thumbnails/freewaregames.png</thumbnail>
 					<href>collectorspace/funfreewaregames</href>
-					<description>Bla</description>
+					<description>Freeware,Computerspiele,Freeware-Spiele,Freewarespiel,Schule,Jugendarbeit,Grundschule</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="prezi">
 					<title>Apps furs Kinderzimmer</title>
 					<thumbnail>files/thumbnails/appsfuerskinderzimmer.png</thumbnail>
 					<href>collectorspace/appsfuerskinderzimmer</href>
+					<description>iOS,Android,Tablet,Smartphone,iPhone,iPad,</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="prezi">
 					<title>Kreatives Schreiben</title>
 					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
 					<href>collectorspace/kreativesschreiben</href>
+					<description>Kreatives Schreiben,Handyroman,SMS-Märchen,Schreibwettbewerbe,Twitteratur,Mitschreibprojekte,Buchbesprechungen,Schreibwerkstätten,</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="page">
 					<title>selfies vs. guidies</title>
 					<thumbnail>files/thumbnails/guidies.png</thumbnail>
 					<href>collectorspace/selfiesvsguidies</href>
+					<description>Jugendliche,Medienpädagogik,Lebensweltbezug,Eigeninitiative,Kreativität,Produktivität,Medienmacher</description>
 				</exhibit>
 			</exhibits>
 		</content>
@@ -121,96 +126,56 @@
 					<title>MakeyMakey</title>
 					<thumbnail>files/thumbnails/makeymakey.jpg</thumbnail>
 					<href>makerspace/makeymakey</href>
+					<description>MakeyMakey,Controller,Scratch,Piano,Play-Doh,Mario-Kart,MIT,Kreativität,Programmieren</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>LEGO Mindstorms</title>
 					<thumbnail>files/thumbnails/mindstorm.png</thumbnail>
 					<href>makerspace/mindstorms</href>
+					<description>LEGO,Mindstorms,Roboter,Parcours,Programmieren</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>LeFloid</title>
 					<thumbnail>files/thumbnails/lefloid.jpg</thumbnail>
 					<href>makerspace/LeFloid</href>
+					<description>LeFloid,YouTube,Nachrichten,Video</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>Logic 9</title>
 					<thumbnail>files/thumbnails/thumbnail3.jpg</thumbnail>
 					<href>makerspace/logic</href>
+					<description>Song,Band,Musik,Schnitt,Logic Pro 9</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>Kodu</title>
 					<thumbnail>files/thumbnails/kodu.jpg</thumbnail>
 					<href>makerspace/kodu</href>
+					<description>Kodu, Welten, Programmieren, Erkunden</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="prezi">
 					<title>Gamepics</title>
 					<thumbnail>files/thumbnails/gamepics.png</thumbnail>
 					<href>makerspace/gamepics</href>
+					<description>Spielfiguren,Foto-Story,Games,Game-Heroes,Helden,Computerspiele,Videospiele,Medienkompetenz,Fotos</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>Superfabbies</title>
 					<thumbnail>files/thumbnails/superfabbies.png</thumbnail>
 					<href>makerspace/superfabbies</href>
+					<description>Faltkunst,Origami,Papierdesign,Papierkunst,LaserCutter,FabLab,Superfabbies,3D-Formen,Falzen</description>
 				</exhibit>
-				<exhibit>
+				<exhibit type="page">
 					<title>Thimble</title>
 					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
 					<href>makerspace/webmakerthimble</href>
+					<description> Thimble,Sprache,Webmaker,Webdesign,HTML,Programmieren,Web lernen,Kreativität</description>
 				</exhibit>
-				<exhibit>
+				<exhibit type="video">
 					<title>Kinder machen Medien</title>
 					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
 					<href>makerspace/reichebeute</href>
+					<description>Piraten, Stop-Motion</description>
 				</exhibit>
-				
-				<!-- JUST FOR TESTING -->
-				
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<exhibit>
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-				</exhibit>
-				<!-- END TESTING -->
 			</exhibits>
 		</content>
 	</elem>
@@ -234,41 +199,49 @@
 					<title>Minecraft für Eltern</title>
 					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
 					<href>reflectorspace/minecraftfuereltern</href>
+					<description>Minecraft, Eltern, Erkunden, Anleitung</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>#mlabtalk Eric Rosenbaum</title>
 					<thumbnail>files/thumbnails/eric.png</thumbnail>
 					<href>reflectorspace/mlabtalkericrosenbaum</href>
+					<description>MakeyMakey,MIT,Kreativität,Media Lab,Play-Doh,Erfindungen</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>#mlabtalk Tara Tiger Brown</title>
 					<thumbnail>files/thumbnails/tara.png</thumbnail>
 					<href>reflectorspace/mlabtalktaratigerbrown</href>
+					<description>LA Makerspace,Make,Hackerspace,DIY,Tinker</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>Lernumgebung WDR Maus</title>
 					<thumbnail>files/thumbnails/maus.png</thumbnail>
 					<href>reflectorspace/wdrmaus</href>
+					<description>Die Maus,Webseite,Erkunden,Lernumgebung</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="document">
 					<title>Reading as Making</title>
 					<thumbnail>files/thumbnails/readingasmaking.png</thumbnail>
 					<href>reflectorspace/readingasmaking</href>
+					<description>Cory Doctorow,Buch,e-Book,Makers,Roman,Lektüre,freie Lizenz,OER,Literatur</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="document">
 					<title>Minecraft in der Bildung</title>
 					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
 					<href>reflectorspace/zuericraft</href>
+					<description>Minecraft, Schule, Bildung, Reflexion</description>
 				</exhibit>
-				<exhibit type="video">
+				<exhibit type="document">
 					<title>Webmakertools</title>
 					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
 					<href>reflectorspace/webmakertools</href>
+					<description>Mozilla,Webmaker,Thimble,Popcorn,X-Ray,Goggles,HTML,Webdesign</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>Lernen mit Minecraft</title>
 					<thumbnail>files/thumbnails/lernenmitminecraft.png</thumbnail>
 					<href>reflectorspace/lernenmitminecraft</href>
+					<description>Minecraft,Lernen,Bildung,Pädagogik,Reflexion,Video,mlab14</description>
 				</exhibit>
 			</exhibits>
 		</content>

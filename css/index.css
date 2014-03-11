@@ -196,6 +196,9 @@ body.mobile {
 
 #paging section[ref='collectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	border-bottom: 1px solid #748412;
+	background: rgba(116,132,18,.8);
+	color: #000;
+	
 }
 
 #paging section[ref='makerspace'].in_room > .container .room .wrapper > h1:first-child {
@@ -206,6 +209,8 @@ body.mobile {
 
 #paging section[ref='reflectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	border-bottom: 1px solid #2e4f68;
+	background: rgba(46,79,104,.8);
+	color: #fff;
 }
 
 #paging section.in_room > .container .room .wrapper > h1:first-child {
@@ -265,8 +270,38 @@ body.mobile {
 	background: #748412;
 }
 
+#paging section[ref='collectorspace']:before {
+	content: 'COLLECT.';
+	font-size: 330;
+	color: rgba(116,132,18,.2);
+	position: absolute;
+	top: 50%;
+	left: -7.5%;
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	
+	transform: rotate(20deg);
+}
+
 #paging section[ref='makerspace'] > .container .room .wrapper .info ul li span {
 	background: #dd7683;
+}
+
+#paging section[ref='makerspace']:before {
+	content: 'MAKE.';
+	font-size: 430;
+	color: rgba(221,118,131,.2);
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	
+	transform: rotate(-20deg);
 }
 
 #paging section[ref='reflectorspace'] > .container .room .wrapper .info ul li span {
@@ -274,20 +309,25 @@ body.mobile {
 	color: #fff;
 }
 #paging section[ref='reflectorspace']:before {
-	content: 'REFLECTOR';
-	font-size: 500;
+	content: 'REFLECT.';
+	font-size: 375;
 	color: rgba(46,79,104,.2);
 	position: absolute;
-	top: 80%;
+	top: 50%;
 	left: -10%;
-	-moz-transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	-o-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
 	
-	transform: rotate(30deg);
+	transform: rotate(15deg);
 }
 
+.mobile #paging section[ref='collectorspace']:before,
+.mobile #paging section[ref='reflectorspace']:before,
+.mobile #paging section[ref='makerspace']:before {
+	display:none;
+}
 
 #paging section > .container .room .wrapper .info ul li span {
 	display: inline-block;
@@ -790,21 +830,21 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	width: 150px;
 	height: 150px;
 }
-/*
+
 .exhibits ul li:after {
-	display: '';
+	display: block;
 	position: absolute;
 	width: 25px;
 	height: 25px;
 	background-size: 25px;
 }
 .exhibits ul li.video {
-	background-image: url();
+	background-image: url('video.png');
 }
 .exhibits ul li.podcast {
 	background-image: url();
 }
-*/
+
 .mobile .exhibits ul li {
 	width: 100px;
 	height: 100px;
