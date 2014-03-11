@@ -206,6 +206,11 @@
 					<href>reflectorspace/readingasmaking</href>
 				</exhibit>
 				<exhibit type="video">
+					<title>Minecraft in der Bildung</title>
+					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
+					<href>reflectorspace/zuericraft</href>
+				</exhibit>
+				<exhibit type="video">
 					<title>Webmakertools</title>
 					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
 					<href>reflectorspace/webmakertools</href>

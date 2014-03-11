@@ -10,7 +10,7 @@
         <div class="info">
     		<div class="left">
             	<div class="iframe-container">
-        		<a href="http://goo.gl/5EUfhq" target="_blank"><img src="<?php print $global_url_prefix?>files/img/reading.png" /></a>
+        		<iframe name='embed_readwrite' src='http://pad.medialiteracylab.de/makers?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=600 height=400></iframe>
                  </div>    
                     <div class="creator">
                     	<strong>Urheber:</strong> AG „Makers“ von Cory Doctorow - Lektüregruppe #mlab14

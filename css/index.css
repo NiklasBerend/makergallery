@@ -192,6 +192,8 @@ body.mobile {
 
 #paging section[ref='makerspace'].in_room > .container .room .wrapper > h1:first-child {
 	border-bottom: 1px solid #dd7683;
+	background: rgba(221,118,131,.8);
+	color: #000;
 }
 
 #paging section[ref='reflectorspace'].in_room > .container .room .wrapper > h1:first-child {
