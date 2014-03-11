@@ -84,7 +84,7 @@ body.mobile {
 	visibility: hidden;
 	height: 0;
 }
-#paging section [ref='mitwirkende'] > .container .room .wrapper .info h3 {
+#paging section[ref='mitwirkende'] > .container .room .wrapper .info h3 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -93,9 +93,9 @@ body.mobile {
 	color: #000;
 }
 
-#paging section [ref='reflectorspace'] > .container .room .wrapper .info h3, 
-#paging section [ref='makerspace'] > .container .room .wrapper .info h3,
-#paging section [ref='collectorspace'] > .container .room .wrapper .info h3 {
+#paging section[ref='reflectorspace'] > .container .room .wrapper .info h3, 
+#paging section[ref='makerspace'] > .container .room .wrapper .info h3,
+#paging section[ref='collectorspace'] > .container .room .wrapper .info h3 {
 	display:none !important;	
 }
 
@@ -743,7 +743,10 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	padding: 0;
 	border-top: none;
 }
-.in_room .absolute .exhibits .navi {
+.in_room .absolute .exhibits .navi a {
+	margin-top: -60px;
+}
+.in_room .absolute .exhibits .container .label {
 	display: none;
 }
 .in_room .absolute .exhibits ul li {
