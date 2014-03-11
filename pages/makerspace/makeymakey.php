@@ -22,7 +22,6 @@
      				</div>
             </div>
             <div class="right">
-                <h3>Tags</h3>
                 <ul>
                 	<li><span>///</span></li>
                     <li><span>MakeyMakey</span></li>
@@ -31,6 +30,9 @@
                     <li><span>Piano</span></li>
                     <li><span>Play-Doh</span></li>
                     <li><span>Mario-Kart</span></li>
+                    <li><span>MIT</span></li>
+                    <li><span>Kreativität</span></li>
+                    <li><span>Programmieren</span></li>
                     <li><span>\\\</span></li>
                     
                 </ul>

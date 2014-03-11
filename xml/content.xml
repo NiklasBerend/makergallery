@@ -77,6 +77,26 @@
 					<thumbnail>files/thumbnails/mlabsupport.png</thumbnail>
 					<href>collectorspace/mlabsupport</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>funfreewaregames</title>
+					<thumbnail>files/thumbnails/freewaregames.png</thumbnail>
+					<href>collectorspace/funfreewaregames</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Apps furs Kinderzimmer</title>
+					<thumbnail>files/thumbnails/appsfuerskinderzimmer.png</thumbnail>
+					<href>collectorspace/appsfuerskinderzimmer</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Kreatives Schreiben</title>
+					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
+					<href>collectorspace/kreativesschreiben</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>selfies vs. guidies</title>
+					<thumbnail>files/thumbnails/guidies.png</thumbnail>
+					<href>collectorspace/selfiesvsguidies</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -121,6 +141,26 @@
 					<thumbnail>files/thumbnails/kodu.jpg</thumbnail>
 					<href>makerspace/kodu</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>Gamepics</title>
+					<thumbnail>files/thumbnails/gamepics.png</thumbnail>
+					<href>makerspace/gamepics</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Superfabbies</title>
+					<thumbnail>files/thumbnails/superfabbies.png</thumbnail>
+					<href>makerspace/superfabbies</href>
+				</exhibit>
+				<exhibit>
+					<title>Thimble</title>
+					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
+					<href>makerspace/webmakerthimble</href>
+				</exhibit>
+				<exhibit>
+					<title>Kinder machen Medien</title>
+					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
+					<href>makerspace/reichebeute</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -143,7 +183,7 @@
 				<exhibit type="video">
 					<title>Minecraft für Eltern</title>
 					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
-					<href>reflectorspace/minecraft</href>
+					<href>reflectorspace/minecraftfuereltern</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>#mlabtalk Eric Rosenbaum</title>
@@ -159,6 +199,26 @@
 					<title>Lernumgebung WDR Maus</title>
 					<thumbnail>files/thumbnails/maus.png</thumbnail>
 					<href>reflectorspace/wdrmaus</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Reading as Making</title>
+					<thumbnail>files/thumbnails/readingasmaking.png</thumbnail>
+					<href>reflectorspace/readingasmaking</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Minecraft in der Bildung</title>
+					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
+					<href>reflectorspace/zuericraft</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Webmakertools</title>
+					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
+					<href>reflectorspace/webmakertools</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Lernen mit Minecraft</title>
+					<thumbnail>files/thumbnails/lernenmitminecraft.png</thumbnail>
+					<href>reflectorspace/lernenmitminecraft</href>
 				</exhibit>
 			</exhibits>
 		</content>

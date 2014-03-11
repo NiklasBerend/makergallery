@@ -84,7 +84,7 @@ body.mobile {
 	visibility: hidden;
 	height: 0;
 }
-#paging section > .container .room .wrapper .info h3 {
+#paging section [ref='mitwirkende'] > .container .room .wrapper .info h3 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -92,6 +92,13 @@ body.mobile {
 	margin: 20px 0;
 	color: #000;
 }
+
+#paging section [ref='reflectorspace'] > .container .room .wrapper .info h3, 
+#paging section [ref='makerspace'] > .container .room .wrapper .info h3,
+#paging section [ref='collectorspace'] > .container .room .wrapper .info h3 {
+	display:none !important;	
+}
+
 .left {
 	float: left;
 	width: 50%;
@@ -105,6 +112,7 @@ body.mobile {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	padding: 0 0 0 20px;
+	margin-top: 20px;
 }
 
 .right span {
@@ -182,12 +190,18 @@ body.mobile {
     box-sizing: border-box;
 }
 
+#paging section[ref='mitwirkende'].in_room > .container .room .wrapper > h1:first-child {
+	border-bottom: 1px solid #000;
+}
+
 #paging section[ref='collectorspace'].in_room > .container .room .wrapper > h1:first-child {
 	border-bottom: 1px solid #748412;
 }
 
 #paging section[ref='makerspace'].in_room > .container .room .wrapper > h1:first-child {
 	border-bottom: 1px solid #dd7683;
+	background: rgba(221,118,131,.8);
+	color: #000;
 }
 
 #paging section[ref='reflectorspace'].in_room > .container .room .wrapper > h1:first-child {
@@ -703,8 +717,25 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	left: 0;
 	z-index: 500;
 	background: #fff;
+
+}
+
+#paging section[ref='mitwirkende'].in_room .absolute {
 	border-top: 1px solid #000;
 }
+
+#paging section[ref='collectorspace'].in_room .absolute {
+	border-top: 1px solid #748412;
+}
+
+#paging section[ref='makerspace'].in_room .absolute {
+	border-top: 1px solid #dd7683;
+}
+
+#paging section[ref='reflectorspace'].in_room .absolute {
+	border-top: 1px solid #2e4f68;
+}
+
 .in_room .absolute .exhibits {
 	padding: 0 70px;
 }
@@ -720,6 +751,7 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	height: 60px;
 	margin: 5px;
 }
+
 .exhibits > .container {
 	overflow: hidden;
 	padding: 20px 0;
