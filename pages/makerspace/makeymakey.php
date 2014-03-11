@@ -22,7 +22,6 @@
      				</div>
             </div>
             <div class="right">
-                <h3>Tags</h3>
                 <ul>
                 	<li><span>///</span></li>
                     <li><span>MakeyMakey</span></li>
