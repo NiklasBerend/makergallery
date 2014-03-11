@@ -273,6 +273,20 @@ body.mobile {
 	background: #2e4f68;
 	color: #fff;
 }
+#paging section[ref='reflectorspace']:before {
+	content: 'REFLECTOR';
+	font-size: 500;
+	color: rgba(46,79,104,.2);
+	position: absolute;
+	top: 80%;
+	left: -10%;
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	
+	transform: rotate(30deg);
+}
 
 
 #paging section > .container .room .wrapper .info ul li span {
