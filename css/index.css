@@ -776,6 +776,21 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	width: 150px;
 	height: 150px;
 }
+/*
+.exhibits ul li:after {
+	display: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-size: 25px;
+}
+.exhibits ul li.video {
+	background-image: url();
+}
+.exhibits ul li.podcast {
+	background-image: url();
+}
+*/
 .mobile .exhibits ul li {
 	width: 100px;
 	height: 100px;
