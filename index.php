@@ -165,6 +165,7 @@
         </div>
         <div class="hide">
             <p>
+            <strong>Impressum</strong><br/>
             Media Literacy Lab<br/>
             AG Medienpädagogik<br/>
             Institut für Erziehungswissenschaft<br/>

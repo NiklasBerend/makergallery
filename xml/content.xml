@@ -241,7 +241,7 @@
 			<info>
 				<div class="wrapper">
 					<div class="scroll">
-						<h2>Galerie der Mitwirkenden</h2>
+						<h2>Makergallery-Team</h2>
 						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 					</div>
 				</div>
@@ -294,19 +294,15 @@
 					<div class="scroll">
 						<h2>Kontakt</h2>
 						<p>
-						Sie haben Fragen und Anregungen zum Media Literacy Lab? <strong>Schreiben Sie uns!</strong><br/>
+						Sie haben Fragen und Anregungen zum Media Literacy Lab?<br/>
+						<strong>Schreiben Sie uns!</strong><br/>
 						<br/>
 						<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
 						<br/>
 						
-						Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
-						<a href="mailto: support@medialiteracylab.de">support@medialiteracylab.de</a><br/>
-						<br/>
-						<br/>
-						
-						Ein Projekt von Jun.-Prof. Dr. Friederike Siller und Dr. Jasmin Bastian an der AG Medienpädagogik an der <br/> Johannes Gutenberg-Universität Mainz.<br/>
+						Ein Projekt von Jun.-Prof. Dr. Friederike Siller und <br/>
+						Dr. Jasmin Bastian an der AG Medienpädagogik an der <br/> Johannes Gutenberg-Universität Mainz.<br/>
 						<br/>							
-					
 						<a href="mailto: siller@uni-mainz.de">siller(at)uni-mainz.de</a><br/>
 						<a href="mailto: jasmin.bastian@uni-mainz.de">jasmin(dot)bastian(at)uni-mainz.de</a>
 						</p>

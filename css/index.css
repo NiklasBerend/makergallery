@@ -279,11 +279,11 @@ body.mobile {
 
 #paging section[ref='collectorspace']:before {
 	content: 'COLLECT.';
-	font-size: 330;
+	font-size: 300;
 	color: rgba(116,132,18,.2);
 	position: absolute;
-	top: 50%;
-	left: -7.5%;
+	top: 40%;
+	left: 5%;
 	-moz-transform: rotate(20deg);
 	-ms-transform: rotate(20deg);
 	-o-transform: rotate(20deg);
@@ -317,11 +317,11 @@ body.mobile {
 }
 #paging section[ref='reflectorspace']:before {
 	content: 'REFLECT.';
-	font-size: 375;
+	font-size: 320;
 	color: rgba(46,79,104,.2);
 	position: absolute;
 	top: 50%;
-	left: -10%;
+	left: 7.5%;
 	-moz-transform: rotate(15deg);
 	-ms-transform: rotate(15deg);
 	-o-transform: rotate(15deg);
@@ -1035,6 +1035,8 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 }
 .imprint .button p {
 	margin: 0;
+	font-weight: 600;
+	font-size: 25px;
 }
 .imprint .hide {
 	display: none;
