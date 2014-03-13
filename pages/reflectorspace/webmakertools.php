@@ -5,7 +5,7 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>Mozilla Webmaker <br /> Übersicht und Anwendungsbeispiele</h1>
+    <h1>Mozilla Webmaker | Übersicht und Anwendungsbeispiele</h1>
 
         <div class="info">
     		<div class="left">

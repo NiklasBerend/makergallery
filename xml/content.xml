@@ -71,6 +71,12 @@
 					<href>collectorspace/jugendmedienschutz</href>
 					<description>#JMS, #Jugendliche, Podcast, mlab14, Jugendmedienschutz</description>
 				</exhibit>
+				<exhibit type="picture">
+					<title>Makers-Impressionen</title>
+					<thumbnail>files/thumbnails/maker.jpg</thumbnail>
+					<href>collectorspace/impressionen</href>
+					<description>cory doctorow, makers, lektüre, buch, creative commons, #mlab14</description>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -216,6 +222,30 @@
 					<thumbnail>files/thumbnails/lernenmitminecraft.png</thumbnail>
 					<href>reflectorspace/lernenmitminecraft</href>
 					<description>Minecraft,Lernen,Bildung,Pädagogik,Reflexion,Video,mlab14</description>
+				</exhibit>
+				<exhibit type="document">
+					<title>JMS-Befragungsergebnisse</title>
+					<thumbnail>files/thumbnails/jugendmedienschutzeinebefragung.png</thumbnail>
+					<href>reflectorspace/jugendmedienschutzeinebefragung</href>
+					<description>JMS, Jugendmedienschutz, #mlab14, Systematisierung</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk Karsten Wolf</title>
+					<thumbnail>files/thumbnails/karstenwolf.png</thumbnail>
+					<href>reflectorspace/mlabtalkkarstenwolf</href>
+					<description>YouTube, Kinder, Jugendliche, Selbstdarstellung</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk Frag Finn</title>
+					<thumbnail>files/thumbnails/fragfinn.png</thumbnail>
+					<href>reflectorspace/mlabtalkfragfinn</href>
+					<description>YouTube, Kinder, Jugendliche, Selbstdarstellung</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk Björn Schreiber</title>
+					<thumbnail>files/thumbnails/bjoern.png</thumbnail>
+					<href>reflectorspace/mlabtalkbjoernschreiber</href>
+					<description>Jugendmedienschutz, JSM, FSM, Freiwillige Selbstkontrolle Multimedia</description>
 				</exhibit>
 			</exhibits>
 		</content>
