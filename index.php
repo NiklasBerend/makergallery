@@ -172,7 +172,7 @@
             Jakob-Welder-Weg 12<br />
             55 128 Mainz<br/>
             <br/>
-            <span>E-Mail</span> <a href="kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
+            <span>E-Mail</span> <a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
             <span>Tel</span> 06131-39-26718<br/>
             </p>
         </div>

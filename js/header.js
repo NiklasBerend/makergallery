@@ -1,6 +1,6 @@
 var popped = false;
 var initialURL = location.href;
-var elevator_position = 4;
+var elevator_position = 3;
 var first_page_load = true;
 var elevator_speed = 200;
 var paging_speed = 200;
@@ -199,9 +199,9 @@ function scroll_eventlistener() {
     
 		position_top = parseInt($(document).scrollTop());
 	  
-		window_height = $(window).height();
+		section_height = $("section").height();
 		
-		section_number = Math.floor(position_top/window_height);
+		section_number = Math.floor(position_top/section_height);
 		
 		set_elevator_to(section_number);
     });
@@ -255,6 +255,30 @@ function navigation_eventlistener() {
 			
 			get_page_by_request_uri(location.pathname);
 		}
+	});
+	$(document).on("click","#nav_lug",function(e) {
+		
+		if ($(".nav").css("left") == "0px") {
+			
+			$(".nav").animate({
+				
+				left: "-80px"
+			},500);
+		}
+		else {
+			$(".nav").animate({
+				
+				left: "0"
+			},500);
+		}
+	});
+	$(document).on("mouseenter",".nav ul li",function(e) {
+		
+		$(this).find(".label").addClass("show");
+	});
+	$(document).on("mouseleave",".nav ul li",function(e) {
+		
+		$(this).find(".label").removeClass("show");
 	});
 }
 
