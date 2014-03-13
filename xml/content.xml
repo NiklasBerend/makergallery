@@ -67,6 +67,19 @@
 				</div>
 			</info>
 			<exhibits>
+				<exhibit type="page">
+					<title>Minecraft-Pinnwand</title>
+					<thumbnail>files/thumbnails/minecraftpinnwand.png</thumbnail>
+					<href>collectorspace/minecraftpinnwand</href>
+					<description>Minecraft, Lernen, Bildung, Pädagogik, Potential, Sammlung, Collection, Beispiele, Pinnwand, Pinterest, mlab14
+					</description>
+				</exhibit>
+				<exhibit type="prezi">
+					<title>Apps furs Kinderzimmer</title>
+					<thumbnail>files/thumbnails/appsfuerskinderzimmer.png</thumbnail>
+					<href>collectorspace/appsfuerskinderzimmer</href>
+					<description>iOS,Android,Tablet,Smartphone,iPhone,iPad,</description>
+				</exhibit>
 				<exhibit type="video">
 					<title>mlabtalks</title>
 					<thumbnail>files/thumbnails/mlab.jpg</thumbnail>
@@ -86,12 +99,6 @@
 					<description>Freeware,Computerspiele,Freeware-Spiele,Freewarespiel,Schule,Jugendarbeit,Grundschule</description>
 				</exhibit>
 				<exhibit type="prezi">
-					<title>Apps furs Kinderzimmer</title>
-					<thumbnail>files/thumbnails/appsfuerskinderzimmer.png</thumbnail>
-					<href>collectorspace/appsfuerskinderzimmer</href>
-					<description>iOS,Android,Tablet,Smartphone,iPhone,iPad,</description>
-				</exhibit>
-				<exhibit type="prezi">
 					<title>Kreatives Schreiben</title>
 					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
 					<href>collectorspace/kreativesschreiben</href>
@@ -102,6 +109,18 @@
 					<thumbnail>files/thumbnails/guidies.png</thumbnail>
 					<href>collectorspace/selfiesvsguidies</href>
 					<description>Jugendliche,Medienpädagogik,Lebensweltbezug,Eigeninitiative,Kreativität,Produktivität,Medienmacher</description>
+				</exhibit>
+				<exhibit type="document">
+					<title>"Makers"-Erfindungen</title>
+					<thumbnail>files/thumbnails/makers2.png</thumbnail>
+					<href>collectorspace/makersinventions</href>
+					<description>Cory Doctorow, Buch, e-Book, Makers, Erfindungen, Kreativität</description>
+				</exhibit>
+				<exhibit type="podcast">
+					<title>Jugendmedienschutz</title>
+					<thumbnail>files/thumbnails/jugendmedienschutz.png</thumbnail>
+					<href>collectorspace/jugendmedienschutz</href>
+					<description>#JMS, #Jugendliche, Podcast, mlab14, Jugendmedienschutz</description>
 				</exhibit>
 			</exhibits>
 		</content>
@@ -175,6 +194,12 @@
 					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
 					<href>makerspace/reichebeute</href>
 					<description>Piraten, Stop-Motion</description>
+				</exhibit>
+				<exhibit type="document">
+					<title>Raspberry Pi</title>
+					<thumbnail>files/thumbnails/raspberrypi.jpg</thumbnail>
+					<href>makerspace/raspberrypi</href>
+					<description>Raspberry Pi, Minecraft auf Raspberry, Einsteiger, erste Schritte mit Raspberry</description>
 				</exhibit>
 			</exhibits>
 		</content>
