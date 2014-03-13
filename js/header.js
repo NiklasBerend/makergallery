@@ -9,10 +9,10 @@ var page_is_locked = false;
 
 $(document).ready(function(e) {
 		
+	responsive_listeners();
 	check_location();
 	navigation_eventlistener();
 	scroll_eventlistener();
-	responsive_listeners();
 	exhibits();
 	
 	$(window).on('hashchange', function(){
@@ -84,16 +84,6 @@ function responsive_design() {
 		
 		$("body").removeClass("tablet");
 		$("body").removeClass("mobile");
-	}
-	
-	request = "";
-	
-	for(i=1;i<urlparts.length;i++) {
-		
-		if (global_url_prefix.indexOf(urlparts[i]) == -1) {
-			
-			request+= urlparts[i] + "/";
-		}
 	}
 	
 	/* Rearrange subpage vertical adjustment */
@@ -421,10 +411,6 @@ function get_page_by_request_uri(uri) {
 					
 					left: "0"
 				});
-				$(".nav").animate({
-					
-					left: "-120px"
-				});
 			}
 		});
 	}
@@ -441,14 +427,23 @@ function get_page_by_request_uri(uri) {
 		}
 		
 		/* There's no subpage */
-		$("section[ref='" + section + "']").find("> .container").animate({
+		$("section").find("> .container").animate({
 			
 			left: "0"
 		});
-		$(".nav").animate({
+		if ($("body").hasClass("mobile")) {
 			
-			left: "-80px"
-		});
+			$(".nav").animate({
+				
+				left: "-80px"
+			});
+		}
+		else {
+			$(".nav").animate({
+				
+				left: "0"
+			});
+		}
 		$("#back_button").animate({
 			
 			left: "-80px"

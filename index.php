@@ -92,7 +92,7 @@
                         
                         foreach($contents->children() as $elem) {
                             
-                            print '<li class="'.strtolower($elem->name).'"><a title="'.$elem->name.'" href="'.$global_url_prefix.$elem->link.'"></a></li>';
+                            print '<li class="'.strtolower($elem->name).'"><a href="'.$global_url_prefix.$elem->link.'"></a><span class="label">'.$elem->name.'</span></li>';
                         }
                     
                     ?>
@@ -158,6 +158,24 @@
         </div>
         
 
+    </div>
+    <div class="imprint">
+    	<div class="button">
+            <p>i</p>
+        </div>
+        <div class="hide">
+            <p>
+            Media Literacy Lab<br/>
+            AG Medienpädagogik<br/>
+            Institut für Erziehungswissenschaft<br/>
+            Johannes Gutenberg-Universität Mainz<br/>
+            Jakob-Welder-Weg 12<br />
+            55 128 Mainz<br/>
+            <br/>
+            <span>E-Mail</span> <a href="kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
+            <span>Tel</span> 06131-39-26718<br/>
+            </p>
+        </div>
     </div>
 	<script type="text/javascript" src="<?php print $global_url_prefix?>js/header.js"></script>
 </body>	

@@ -59,10 +59,17 @@ body.mobile {
 #paging section > .container .floor .wrapper {
 	height: 100%;
 	padding-bottom: 190px;
+	padding-left: 90px;
 	position: relative;
 }
 .mobile #paging section > .container .floor .wrapper {
 	padding: 10px 10px 120px 10px;
+}
+#paging section > .container .room .wrapper {
+	padding-left: 90px;
+}
+.mobile #paging section > .container .room .wrapper {
+	padding-left: 10px;
 }
 #paging section > .container .floor .wrapper.fullsize {
 	padding-bottom: 10px;
@@ -225,7 +232,7 @@ body.mobile {
 	margin: 0;
 	background-color: #fff;
 	text-align: center;
-	padding: 5px 50px;
+	padding: 5px 70px 5px 90px;
 	z-index: 50;
 	
     -webkit-box-sizing: border-box;
@@ -363,7 +370,7 @@ body > .container {
 .nav {
 	position: fixed;
 	top: 0;
-	left: -80px;
+	left: 0;
 	width: 80px;
 	height: 100%;
 	z-index: 500;
@@ -372,7 +379,10 @@ body > .container {
 	-webkit-transition: left 0.3s;
 	-o-transition: left 0.3s;
 }
-.nav:hover {
+.mobile .nav {
+	left: -80px !important;
+}
+.mobile .nav:hover {
 	left: 0 !important;
 }
 .nav #elevator {
@@ -398,7 +408,7 @@ body > .container {
 	background-repeat: no-repeat;
 	background-position: center;
 	position: fixed;
-	display: block;
+	display: none !important;
 	cursor: pointer;
 	left: -80px;
 	z-index: 100;
@@ -430,6 +440,7 @@ body > .container {
 	line-height: 70px;
 	cursor: pointer;
 	font-size: 16px;
+	position: relative;
 }
 .nav ul li a {
 	display: block;
@@ -438,6 +449,32 @@ body > .container {
 	text-decoration: none;
 	color: #999;
 	border-bottom: 1px solid #fff;
+}
+.nav ul li .label {
+	position: absolute;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 0 15px;
+	top: 50%;
+	left: 100px;
+	margin-top: -15px;
+	display: none;
+}
+.nav ul li .label:before {
+	display: none;
+	content: '';
+	position: absolute;
+	left: -15px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid rgba(0,0,0,0.8);
+}
+.nav ul li:hover .label,
+.nav ul li:hover .label:before {
+	display: block;
 }
 .nav ul li:hover a {
 	color: #fff;
@@ -470,6 +507,7 @@ body > .container {
 	display: block;
 	margin-top: -57.5px;
 	cursor: pointer;
+	display: none;
 }
 #nav_lug span {
 	display: block;
@@ -491,6 +529,7 @@ body > .container {
 	display: block;
 	margin-top: -57.5px;
 	cursor: pointer;
+	display: block;
 }
 .mobile #nav_lug span {
 	display: block;
@@ -501,9 +540,6 @@ body > .container {
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-}
-.nav ul li.mitwirkende a:after {
-	content: '4';
 }
 .nav ul li.collectorspace a:after {
 	content: '3';
@@ -517,8 +553,11 @@ body > .container {
 .nav ul li.erdgeschoss a:after {
 	content: 'E';
 }
+.nav ul li.mitwirkende a:after {
+	content: 'U1';
+}
 .nav ul li.untergeschoss a:after {
-	content: 'U';
+	content: 'U2';
 }
 
 section .floor .wrapper .scroll > h2:first-child {
@@ -534,6 +573,7 @@ section .floor .wrapper .scroll > h2:first-child {
 .mobile #paging section > .container .room .wrapper > h1:first-child {
 	font-size: 30px;
 	line-height: 40px;
+	padding: 5px 70px 5px 5px;
 }
 section .floor .wrapper .scroll > h2:first-child:before {
 	display: inline-block;
@@ -548,6 +588,7 @@ section .floor .wrapper .scroll > h2:first-child:before {
 	-moz-border-radius: 80px;
 	-webkit-border-radius: 80px;
 	margin-right: 20px;
+	font-size: 40px;
 }
 .mobile section .floor .wrapper .scroll > h2:first-child:before {
 	content: '' !important;
@@ -603,7 +644,7 @@ section[ref='mitwirkende'] .exhibits .navi .prev {
 }
 section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #000;
-	content: '4';
+	content: 'U1';
 	color: #000;
 }
 section[ref='mitwirkende'] .exhibits > .container {
@@ -724,7 +765,7 @@ section[ref='impressum'] h2 {
 	
 }
 section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
-	content: 'U';
+	content: 'U2';
 	border: 3px solid;
 	border-color: #fff;
 	position: relative;
@@ -732,6 +773,12 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	-moz-border-radius: 80px;
 	-webkit-border-radius: 80px;
 	margin-right: 20px;
+}
+section[ref='impressum'] .floor .wrapper .scroll h2 + p {
+	
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
 }
 
 .wrapper {
@@ -756,12 +803,15 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	max-width: 1140px;
 	margin: 0 auto;
 	position: relative;
-	padding: 70 70px;
+	padding: 70 70px 70px 160px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 .tablet .exhibits {
+	padding: 70px 10px 70px 90px;
+}
+.mobile .exhibits {
 	padding: 70px 10px;
 }
 .in_room .absolute {
@@ -769,7 +819,7 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 	bottom: 0;
 	width: 100%;
 	left: 0;
-	z-index: 500;
+	z-index: 400;
 	background: #fff;
 
 }
@@ -789,9 +839,11 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 #paging section[ref='reflectorspace'].in_room .absolute {
 	border-top: 1px solid #2e4f68;
 }
-
 .in_room .absolute .exhibits {
-	padding: 0 70px;
+	padding: 0 80px;
+}
+.mobile .in_room .absolute .exhibits {
+	padding: 0 10px;
 }
 .in_room .absolute .exhibits .container {
 	padding: 0;
@@ -919,8 +971,11 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 }
 .exhibits .navi .prev {
 	left: 0;
-	margin-left: 10px;
+	margin-left: 100px;
 	background-image: url(arrow_left.php?color=000000);
+}
+.in_room .exhibits .navi .prev {
+	margin-left: 10px;
 }
 
 
@@ -957,4 +1012,56 @@ section[ref='impressum'] .floor .wrapper .scroll > h2:first-child:before {
 }
 #disqus_thread {
 	margin-top: 30px;
+}
+/* IMPRINT */
+.imprint {
+	position: fixed;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	z-index: 60;
+}
+.imprint .button {
+	background: rgba(0,0,0,0.8);
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	display: block;
+	margin: 5px 10px 10px 0;
+	color: #fff;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	text-align: center;
+}
+.mobile .imprint .button {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.imprint .button p {
+	margin: 0;
+}
+.imprint .hide {
+	display: none;
+	position: absolute;
+	background: rgba(0,0,0,0.8);
+	padding: 10px;
+	color: #fff;
+	right: 10px;
+	width: 300px;
+}
+.imprint .hide p {
+	line-height: 24px;
+	margin: 0;
+}
+.imprint .hide p span {
+	display: inline-block;
+	width: 60px;
+}
+.imprint .hide a {
+	color: #0CF;
+}
+.imprint:hover .hide {
+	display: block;
 }

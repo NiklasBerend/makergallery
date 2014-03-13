@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nav>
 	<elem>
-		<name>Mitwirkende</name>
-		<link>mitwirkende</link>
-		<content>
-			<info>
-				<div class="wrapper">
-					<div class="scroll">
-						<h2>Galerie der Mitwirkenden</h2>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-					</div>
-				</div>
-			</info>
-			<exhibits>
-				<exhibit type="video">
-					<title>Jöran</title>
-					<thumbnail>files/thumbnails/joeran.jpg</thumbnail>
-					<href>mitwirkende/joeran</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Friederike</title>
-					<thumbnail>files/thumbnails/siller.jpg</thumbnail>
-					<href>mitwirkende/friederike</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Jasmin</title>
-					<thumbnail>files/thumbnails/jasmin.jpg</thumbnail>
-					<href>mitwirkende/jasmin</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Tabea</title>
-					<thumbnail>files/thumbnails/tabea.jpg</thumbnail>
-					<href>mitwirkende/tabea</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Niklas</title>
-					<thumbnail>files/thumbnails/niklas.png</thumbnail>
-					<href>mitwirkende/niklas</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Max</title>
-					<thumbnail>files/thumbnails/max.png</thumbnail>
-					<href>mitwirkende/max</href>
-				</exhibit>
-				<exhibit type="video">
-					<title>Christian</title>
-					<thumbnail>files/thumbnails/christian.jpg</thumbnail>
-					<href>mitwirkende/christian</href>
-				</exhibit>
-			</exhibits>
-		</content>
-	</elem>
-	<elem>
 		<name>Collectorspace</name>
 		<link>collectorspace</link>
 		<content>
@@ -286,47 +235,81 @@
 		</content>
 	</elem>
 	<elem>
+		<name>Mitwirkende</name>
+		<link>mitwirkende</link>
+		<content>
+			<info>
+				<div class="wrapper">
+					<div class="scroll">
+						<h2>Galerie der Mitwirkenden</h2>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+					</div>
+				</div>
+			</info>
+			<exhibits>
+				<exhibit type="video">
+					<title>Jöran</title>
+					<thumbnail>files/thumbnails/joeran.jpg</thumbnail>
+					<href>mitwirkende/joeran</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Friederike</title>
+					<thumbnail>files/thumbnails/siller.jpg</thumbnail>
+					<href>mitwirkende/friederike</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Jasmin</title>
+					<thumbnail>files/thumbnails/jasmin.jpg</thumbnail>
+					<href>mitwirkende/jasmin</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Tabea</title>
+					<thumbnail>files/thumbnails/tabea.jpg</thumbnail>
+					<href>mitwirkende/tabea</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Niklas</title>
+					<thumbnail>files/thumbnails/niklas.png</thumbnail>
+					<href>mitwirkende/niklas</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Max</title>
+					<thumbnail>files/thumbnails/max.png</thumbnail>
+					<href>mitwirkende/max</href>
+				</exhibit>
+				<exhibit type="video">
+					<title>Christian</title>
+					<thumbnail>files/thumbnails/christian.jpg</thumbnail>
+					<href>mitwirkende/christian</href>
+				</exhibit>
+			</exhibits>
+		</content>
+	</elem>
+	<elem>
 		<name>Untergeschoss</name>
 		<link>impressum</link>
 		<content>
 			<info>
 				<div class="wrapper fullsize">
 					<div class="scroll">
-						<h2>Impressum | Kontakt</h2>
-						<div class="left">
-							<h3>Kontakt</h3>
-							<p>
-							Sie haben Fragen und Anregungen zum Media Literacy Lab? <strong>Schreiben Sie uns!</strong><br/>
-							<br/>
-							<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
-							<br/>
-							
-							Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
-							<a href="mailto: support@medialiteracylab.de">support@medialiteracylab.de</a><br/>
-							<br/>
-							<br/>
-							
-							Ein Projekt von Jun.-Prof. Dr. Friederike Siller und Dr. Jasmin Bastian an der AG Medienpädagogik an der <br/> Johannes Gutenberg-Universität Mainz.<br/>
-							<br/>							
+						<h2>Kontakt</h2>
+						<p>
+						Sie haben Fragen und Anregungen zum Media Literacy Lab? <strong>Schreiben Sie uns!</strong><br/>
+						<br/>
+						<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
+						<br/>
 						
-							<a href="mailto: siller@uni-mainz.de">siller(at)uni-mainz.de</a><br/>
-							<a href="mailto: jasmin.bastian@uni-mainz.de">jasmin(dot)bastian(at)uni-mainz.de</a>
-							</p>
-						</div>
-						<div class="right">
-							<h3>Impressum</h3>
-							<p>
-							Media Literacy Lab<br/>
-							AG Medienpädagogik<br/>
-							Institut für Erziehungswissenschaft<br/>
-							Johannes Gutenberg-Universität Mainz<br/>
-							Jakob-Welder-Weg 12<br />
-							55 128 Mainz<br/>
-							<br/>
-							<span>E-Mail</span> <a href="kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
-							<span>Tel</span> 06131-39-26718<br/>
-							</p>
-						</div>
+						Bei technischen Fragen oder Problemen schreiben Sie bitte an:<br/>
+						<a href="mailto: support@medialiteracylab.de">support@medialiteracylab.de</a><br/>
+						<br/>
+						<br/>
+						
+						Ein Projekt von Jun.-Prof. Dr. Friederike Siller und Dr. Jasmin Bastian an der AG Medienpädagogik an der <br/> Johannes Gutenberg-Universität Mainz.<br/>
+						<br/>							
+					
+						<a href="mailto: siller@uni-mainz.de">siller(at)uni-mainz.de</a><br/>
+						<a href="mailto: jasmin.bastian@uni-mainz.de">jasmin(dot)bastian(at)uni-mainz.de</a>
+						</p>
 					</div>
 				</div>
 			</info>
