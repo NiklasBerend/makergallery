@@ -13,7 +13,7 @@
             </div>
             <div class="right">
                 <h3>Kontakt</h3>
-                <ul style="font-size: 14px;">
+                <ul>
                 <li><span>Twitter</span> <a href="https://twitter.com/ca_dsgn" target="_blank">@ca_dsgn</a></li>
                 <li><span>Mail</span> <a href="mailto: mail@ca-dsgn.de">mail@ca-dsgn.de.de</a></li>
                 <li><span>Website</span> <a href="http://www.ca-dsgn.de" target="_blank">ca-dsgn.de</a> | <a href="http://www.you-dsgn.de" target="_blank">you-dsgn.de</a></li>

@@ -12,7 +12,7 @@
             </div>   
     		<div class="right">
                 <h3>Kontakt</h3>
-                <ul style="font-size: 14px;">
+                <ul>
                 <li><span>Twitter</span> <a href="https://www.twitter.com/@max_parallax" target="_blank">@max_parallax</a></li>
                 <li><span>Mail</span> <a href="mailto: max.froelich@medialiteracylab.de">max.froelich@medialiteracylab.de</a></li>
                 <li><span>Rolle</span> Wiki | AG´s | Support</li>

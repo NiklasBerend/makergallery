@@ -312,6 +312,11 @@
 					<thumbnail>files/thumbnails/christian.jpg</thumbnail>
 					<href>mitwirkende/christian</href>
 				</exhibit>
+				<exhibit type="video">
+					<title>Blanche</title>
+					<thumbnail>files/thumbnails/blanche.jpg</thumbnail>
+					<href>mitwirkende/blanche</href>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -325,16 +330,27 @@
 						<h2>Kontakt</h2>
 						<p>
 						Sie haben Fragen und Anregungen zum Media Literacy Lab?<br/>
-						<strong>Schreiben Sie uns!</strong><br/>
+						<strong>Schreiben Sie uns an:</strong><br/>
 						<br/>
 						<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
 						<br/>
+						<hr/>
 						
-						Ein Projekt von Jun.-Prof. Dr. Friederike Siller und <br/>
-						Dr. Jasmin Bastian an der AG Medienpädagogik an der <br/> Johannes Gutenberg-Universität Mainz.<br/>
+						<strong>Makergallery.de</strong> ist ein Projekt<br/> 
+						von<br/> 
+						
+						<i>Jun.-Prof. Dr. Friederike Siller</i>,<br/>
+						<i>Dr. Jasmin Bastian</i> sowie<br/> 
+						<i>Tabea Siebertz</i> und<br/> 
+						<i>Niklas Berend</i><br/>
+						
+						an der AG Medienpädagogik an der <br/> 
+						Johannes Gutenberg-Universität Mainz.<br/>
 						<br/>							
-						<a href="mailto: siller@uni-mainz.de">siller(at)uni-mainz.de</a><br/>
-						<a href="mailto: jasmin.bastian@uni-mainz.de">jasmin(dot)bastian(at)uni-mainz.de</a>
+						<br/>
+						Besonderer Dank an Christian Albert für die hervorragende<br/> 
+						Unterstützung bei der Entwicklung, Gestaltung<br/>
+						und Programmierung von Makergallery.de.
 						</p>
 					</div>
 				</div>
