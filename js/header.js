@@ -5,6 +5,7 @@ var first_page_load = true;
 var elevator_speed = 200;
 var paging_speed = 200;
 var scrolling_speed = 1500;
+var into_room_speed = 1000;
 var page_is_locked = false;
 
 $(document).ready(function(e) {
@@ -196,14 +197,17 @@ function exhibits() {
 function scroll_eventlistener() {
 
 	$(window).bind("scroll", function() {
-    
-		position_top = parseInt($(document).scrollTop());
-	  
-		section_height = $("section").height();
 		
-		section_number = Math.floor(position_top/section_height);
-		
-		set_elevator_to(section_number);
+		if (!$("section").hasClass("in_room")) {
+			
+			position_top = parseInt($(document).scrollTop());
+		  
+			section_height = $("section").height();
+			
+			section_number = Math.floor(position_top/section_height);
+			
+			set_elevator_to(section_number);
+		}
     });
 }
 
@@ -364,15 +368,16 @@ function get_page_by_request_uri(uri) {
 	}
 	
 	section = request.substring(0,request.indexOf("/"));
-	
+		
 	if (request.replace(/[^\/]/g, "").length > 1) {
 		
 		/* There's a subpage */
 		page_is_locked = true;
 		
-		$('html').css('overflow', 'hidden');
-		
-		$(document).scrollTop($("section[ref='" + section + "']").offset().top);
+		$("section[ref='" + section + "']").find("> .container .room").html('<div class="waiter"><div class="icon"></div></div>');
+		$("section[ref='" + section + "']").addClass("in_room");
+
+		scroll_to(section);
 		
 		$.ajax({
 		
@@ -380,60 +385,70 @@ function get_page_by_request_uri(uri) {
 			type: "GET",
 			success: function(data) {
 				
-				$("section[ref='" + section + "']").find("> .container .room").html(data);
+				$("section[ref='" + section + "'] .waiter").fadeOut(300, function() {
 				
-				exhibit_title = $("section[ref='" + section + "']").find("> .container .room .wrapper > h1").text();
-				exhibit_description = $("section[ref='" + section + "']").find("> .container .room .wrapper > p").text();
+					$("section:not(.in_room)").hide();
 				
-    			social  = '<div class="social" style="display: none;">';
-				social += '<div class="twitter" data-url="' + global_url_prefix + request + '" data-title="Tweet" data-text="' + exhibit_title + '"></div>';
-				social += '<div class="facebook" data-url="' + global_url_prefix + request + '" data-title="Like" data-text="' + exhibit_title + '"></div>';
-				social += '<div class="googleplus" data-url="' + global_url_prefix + request + '" data-title="+1" data-text="' + exhibit_title + '"></div>';
-				social += '</div>';
-				
-				if (section == "makerspace" || section == "reflectorspace" ||  section == "collectorspace") {
+					$("section[ref='" + section + "']").find("> .container .room").html(data);
+					$("section[ref='" + section + "']").find("> .container .room").scrollTop(0);
 					
-					social += '<div id="disqus_thread"></div>';
-				}
-				
-				$("section[ref='" + section + "']").find("> .container .room .wrapper").append(social);
-				$("section[ref='" + section + "']").find("> .container .room .wrapper .social").slideDown(500);
-				
-				/* Change title of page */
-				document.title = "Makergallery | " + exhibit_title;
-				/* Change description of page */
-				$('meta[name=description]').attr("content",exhibit_description);
-				
-				/* Change open graph information */
-				$(".exhibits li a").each(function() {
-					
-					if (window.location.href.indexOf($(this).attr("href")) != -1) {
+					$("section[ref='" + section + "']").find("> .container .room .wrapper").css("opacity","0");
+					$("section[ref='" + section + "']").find("> .container .room .wrapper").animate({
 						
-						exhibit_image = $(this).find("img").attr("src");
-						return true;
+						opacity: 1
+					});
+					
+					exhibit_title = $("section[ref='" + section + "']").find("> .container .room .wrapper > h1").text();
+					exhibit_description = $("section[ref='" + section + "']").find("> .container .room .wrapper > p").text();
+					
+					social  = '<div class="social" style="display: none;">';
+					social += '<div class="twitter" data-url="' + global_url_prefix + request + '" data-title="Tweet" data-text="' + exhibit_title + '"></div>';
+					social += '<div class="facebook" data-url="' + global_url_prefix + request + '" data-title="Like" data-text="' + exhibit_title + '"></div>';
+					social += '<div class="googleplus" data-url="' + global_url_prefix + request + '" data-title="+1" data-text="' + exhibit_title + '"></div>';
+					social += '</div>';
+					
+					if (section == "makerspace" || section == "reflectorspace" ||  section == "collectorspace") {
+						
+						social += '<div id="disqus_thread"></div>';
 					}
-				});
-				
-				$("#og_title").attr("content",exhibit_title);
-				$("#og_description").attr("content",exhibit_description);
-				$("#og_image").attr("content",exhibit_image);
-				
-				social_listeners();
-				
-				$("section[ref='" + section + "']").find("> .container").animate({
 					
-					left: "-100%"
-				});
-				$("section[ref='" + section + "']").addClass("in_room");
-				exhibits_list_calc();
-				$("section[ref='" + section + "'] .absolute .exhibits ul").animate({
+					$("section[ref='" + section + "']").find("> .container .room .wrapper").append(social);
+					$("section[ref='" + section + "']").find("> .container .room .wrapper .social").slideDown(500);
 					
-					left: 0
-				});
-				
-				$("#back_button").animate({
+					document.title = "Makergallery | " + exhibit_title;
 					
-					left: "0"
+					$('meta[name=description]').attr("content",exhibit_description);
+					
+					$(".exhibits li a").each(function() {
+						
+						if (window.location.href.indexOf($(this).attr("href")) != -1) {
+							
+							exhibit_image = $(this).find("img").attr("src");
+							return true;
+						}
+					});
+					
+					$("#og_title").attr("content",exhibit_title);
+					$("#og_description").attr("content",exhibit_description);
+					$("#og_image").attr("content",exhibit_image);
+					
+					social_listeners();
+					
+					exhibits_list_calc();
+					$("section[ref='" + section + "'] .absolute .exhibits ul").animate({
+						
+						left: 0
+					});
+					
+					$("section[ref='" + section + "'] .absolute").animate({
+						
+						bottom: 0
+					});
+					
+					$("#back_button").animate({
+						
+						left: "0"
+					});
 				});
 			}
 		});
@@ -442,19 +457,22 @@ function get_page_by_request_uri(uri) {
 		
 		if (page_is_locked) {
 			
+			$("section").show();
+			
+			$("section[ref='" + section + "'] .absolute").css("bottom", "");
+			
+			$(document).scrollTop($("section[ref='" + section + "']").offset().top);
+			
 			document.title = "Makergallery";
 			
 			page_is_locked = false;
-		
-			$('html').css('overflow', "visible");
-			$(document).scrollTop($("section[ref='" + section + "']").offset().top);
+		}
+		else {
+			
+			scroll_to(section);
 		}
 		
 		/* There's no subpage */
-		$("section").find("> .container").animate({
-			
-			left: "0"
-		});
 		if ($("body").hasClass("mobile")) {
 			
 			$(".nav").animate({
@@ -468,13 +486,11 @@ function get_page_by_request_uri(uri) {
 				left: "0"
 			});
 		}
+		
 		$("#back_button").animate({
 			
 			left: "-80px"
 		});
-		
-		/* SCROLLEVENT */
-		scroll_to(section);
 		
 		$("section").removeClass("in_room");
 		exhibits_list_calc();
