@@ -908,7 +908,7 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 }
 .exhibits ul li .container .label {
 	position: absolute;
-	bottom: -40px;
+	bottom: -50px;
 	line-height: 25px;
 	font-size: 14px;
 	font-weight:bolder;
