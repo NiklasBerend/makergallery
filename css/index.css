@@ -17,14 +17,14 @@ body.mobile {
 	font-size: 16px;
 	line-height: 22px;
 }
-a {
+p a {
 	text-decoration: none;
 	color: #66F;
 	padding: 0 3px;
 }
-a:hover,
-a:visited,
-a:focus {
+p a:hover,
+p a:visited,
+p a:focus {
 	background-color: #999;
 	color: #fff;
 }
