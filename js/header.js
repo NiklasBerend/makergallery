@@ -165,7 +165,7 @@ function exhibits() {
 			
 			max_left = $(ui.helper).width() - $(ui.helper).parent().width();
 			
-			if (parseFloat($(ui.helper).css("left")) > 0) {
+			if (parseFloat($(ui.helper).css("left")) > 0 || max_left < 0) {
 				
 				$(ui.helper).animate({
 					
