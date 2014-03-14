@@ -17,6 +17,17 @@ body.mobile {
 	font-size: 16px;
 	line-height: 22px;
 }
+a {
+	text-decoration: none;
+	color: #66F;
+	padding: 0 3px;
+}
+a:hover,
+a:visited,
+a:focus {
+	background-color: #999;
+	color: #fff;
+}
 #paging {
 	margin: 0;
 	padding: 0;
