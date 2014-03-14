@@ -262,7 +262,6 @@ p a:focus {
 	line-height: 30px;
 	min-height: 30px;
 	font-weight: 600;
-	width: 33.33%;
 }
 .tablet #paging section > .container .room .wrapper .info ul li {
 	width: 50%;
@@ -277,6 +276,7 @@ p a:focus {
 	color: #1e1e1e;
 	float: left;
 	margin-bottom: 10px;
+	width: 33.33%;
 }
 #paging section[ref='collectorspace'] > .container .room .wrapper .info ul li span,
 #paging section[ref='reflectorspace'] > .container .room .wrapper .info ul li span,
