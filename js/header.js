@@ -15,6 +15,7 @@ $(document).ready(function(e) {
 	navigation_eventlistener();
 	scroll_eventlistener();
 	exhibits();
+	imprint_eventlistener();
 	
 	$(window).on('hashchange', function(){
 		
@@ -51,6 +52,18 @@ $(document).ready(function(e) {
 		get_page_by_request_uri(location.pathname);
 	});
 });
+
+function imprint_eventlistener() {
+	
+	$(document).on("mouseenter touchstart",".imprint",function() {
+		
+		$(this).find(".hide").fadeIn(300);
+	});
+	$(document).on("mouseout touchend",".imprint",function() {
+		
+		$(this).find(".hide").fadeOut(300);
+	});
+}
 
 function responsive_listeners() {
 	
@@ -276,11 +289,11 @@ function navigation_eventlistener() {
 			},500);
 		}
 	});
-	$(document).on("mouseenter",".nav ul li",function(e) {
+	$(document).on("mouseenter touchstart",".nav ul li",function(e) {
 		
 		$(this).find(".label").addClass("show");
 	});
-	$(document).on("mouseleave",".nav ul li",function(e) {
+	$(document).on("mouseleave touchend",".nav ul li",function(e) {
 		
 		$(this).find(".label").removeClass("show");
 	});

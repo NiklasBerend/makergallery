@@ -1062,9 +1062,6 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 .imprint .hide a {
 	color: #0CF;
 }
-.imprint:hover .hide {
-	display: block;
-}
 
 .waiter {
 	width: 40px;
