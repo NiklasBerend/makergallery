@@ -251,12 +251,15 @@ body.mobile {
 	line-height: 30px;
 	min-height: 30px;
 	font-weight: 600;
+	width: 33.33%;
+}
+.tablet #paging section > .container .room .wrapper .info ul li {
+	width: 50%;
 }
 #paging section[ref='collectorspace'] > .container .room .wrapper .info ul li,
 #paging section[ref='reflectorspace'] > .container .room .wrapper .info ul li,
 #paging section[ref='makerspace'] > .container .room .wrapper .info ul li {
 	display: inline-block;
-	width: 33.33%;
 	text-align: center;
 	height: 40px;
 	line-height: 40px;
