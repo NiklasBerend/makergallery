@@ -43,7 +43,7 @@ p a:focus {
 	min-height: 700px;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
 }
 #paging section.in_room {
 	margin-bottom: 0;
@@ -664,6 +664,12 @@ section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child:before {
 }
 section[ref='mitwirkende'] .exhibits > .container {
 	border-color: #000;
+}
+section[ref='mitwirkende'] .absolute {
+	background: rgba(210,210,210,.2);
+}
+section[ref='mitwirkende'].in_room .absolute {
+	background: rgba(210,210,210,.8);
 }
 
 section[ref='collectorspace'] {
