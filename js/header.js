@@ -67,7 +67,7 @@ function responsive_design() {
 	window_width = $(this).width();
 		
 	/* Tablet */
-	if (window_width < 980) {
+	if (window_width < 1025) {
 	
 		$("body").addClass("tablet");
 		
