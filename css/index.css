@@ -264,8 +264,8 @@ p a:focus {
 	font-weight: 600;
 }
 .tablet #paging section[ref='collectorspace'] > .container .room .wrapper .info ul li,
-.tablet section[ref='reflectorspace'] > .container .room .wrapper .info ul li,
-.tablet section[ref='makerspace'] > .container .room .wrapper .info ul li {
+.tablet #paging section[ref='reflectorspace'] > .container .room .wrapper .info ul li,
+.tablet #paging section[ref='makerspace'] > .container .room .wrapper .info ul li {
 	width: 50%;
 }
 #paging section[ref='collectorspace'] > .container .room .wrapper .info ul li,
