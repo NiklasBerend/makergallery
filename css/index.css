@@ -78,6 +78,7 @@ body.mobile {
 }
 #paging section > .container .room .wrapper {
 	padding-left: 90px;
+	padding-top: 120px;
 }
 .mobile #paging section > .container .room .wrapper {
 	padding-left: 10px;
