@@ -13,12 +13,14 @@
    		</div>
     	<div class="right">
             <h3>Kontakt</h3>
+            <p>
             <ul>
             <li><span>Twitter</span> <a href="https://www.twitter.com/@FJoSiller" target="_blank">@FJoSiller</a></li>
             <li><span>Mail</span> <a href="mailto:siller@uni-mainz.de">siller@uni-mainz.de</a></li>
             <li><span>Website</span> <a href="http://www.friederike-siller.me" target="_blank">friederike-siller.me</a></li>
             <li><span>Rolle</span> Konzept & Organisation</li>
             </ul>
+            </p>
     	</div>
     </div>
     <hr/>

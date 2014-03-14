@@ -271,8 +271,8 @@
 		</content>
 	</elem>
 	<elem>
-		<name>Mitwirkende</name>
-		<link>mitwirkende</link>
+		<name>Team</name>
+		<link>team</link>
 		<content>
 			<info>
 				<div class="wrapper">
@@ -280,8 +280,7 @@
 						<h2>Makergallery-Team</h2>
 						<p>Die Exponate auf makergallery.de stammen allesamt von den Teilnehmendem eines Online-Kurses im Februar / März 2014. Der Kurs hieß <i>„Kinderzimmer Productions – eine Expedition in digitale Kinder- und Jugendwelten  #mlab14“</i> und war ein offener Online-Kurs zu digitalen Kreativitäts- und Produktionsräumen von Kindern und Jugendlichen. <a href="http://medialiteracylab.de/2-kinderzimmer-productions/" target="_blank"><i>(Weitere Informationen zum Kurs …)</i></a>
 <br/>
-<br/>
-Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><strong>Media Literacy Lab (MLAB)</strong></a>. Auf dieser Etage stellen wir uns als Team des MLAB vor. Gleichzeitig möchten wir sagen: Wir sind nur die Galeristen. Die Künstler/innen, Forscher/innen und Aktivist/innen waren die etwa 200 Kursteilnehmenden, die in der <a href="http://goo.gl/2Kdw7m" target="_blank">Übersicht in der Kurs-Community</a>zu finden sind.</p>
+Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><strong>Media Literacy Lab (MLab)</strong></a>. Auf dieser Etage stellen wir uns als Team des MLAB vor. Gleichzeitig möchten wir sagen: Wir sind nur die Galeristen. Die Künstler/innen, Forscher/innen und Aktivist/innen waren die etwa 200 Kursteilnehmenden, die in der <a href="http://goo.gl/2Kdw7m" target="_blank">Übersicht in der Kurs-Community</a>zu finden sind.</p>
 					</div>
 				</div>
 			</info>
@@ -289,48 +288,48 @@ Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><stron
 				<exhibit type="video">
 					<title>Jöran</title>
 					<thumbnail>files/thumbnails/joeran.jpg</thumbnail>
-					<href>mitwirkende/joeran</href>
+					<href>team/joeran</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Friederike</title>
 					<thumbnail>files/thumbnails/siller.jpg</thumbnail>
-					<href>mitwirkende/friederike</href>
+					<href>team/friederike</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Jasmin</title>
 					<thumbnail>files/thumbnails/jasmin.jpg</thumbnail>
-					<href>mitwirkende/jasmin</href>
+					<href>team/jasmin</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Tabea</title>
 					<thumbnail>files/thumbnails/tabea.jpg</thumbnail>
-					<href>mitwirkende/tabea</href>
+					<href>team/tabea</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Niklas</title>
 					<thumbnail>files/thumbnails/niklas.png</thumbnail>
-					<href>mitwirkende/niklas</href>
+					<href>team/niklas</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Max</title>
 					<thumbnail>files/thumbnails/max.png</thumbnail>
-					<href>mitwirkende/max</href>
+					<href>team/max</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Christian</title>
 					<thumbnail>files/thumbnails/christian.jpg</thumbnail>
-					<href>mitwirkende/christian</href>
+					<href>team/christian</href>
 				</exhibit>
 				<exhibit type="video">
 					<title>Blanche</title>
 					<thumbnail>files/thumbnails/blanche.jpg</thumbnail>
-					<href>mitwirkende/blanche</href>
+					<href>team/blanche</href>
 				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
 	<elem>
-		<name>Untergeschoss</name>
+		<name>Kontakt</name>
 		<link>impressum</link>
 		<content>
 			<info>
@@ -343,16 +342,18 @@ Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><stron
 						<br/>
 						<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
 						<br/>
+						</p>
 						<hr/>
-						
+						<p>
 						<strong>Lizenzhinweise</strong><br/>
 						Die Inhalte dieser Website stehen unter freier Lizenz, können also unter bestimmten Bedingungen kopiert, bearbeitet, verbreitet           				werden. <i>Details zur Lizenz finden sich unter jedem Exponat.</i><br/> 
 						Allgemeine Informationen finden Sie unter <a href="http://medialiteracylab.de/lizenzhinweise" target="_blank"> 			     			   						medialiteracylab.de/lizenzhinweise</a>
 						<br/>
 						<br/>
+						</p>
 						<hr/>
 
-						
+						<p>
 						<strong>Makergallery.de</strong> ist ein Projekt<br/> 
 						von<br/> 
 						

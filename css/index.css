@@ -22,12 +22,26 @@ p a {
 	color: #66F;
 	padding: 0 3px;
 }
-p a:hover,
-p a:visited,
-p a:focus {
+p a:focus ,
+p a:visited {
 	background-color: #999;
-	color: #fff;
+	color: rgb(221, 118, 131);
 }
+p a:hover {
+	color: #fff;
+	background-color: #999;
+}
+#paging section > .container .room .wrapper .info ul li a:focus;
+#paging section > .container .room .wrapper .info ul li a:visited {
+	background-color: #999;
+	color: rgb(221, 118, 131);
+}
+#paging section > .container .room .wrapper .info ul li a:hover {
+	color: #fff;
+	background-color: #999;
+}
+	
+	
 #paging {
 	margin: 0;
 	padding: 0;
@@ -114,7 +128,7 @@ p a:focus {
 	visibility: hidden;
 	height: 0;
 }
-#paging section[ref='mitwirkende'] > .container .room .wrapper .info h3 {
+#paging section[ref='team'] > .container .room .wrapper .info h3 {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -201,11 +215,11 @@ p a:focus {
 	margin: 30px 0;
 }
 
-#paging section[ref='mitwirkende'] > .container .room .wrapper > h1:first-child {
+#paging section[ref='team'] > .container .room .wrapper > h1:first-child {
 	background-color: #fff;
 }
 
-#paging section[ref='mitwirkende'] > .container .room .wrapper > h1:first-child {
+#paging section[ref='team'] > .container .room .wrapper > h1:first-child {
 	border-bottom: 1px solid #000;
 }
 
@@ -362,6 +376,8 @@ p a:focus {
 #paging section > .container .room .wrapper .info ul li a {
 	max-width: 200px;
 	display: inline-block;
+	text-decoration:none;
+	color: rgb(221, 118, 131);
 }
 
 #paging section > .container .room .wrapper > h2 {
@@ -568,10 +584,10 @@ body > .container {
 .nav ul li.erdgeschoss a:after {
 	content: 'E';
 }
-.nav ul li.mitwirkende a:after {
+.nav ul li.team a:after {
 	content: 'U1';
 }
-.nav ul li.untergeschoss a:after {
+.nav ul li.kontakt a:after {
 	content: 'U2';
 }
 
@@ -641,34 +657,34 @@ section #no-columns {
 	column-count: 1;
 }
 
-section[ref='mitwirkende'] {
+section[ref='team'] {
 	background-color: #fff;
 }
-section[ref='mitwirkende'] h2,
-section[ref='mitwirkende'].in_room > .container .room .wrapper > h1:first-child {
+section[ref='team'] h2,
+section[ref='team'].in_room > .container .room .wrapper > h1:first-child {
 	color:#000000;
 }
-section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child {
+section[ref='team'] .floor .wrapper .scroll > h2:first-child {
 	padding: 10px 0;
 }
-section[ref='mitwirkende'] .exhibits .navi .next {
+section[ref='team'] .exhibits .navi .next {
 	background-image: url(arrow_right.php?color=000000);
 }
-section[ref='mitwirkende'] .exhibits .navi .prev {
+section[ref='team'] .exhibits .navi .prev {
 	background-image: url(arrow_left.php?color=000000);
 }
-section[ref='mitwirkende'] .floor .wrapper .scroll > h2:first-child:before {
+section[ref='team'] .floor .wrapper .scroll > h2:first-child:before {
 	border-color: #000;
 	content: 'U1';
 	color: #000;
 }
-section[ref='mitwirkende'] .exhibits > .container {
+section[ref='team'] .exhibits > .container {
 	border-color: #000;
 }
-section[ref='mitwirkende'] .absolute {
+section[ref='team'] .absolute {
 	background: rgba(210,210,210,.2);
 }
-section[ref='mitwirkende'].in_room .absolute {
+section[ref='team'].in_room .absolute {
 	background: rgba(210,210,210,.8);
 }
 
@@ -858,7 +874,7 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 
 }
 
-#paging section[ref='mitwirkende'].in_room .absolute {
+#paging section[ref='team'].in_room .absolute {
 	border-top: 1px solid #000;
 }
 
