@@ -53,16 +53,35 @@ $(document).ready(function(e) {
 	});
 });
 
+function is_touch_device() {
+  return 'ontouchstart' in window // works on most browsers 
+      || 'onmsgesturechange' in window; // works on ie10
+};
+
 function imprint_eventlistener() {
 	
-	$(document).on("mouseenter touchstart",".imprint",function() {
+	if (is_touch_device()) {
 		
-		$(this).find(".hide").fadeIn(300);
-	});
-	$(document).on("mouseout touchend",".imprint",function() {
+		$(document).on("touchstart",".imprint",function() {
+			
+			$(this).find(".hide").fadeIn(300);
+		});
+		$(document).on("touchend",".imprint",function() {
+			
+			$(this).find(".hide").fadeOut(300);
+		});
+	}
+	else {
 		
-		$(this).find(".hide").fadeOut(300);
-	});
+		$(document).on("mouseenter",".imprint",function() {
+			
+			$(this).find(".hide").fadeIn(300);
+		});
+		$(document).on("mouseout",".imprint",function() {
+			
+			$(this).find(".hide").fadeOut(300);
+		});
+	}
 }
 
 function responsive_listeners() {
@@ -289,14 +308,28 @@ function navigation_eventlistener() {
 			},500);
 		}
 	});
-	$(document).on("mouseenter touchstart",".nav ul li",function(e) {
+	if (is_touch_device()) {
 		
-		$(this).find(".label").addClass("show");
-	});
-	$(document).on("mouseleave touchend",".nav ul li",function(e) {
+		$(document).on("touchstart",".nav ul li",function(e) {
+			
+			$(this).find(".label").addClass("show");
+		});
+		$(document).on("touchend",".nav ul li",function(e) {
+			
+			$(this).find(".label").removeClass("show");
+		});
+	}
+	else {
 		
-		$(this).find(".label").removeClass("show");
-	});
+		$(document).on("mouseenter",".nav ul li",function(e) {
+			
+			$(this).find(".label").addClass("show");
+		});
+		$(document).on("mouseleave",".nav ul li",function(e) {
+			
+			$(this).find(".label").removeClass("show");
+		});
+	}
 }
 
 function social_listeners() {
