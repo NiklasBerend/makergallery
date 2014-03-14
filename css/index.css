@@ -263,7 +263,9 @@ p a:focus {
 	min-height: 30px;
 	font-weight: 600;
 }
-.tablet #paging section > .container .room .wrapper .info ul li {
+.tablet #paging section[ref='collectorspace'] > .container .room .wrapper .info ul li,
+.tablet section[ref='reflectorspace'] > .container .room .wrapper .info ul li,
+.tablet section[ref='makerspace'] > .container .room .wrapper .info ul li {
 	width: 50%;
 }
 #paging section[ref='collectorspace'] > .container .room .wrapper .info ul li,
@@ -356,6 +358,10 @@ p a:focus {
 	width: 90px;
 	font-weight: 300;
 	font-size: 20px;
+}
+#paging section > .container .room .wrapper .info ul li a {
+	max-width: 200px;
+	display: inline-block;
 }
 
 #paging section > .container .room .wrapper > h2 {
