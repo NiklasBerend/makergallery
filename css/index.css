@@ -687,8 +687,11 @@ section[ref='collectorspace'] .floor .wrapper .scroll > h2:first-child:before {
 	content: '3';
 	color: #748412;
 }
-section[ref='collectorspace'] .exhibits > .container {
-	border-color: #748412;
+section[ref='collectorspace'] .absolute {
+	background: rgba(116,132,18,.2);
+}
+section[ref='collectorspace'].in_room .absolute {
+	background: rgba(116,132,18,.8);
 }
 
 section[ref='makerspace'] {
@@ -716,8 +719,11 @@ section[ref='makerspace'] .floor .wrapper .scroll > h2:first-child:before {
 	content: '2';
 	color: #dd7683;
 }
-section[ref='makerspace'] .exhibits > .container {
-	border-color: #dd7683;
+section[ref='makerspace'] .absolute {
+	background: rgba(221,118,131,.2);
+}
+section[ref='makerspace'].in_room .absolute {
+	background: rgba(221,118,131,.8);
 }
 
 section[ref='reflectorspace'] {
@@ -741,8 +747,11 @@ section[ref='reflectorspace'] .floor .wrapper .scroll > h2:first-child:before {
 	content: '1';
 	color: #2e4f68;
 }
-section[ref='reflectorspace'] .exhibits > .container {
-	border-color: #2e4f68;
+section[ref='reflectorspace'] .absolute {
+	background: rgba(46,79,104,.2);
+}
+section[ref='reflectorspace'].in_room .absolute {
+	background: rgba(46,79,104,.8);
 }
 
 section[ref=''] {
@@ -812,6 +821,7 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
+	margin-top: 40px;
 }
 .in_room .mobile .absolute {
 	bottom: -80px;
@@ -821,16 +831,16 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 	max-width: 1140px;
 	margin: 0 auto;
 	position: relative;
-	padding: 70 70px 70px 160px;
+	padding: 20px 70px 20px 160px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 .tablet .exhibits {
-	padding: 70px 10px 70px 90px;
+	padding: 20px 10px 20px 90px;
 }
 .mobile .exhibits {
-	padding: 70px 10px;
+	padding: 20px 10px;
 }
 .in_room .absolute {
 	position: fixed;
@@ -882,7 +892,6 @@ section[ref='impressum'] .floor .wrapper .scroll h2 + p {
 .exhibits > .container {
 	overflow: hidden;
 	padding: 20px 0;
-	border-top: 3px solid;
 }
 .mobile .exhibits > .container {
 	padding: 0;
