@@ -77,7 +77,7 @@ function imprint_eventlistener() {
 			
 			$(this).find(".hide").fadeIn(300);
 		});
-		$(document).on("mouseout",".imprint",function() {
+		$(document).on("mouseleave",".imprint",function() {
 			
 			$(this).find(".hide").fadeOut(300);
 		});
