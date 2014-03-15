@@ -13,7 +13,7 @@
    					<iframe src="//www.youtube.com/embed/hEwS2-_wSTM" frameborder="0" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> AG Superfabbies Bremen 
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Superfabbies_Bremen" target="_blank">AG 			   						Superfabbies Bremen</a> 
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>

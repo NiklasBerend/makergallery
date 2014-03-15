@@ -13,7 +13,7 @@
    					<iframe src="http://www.slideshare.net/slideshow/embed_code/32116708" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> AG Kreatives Schreiben (Christian f. Freisleben-Teutscher, Bettina Harling)
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Kreatives_Schreiben" target="_blank">AG Kreatives Schreiben</a> | Christian f. Freisleben-Teutscher Bettina Harling
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>

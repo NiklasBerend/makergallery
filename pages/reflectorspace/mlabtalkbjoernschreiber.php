@@ -13,7 +13,7 @@
    					<iframe src="//www.youtube.com/embed/_kEC24PbX0Q" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> Medialiteracylab 
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Mlab_talks" target="_blank">AG #mlabtalk</a> 
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
@@ -36,17 +36,19 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">What does a kid friendly hackerspace in LA look like? <b>Tara Tiger Brown</b>, co-founder of LA Makerspace, will tell us. Expect to hear from eTextiles, DIY LED Laterns and how makers and tinkerers come together in a community space to create and collaborate.  
+    <p style="text-align: justify">
+Was bedeutet Jugend-Medien-Schutz und warum ist es wichtig, mit Kindern und Jugendlichen darüber zu sprechen?
+Und wie müssen einzelne Professionen zusammenarbeiten, um für die jeweilige Zielgruppe adäquat zu agieren? Und was heißt das überhaupt "adäquat agieren"? Innerhalb des #mlabtalks mit Björn Schreiber werden viele Fragen gestellt und eine klare Aufgabe formuliert: Wir müssen die Zielgruppe, also Kinder und Jugendliche hören! Der Herausforderung dieses Perspektivwechsels stellt sich Björn Schreiber im Fortgang des Kurses mit der <a href="http://wiki.medialiteracylab.de/index.php?title=Jugendliche_als_Experten_des_Jugendmedienschutzes_-_eine_Befragung" target="_blank">AG Jugendliche als Experten des Jugendmedienschutzes.</a> 
 <br />
 <br />
-<i>Useful Links:</i> 
+<i>Wichtige Links:</i> 
 <br />
-<a href="http://www.linkedin.com/in/taralbrown" target="_blank">http://www.linkedin.com/in/taralbrown</a>
-<a href="http://taratigerbrown.com" target="_blank">http://taratigerbrown.com</a>
-<a href="http://www.twitter.com/tara" target="_blank">http://www.twitter.com/tara</a>
+<a href="http://goo.gl/tdJwxV" target="_blank">Zu Björn´s AG</a><br/>
+<a href="http://goo.gl/dN2Jqt" target="_blank">Zu Björn´s AG-Community</a><br/>
+<a href="http://goo.gl/2qYS3o" target="_blank">Zu Björn´s Google-Profil</a><br/>
 <br />
 <br />
-<i>Moderation</i>: Friederike Siller, Jasmin Bastian, Niklas Berend
+Talk mit: <i>Björn Schreiber</i> | Moderation: <i>Jasmin Bastian, Tabea Siebertz</i> | Produktion: <i>Blanche Fabri</i>
 
 </p>
 

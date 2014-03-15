@@ -253,6 +253,18 @@
 					<href>reflectorspace/mlabtalkbjoernschreiber</href>
 					<description>Jugendmedienschutz, JSM, FSM, Freiwillige Selbstkontrolle Multimedia</description>
 				</exhibit>
+				<exhibit type="video">
+					<title>Kikaninchen</title>
+					<thumbnail>files/thumbnails/kikaninchen.png</thumbnail>
+					<href>reflectorspace/kikaninchen</href>
+					<description>Kikaninchen, #mlab14, Kinder, TV</description>
+				</exhibit>
+				<exhibit type="podcast">
+					<title>Minecraft im Jugendzentrum</title>
+					<thumbnail>files/thumbnails/lernenmitminecraftzweithumb.png</thumbnail>
+					<href>reflectorspace/lernenmitminecraftzwei</href>
+					<description>Minecraft, Lernen, Bildung, Pädagogik, Beispiele, Jugendzentrum, mlab14</description>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>

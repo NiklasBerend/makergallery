@@ -13,7 +13,7 @@
    					<iframe src="http://prezi.com/embed/r6pxuecy48-r/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="640" height="480" frameBorder="0" webkitAllowFullScreen mozAllowFullscreen allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> Apps für Kinderzimmer Productions
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Apps_f%C3%BCr_Kinderzimmer_Productions" target="_blank">AG Apps für Kinderzimmer Productions</a>
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>

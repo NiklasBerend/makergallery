@@ -13,7 +13,7 @@
    					<iframe src="//www.youtube.com/embed/videoseries?list=PLCp_p-hQQ3jQ17VUP8MwEubHlfD7krE1s" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> Niklas Berend
+                    	<strong>Urheber:</strong> <a href="https://plus.google.com/u/0/110498994714773946674/posts" target="_blank">Niklas Berend</a>
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
