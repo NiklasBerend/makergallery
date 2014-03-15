@@ -119,12 +119,22 @@ function responsive_design() {
 		$("body").removeClass("mobile");
 	}
 	
-	/* Rearrange subpage vertical adjustment */
-	if ($("section.in_room").length > 0) {
+	check_exhibits_navi();
+}
+
+function check_exhibits_navi() {
+	
+	$(".exhibits").each(function() {
 		
-		/* Current section on subpage */
-		$(document).scrollTop($("section.in_room").offset().top);
-	}
+		if ($(this).find(".container").width() > $(this).find(".container > ul").width()) {
+		
+			$(this).find(".navi").hide();
+		}
+		else {
+			
+			$(this).find(".navi").show();
+		}
+	});
 }
 
 function exhibits_list_calc() {
@@ -481,6 +491,9 @@ function get_page_by_request_uri(uri) {
 					social_listeners();
 					
 					exhibits_list_calc();
+					
+					check_exhibits_navi();
+					
 					$("section[ref='" + section + "'] .absolute .exhibits ul").animate({
 						
 						left: 0
@@ -540,6 +553,7 @@ function get_page_by_request_uri(uri) {
 		
 		$("section").removeClass("in_room");
 		exhibits_list_calc();
+		check_exhibits_navi();		
 	}
 }
 
