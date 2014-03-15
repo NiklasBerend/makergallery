@@ -5,7 +5,7 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>#mlabtalk Jugendliche als Experten des Jugendmedienschutzes</h1>
+    <h1>#mlabtalk mit Björn Schreiber</h1>
 
         <div class="info">
     		<div class="left">

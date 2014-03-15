@@ -5,7 +5,7 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>#mlabtalk mit Karsten Wolf</h1>
+    <h1>#mlabtalk Kinder und Jugendliche auf YouTube: Zwischen Selbstdarstellen und Erklären</h1>
 
         <div class="info">
     		<div class="left">
@@ -25,11 +25,11 @@
                 <h3>Tags</h3>
                 <ul>
                 	<li><span>///</span></li>
+                    <li><span>mlabtalk</span></li>
                     <li><span>YouTube</span></li>
-                    <li><span>Kinder</span></li>
+                    <li><span>Performanzvideo</span></li>
+                    <li><span>Videotutorials</span></li>
                     <li><span>Jugendliche</span></li>
-                    <li><span>Selbstdarstellung</span></li>
-                    <li><span>mlab14</span></li>
                     <li><span>\\\</span></li>
                     
                 </ul>
@@ -37,17 +37,10 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">What does a kid friendly hackerspace in LA look like? <b>Tara Tiger Brown</b>, co-founder of LA Makerspace, will tell us. Expect to hear from eTextiles, DIY LED Laterns and how makers and tinkerers come together in a community space to create and collaborate.  
+    <p style="text-align: justify">Prof. Dr. Karsten Wolf (Universität Bremen) führt uns über empirische Ergebnisse zur Nutzung von Videoportalen in die Welt der jugendlichen YouTuber: Wie sie performen, warum sie performen und warum es gut ist, dass sie performen. Wir sprechen weiterhin über pädagogische Potentiale von Videoblogging und über die mögliche Zukunft von YouTube. 
 <br />
 <br />
-<i>Useful Links:</i> 
-<br />
-<a href="http://www.linkedin.com/in/taralbrown" target="_blank">http://www.linkedin.com/in/taralbrown</a>
-<a href="http://taratigerbrown.com" target="_blank">http://taratigerbrown.com</a>
-<a href="http://www.twitter.com/tara" target="_blank">http://www.twitter.com/tara</a>
-<br />
-<br />
-<i>Moderation</i>: Friederike Siller, Jasmin Bastian, Niklas Berend
+Talk-Gast: <i>Prof. Dr. Karsten Wolf</i> | <i>Moderation</i>: Jasmin Bastian, Friederike Siller | <i>Produktion:</i> Blanche Fabri
 
 </p>
 
