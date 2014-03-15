@@ -160,6 +160,12 @@
 					<href>makerspace/raspberrypi</href>
 					<description>Raspberry Pi, Minecraft auf Raspberry, Einsteiger, erste Schritte mit Raspberry</description>
 				</exhibit>
+				<exhibit type="page">
+					<title>Kreatives für Kinder</title>
+					<thumbnail>files/thumbnails/primolothumb.png</thumbnail>
+					<href>makerspace/primolo</href>
+					<description>Kinderseite, Kinderinternet, Film, Trickfilm, Podcast, Audio, Hörspiel, Foto, Community, Video, Website, Medienkompetenz, Medienarbeit, Internet, Kinder, Kreativität, produzieren, gestalten</description>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -190,13 +196,13 @@
 				<exhibit type="video">
 					<title>#mlabtalk Eric Rosenbaum</title>
 					<thumbnail>files/thumbnails/eric.png</thumbnail>
-					<href>reflectorspace/mlabtalkericrosenbaum</href>
+					<href>reflectorspace/mlabtalkmakeymakey</href>
 					<description>MakeyMakey,MIT,Kreativität,Media Lab,Play-Doh,Erfindungen</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>#mlabtalk Tara Tiger Brown</title>
 					<thumbnail>files/thumbnails/tara.png</thumbnail>
-					<href>reflectorspace/mlabtalktaratigerbrown</href>
+					<href>reflectorspace/mlabtalklamakerspace</href>
 					<description>LA Makerspace,Make,Hackerspace,DIY,Tinker</description>
 				</exhibit>
 				<exhibit type="video">
@@ -238,7 +244,7 @@
 				<exhibit type="video">
 					<title>#mlabtalk Karsten Wolf</title>
 					<thumbnail>files/thumbnails/karstenwolf.png</thumbnail>
-					<href>reflectorspace/mlabtalkkarstenwolf</href>
+					<href>reflectorspace/mlabtalkkinderaufyoutube</href>
 					<description>YouTube, Kinder, Jugendliche, Selbstdarstellung</description>
 				</exhibit>
 				<exhibit type="video">
@@ -250,7 +256,7 @@
 				<exhibit type="video">
 					<title>#mlabtalk Björn Schreiber</title>
 					<thumbnail>files/thumbnails/bjoern.png</thumbnail>
-					<href>reflectorspace/mlabtalkbjoernschreiber</href>
+					<href>reflectorspace/mlabtalkjugendmedienschutz</href>
 					<description>Jugendmedienschutz, JSM, FSM, Freiwillige Selbstkontrolle Multimedia</description>
 				</exhibit>
 				<exhibit type="video">
@@ -264,6 +270,66 @@
 					<thumbnail>files/thumbnails/lernenmitminecraftzweithumb.png</thumbnail>
 					<href>reflectorspace/lernenmitminecraftzwei</href>
 					<description>Minecraft, Lernen, Bildung, Pädagogik, Beispiele, Jugendzentrum, mlab14</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Simon Zwick</title>
+					<thumbnail>files/thumbnails/simonzwick.png</thumbnail>
+					<href>reflectorspace/mlabtalkactionbound</href>
+					<description>mlab14, Actionbound, Handy-Rallyes, Freizeit, Outdoor, Simon Zwick, Berlin</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Anna und Elisa</title>
+					<thumbnail>files/thumbnails/elisaundanna.png</thumbnail>
+					<href>reflectorspace/mlabtalksannaundelisa</href>
+					<description>mlab14, Lernvideos, Trickfilme, Webblogs, L3T, Bims, Jugendliche, Sandra Schoen</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Michael Grunewald</title>
+					<thumbnail>files/thumbnails/grunewald.png</thumbnail>
+					<href>reflectorspace/mlabtalkmachinima</href>
+					<description>Machinima, Games, Videospiele, Jugendarbeit, Michael Grunewald, #mlab14</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Tobias, Eike und Daniel</title>
+					<thumbnail>files/thumbnails/eike.png</thumbnail>
+					<href>reflectorspace/mlabtalkthekidsarealright</href>
+					<description>#mlab14, eike, rösch, daniel, seitz, jugendmedienschutz, medienkompetenz, digitale gesellschaft, medienbildung</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Øystein Gilje</title>
+					<thumbnail>files/thumbnails/oystein.png</thumbnail>
+					<href>reflectorspace/mlabtalkdigitalproducers</href>
+					<description>Øystein Gilje, produces, maker, maker-education, digital literacy, medienkompetenz, digital producers, filmmakers</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Angelika Beranek</title>
+					<thumbnail>files/thumbnails/angelika.png</thumbnail>
+					<href>reflectorspace/mlabtalkmedialerausdruck</href>
+					<description>medialer ausdruck, angelika beranek, selbstdarstellunge, jugendliche,  medienpädagogik, infocafé</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Maria Schröder</title>
+					<thumbnail>files/thumbnails/maria.png</thumbnail>
+					<href>reflectorspace/mlabtalkjugendhackt</href>
+					<description>jugend hackt, offene daten, maria schröder, coding, programmieren, technik, hacken, hacking</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Peter Kemp</title>
+					<thumbnail>files/thumbnails/peter.png</thumbnail>
+					<href>reflectorspace/mlabtalk3dami</href>
+					<description> Peter Kemp, Digital Art, Kurzfilm Animationsfilm, 3D, 3Dami, Filmproduktion, Studenten</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Julian Sefton-Green</title>
+					<thumbnail>files/thumbnails/julian.png</thumbnail>
+					<href>reflectorspace/mlabtalkdigitalmakers</href>
+					<description>Julian Sefton-Green, Medienkompetenz, Digital Literacy, Maker Education, Geschichte</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk mit Anja Abele</title>
+					<thumbnail>files/thumbnails/anja.png</thumbnail>
+					<href>reflectorspace/mlabtalkminecraftimkunstunterricht</href>
+					<description>Anja Abele, Minecraft, Kunst, Renaissance, Schule, Klassizismus</description>
 				</exhibit>
 			</exhibits>
 		</content>

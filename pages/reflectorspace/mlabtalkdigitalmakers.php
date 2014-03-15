@@ -5,12 +5,12 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>#mlabtalk mit Björn Schreiber</h1>
+    <h1>#mlabtalk Digital Makers - Digital Literacy</h1>
 
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe src="//www.youtube.com/embed/_kEC24PbX0Q" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
+   					<iframe src="//www.youtube.com/embed/Kr2KNRgd6I8?" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
                     	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Mlab_talks" target="_blank">AG #mlabtalk</a> 
@@ -25,10 +25,12 @@
                 <h3>Tags</h3>
                 <ul>
                 	<li><span>///</span></li>
-                    <li><span>Jugendmedienschutz</span></li>
-                    <li><span>FSM</span></li>
-                    <li><span>Jugendliche</span></li>
-                    <li><span>JMS</span></li>
+                    <li><span>Digital</span></li>
+                    <li><span>Literacy</span></li>
+                    <li><span>Medienkompetenz</span></li>
+                    <li><span>Maker</span></li>
+                    <li><span>Education</span></li>
+                    <li><span>Geschichte</span></li>
                     <li><span>\\\</span></li>
                     
                 </ul>
@@ -36,14 +38,10 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">
-Was bedeutet Jugendmedienschutz und warum ist es wichtig, mit Kindern und Jugendlichen darüber zu sprechen?
-Und wie müssen einzelne Professionen zusammenarbeiten, um für die jeweilige Zielgruppe adäquat zu agieren? Und was heißt das überhaupt "adäquat agieren"? Innerhalb des #mlabtalks mit Björn Schreiber werden viele Fragen gestellt und eine klare Aufgabe formuliert: Wir müssen die Zielgruppe, also Kinder und Jugendliche hören! Der Herausforderung dieses Perspektivwechsels stellt sich Björn Schreiber im Fortgang des Kurses mit der <a href="http://wiki.medialiteracylab.de/index.php?title=Jugendliche_als_Experten_des_Jugendmedienschutzes_-_eine_Befragung" target="_blank">AG Jugendliche als Experten des Jugendmedienschutzes.</a> 
-<br />
-<br />
-Talk mit: <i>Björn Schreiber</i> | Moderation: <i>Jasmin Bastian, Tabea Siebertz</i> | Produktion: <i>Blanche Fabri</i>
-
-</p>
-
+    <p style="text-align: justify">Julian Sefton-Green (Uni Oslo; Uni Nottingham; Hong Kong Institute of Education) erzählt, was Maker Education für ihn bedeutet. Er beginnt dabei in den 1980s und arbeitet sich bis in die digitale Macher-Landschaft der Zukunft vor. Dabei erklärt er, warum Medienkompetenz so wichtig ist.
+<br/>
+<br/>
+Talk-Gast: <i>Julian Sefton-Green </i> | Moderation: <i>jasmin Bastian, Tabea Siebertz, Friederike Siller</i> | Produktion: <i>Blanche Fabri</i>
+</p> 
        
 </div>

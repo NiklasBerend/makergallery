@@ -5,7 +5,7 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>#mlabtalk mit Eric Rosenbaum</h1>
+    <h1>#mlabtalk Eric Rosenbaum and Jay Silver talk MaKey MaKey</h1>
  
         <div class="info">
     		<div class="left">
@@ -38,17 +38,17 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify"><b>Eric Rosenbaum</b> (<a href="http://www.twitter.com/ericrosenbizzle" target="_blank">@ericrosenbizzle</a>) and <b>Jay Silver</b>  (<a href="http://www.twitter.com/wakeupsilver" target="_blank">@wakeupsilver</a>) came all the way from Massachusetts to talk with us about MaKey MaKey and other of their inventions. Let's catch a glimpse of their breathtaking creativity that by the way is striving to change the world for a better.   
+    <p style="text-align: justify">Eric Rosenbaum gibt in diesem Talk einen Einblick in die kreativen Sphären des MIT Media Lab und seine Arbeitsgruppe "Lifelong Kindergarden", in deren Kontext unter anderem solch geniale Erfindungen wie das MaKeyMaKey erdacht und erschaffen wurden. Neben einer Live-Vorführung des MaKeyMaKey warten weitere faszinierende Erfindungen und die sprudelnde Kreativität von Mr Rosenbaum auf Sie. Jay Silver schaffte es leider nicht rechtzeitig zum Talk, war aber immerhin kurz per Smartphone zugeschaltet ... Aber sehen Sie selbst!
 <br />
 <br />
-<i>Useful Links:</i> 
+<i>Wichtige Links:</i> 
 <br />
-<a href="http://web.media.mit.edu/~ericr/" target="_blank">http://web.media.mit.edu/~ericr/</a>
-<a href="http://web.media.mit.edu/~~silver/" target="_blank">http://web.media.mit.edu/~silver/</a>
-<a href="http://www.makeymakey.com/" target="_blank">http://www.makeymakey.com</a>
+<a href="http://www.makeymakey.com/" target="_blank">http://www.makeymakey.com</a><br/>
+<a href="http://www.media.mit.edu/" target="_blank">http://www.media.mit.edu/</a><br/>
+<a href="http://llk.media.mit.edu/" target="_blank">http://llk.media.mit.edu/</a>
 <br />
 <br />
-<i>Moderation</i>: Friederike Siller, Niklas Berend, Tabea Siebertz
+Talk-Gast: <i>Eric Rosenbaum</i> | Moderation: <i>Friederike Siller, Niklas Berend, Tabea Siebertz</i> | Produktion: <i>Blanche Fabri</i>
 
 </p>
 

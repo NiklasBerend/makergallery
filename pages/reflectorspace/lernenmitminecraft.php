@@ -38,7 +38,8 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Wir trafen uns ‘vor Ort’ auf einem neu erstellten Minecraft-Server, um herauszufinden, welche Möglichkeiten des Lernens in Minecraft möglich sind. In dem Video reflektieren wir unsere Annäherung an die Minecraft-Welt und vor allem auch die spezifischen Potentiale dieses virtuellen Spielraumes.</p>
+    <p style="text-align: justify">Das Sandboxspiel Minecraft eröffnet einen reichhaltigen Möglichkeitsraum für (medien)pädagogische Projekte. Im Rahmen dieser AG sollte ein Konzept zum Lernen eines konkreten Themas entstehen.
+Dafür trafen wir uns ‘vor Ort’ auf einem neu erstellten Server, um Möglichkeiten des Lernens in Minecraft herauszufinden. Aufgrund der vielfältigen Möglichkeiten, entschieden wir uns gegen ein konkretes Konzept und für die Betrachtung der anfänglichen Schritte. In dem Video reflektieren wir unsere Annäherung an die Minecraft-Welt und auch einige spezifische Potentiale dieses virtuellen Spielraumes.</p>
 
        
 </div>
