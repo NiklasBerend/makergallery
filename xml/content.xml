@@ -414,6 +414,22 @@ Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><stron
 				<div class="wrapper fullsize">
 					<div class="scroll">
 						<h2>Kontakt</h2>
+						<div class="clear"></div>
+						<div class="left">
+							<p>
+							<strong>Makergallery.de</strong> ist ein Projekt<br/> 
+							von<br/> 
+							
+							<i>Jun.-Prof. Dr. Friederike Siller</i>,<br/>
+							<i>Dr. Jasmin Bastian</i> sowie<br/> 
+							<i>Tabea Siebertz</i> und<br/> 
+							<i>Niklas Berend</i><br/>
+							
+							an der AG Medienpädagogik an der <br/> 
+							Johannes Gutenberg-Universität Mainz.<br/>
+							</p>
+						</div>
+						<div class="right">
 						<p>
 						Sie haben Fragen und Anregungen zum Media Literacy Lab?<br/>
 						<strong>Schreiben Sie uns an:</strong><br/>
@@ -421,31 +437,19 @@ Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><stron
 						<a href="mailto:kontakt@medialiteracylab.de">kontakt@medialiteracylab.de</a><br/>
 						<br/>
 						</p>
-						<hr/>
+						</div>
+						<div class="clear"></div>
+						<p>				
+						Besonderer Dank an <i>Christian Albert</i> für die hervorragende
+						Unterstützung bei der Entwicklung, Gestaltung<br/>
+						und Programmierung von Makergallery.de.
+						</p>
 						<p>
 						<strong>Lizenzhinweise</strong><br/>
 						Die Inhalte dieser Website stehen unter freier Lizenz, können also unter bestimmten Bedingungen kopiert, bearbeitet, verbreitet           				werden. <i>Details zur Lizenz finden sich unter jedem Exponat.</i><br/> 
 						Allgemeine Informationen finden Sie unter <a href="http://medialiteracylab.de/lizenzhinweise" target="_blank"> 			     			   						medialiteracylab.de/lizenzhinweise</a>
 						<br/>
 						<br/>
-						</p>
-						<hr/>
-
-						<p>
-						<strong>Makergallery.de</strong> ist ein Projekt<br/> 
-						von<br/> 
-						
-						<i>Jun.-Prof. Dr. Friederike Siller</i>,<br/>
-						<i>Dr. Jasmin Bastian</i> sowie<br/> 
-						<i>Tabea Siebertz</i> und<br/> 
-						<i>Niklas Berend</i><br/>
-						
-						an der AG Medienpädagogik an der <br/> 
-						Johannes Gutenberg-Universität Mainz.<br/>
-						<br/>							
-						Besonderer Dank an <i>Christian Albert</i> für die hervorragende
-						Unterstützung bei der Entwicklung, Gestaltung<br/>
-						und Programmierung von Makergallery.de.
 						</p>
 					</div>
 				</div>

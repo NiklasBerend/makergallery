@@ -126,7 +126,7 @@ function check_exhibits_navi() {
 	
 	$(".exhibits").each(function() {
 		
-		if ($(this).find(".container").width() > $(this).find(".container > ul").width()) {
+		if ($("body").hasClass("tablet") || $(this).find(".container").width() > $(this).find(".container > ul").width()) {
 		
 			$(this).find(".navi").hide();
 		}
