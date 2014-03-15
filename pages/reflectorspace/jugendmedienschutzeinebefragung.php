@@ -14,7 +14,7 @@
             	 </div>
                      
                     <div class="creator">
-                    	<strong>Urheber:</strong> AG Jugendliche als Experten des Jugendmedienschutz’ - eine Befragung
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Jugendliche_als_Experten_des_Jugendmedienschutzes_-_eine_Befragung" target="_blank">AG Jugendliche als Experten des Jugendmedienschutz’ - eine Befragung</a>
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>

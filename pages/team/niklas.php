@@ -14,11 +14,13 @@
             </div>
             <div class="right">
                 <h3>Kontakt</h3>
+                <p>
                 <ul>
                 <li><span>Twitter</span> <a href="https://twitter.com/nikimedia" target="_blank">@nikimedia</a></li>
                 <li><span>Mail</span> <a href="mailto: niklas.berend@medialiteracylab.de">niklas.berend@medialiteracylab.de</a></li>
                 <li><span>Rolle</span> Galerie-Manager | Support</li>
                 </ul>
+                </p>
              </div>
         </div>
     <hr/>

@@ -5,12 +5,12 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>Spielend lernen mit Minecraft</h1>
+    <h1>Minecraft in einem Jugendzentrum</h1>
 
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe width="560" height="315" src="//www.youtube.com/embed/btBNh7FkDqs" frameborder="0" allowfullscreen></iframe>
+   					<a href="http://podcast.makergallery.de/?podcast=mlab003-spielend-lernen-mit-minecraft" target="_blank"><img src="<?php print $global_url_prefix?>files/img/lernenmitminecraftzwei.png"/></a>
       			</div>
                      <div class="creator">
                     	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Spielend_Lernen_mit_Minecraft" target="_blank">   						AG Spielend lernen mit Minecraft</a>
@@ -29,8 +29,8 @@
                     <li><span>Lernen</span></li>
                     <li><span>Bildung</span></li>
                     <li><span>Pädagogik</span></li>
-                    <li><span>Reflexion</span></li>
-                    <li><span>Video</span></li>
+                    <li><span>Beispiele</span></li>
+                    <li><span>Jugendzentrum</span></li>
                     <li><span>mlab14</span></li>
                     <li><span>\\\</span></li>
                 </ul>
@@ -38,8 +38,7 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Das Sandboxspiel Minecraft eröffnet einen reichhaltigen Möglichkeitsraum für (medien)pädagogische Projekte. Im Rahmen dieser AG sollte ein Konzept zum Lernen eines konkreten Themas entstehen.
-Dafür trafen wir uns ‘vor Ort’ auf einem neu erstellten Server, um Möglichkeiten des Lernens in Minecraft herauszufinden. Aufgrund der vielfältigen Möglichkeiten, entschieden wir uns gegen ein konkretes Konzept und für die Betrachtung der anfänglichen Schritte. In dem Video reflektieren wir unsere Annäherung an die Minecraft-Welt und auch einige spezifische Potentiale dieses virtuellen Spielraumes.</p>
+    <p style="text-align: justify">Das Sandboxspiel Minecraft eröffnet einen vielseitigen virtuellen Möglichkeitsraum. Aufgrund des großen Potentials des Spiels bietet es sich auch für pädagogische Projekte in der Arbeit mit Kindern und Jugendlichen an. In unserer AG ‘Spielend lernen mit Minecraft’ waren wir auf der Suche nach möglichen Konzeptideen. Auf einem Minecraftserver trafen wir Fabian, der Minecraft in einem Jugendzentrum einsetzt. Das Interview wurde per Teamspeak 3 geführt und aufgezeichnet.</p>
 
        
 </div>

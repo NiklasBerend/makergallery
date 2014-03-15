@@ -14,12 +14,14 @@
    		</div>
    		<div class="right">
             <h3>Kontakt</h3>
+            <p>
             <ul>
             <li><span>Twitter</span> <a href="https://twitter.com/gestatten" target="_blank">@gestatten</a></li>
             <li><span>Mail</span> <a href="mailto: bf@joeran.de">bf@joeran.de</a></li>
             <li><span>Website</span> <a href="http://www.joeran.de" target="_blank">joeran.de</a></li>
             <li><span>Rolle</span>Produzentin der #mlabtalks</li>
             </ul>
+            </p>
         </div>
     </div>
     <hr/>

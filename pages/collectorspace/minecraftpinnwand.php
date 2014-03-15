@@ -13,7 +13,7 @@
    					<a href="http://www.pinterest.com/mitminecraft/pins/" target="_blank"><img src="<?php print $global_url_prefix?>files/img/minecraftpinnwand.png"/></a>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> AG Spielend lernen mit Minecraft
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Spielend_Lernen_mit_Minecraft" target="_blank">AG Spielend lernen mit Minecraft</a>
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>

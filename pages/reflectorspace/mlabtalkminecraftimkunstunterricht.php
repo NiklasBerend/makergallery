@@ -5,15 +5,15 @@
 	include ($path_up."php/helper.php");
 ?>
 <div class="wrapper">
-    <h1>Fundstücke und Reflexionen zu Minecraft in der Bildung</h1>
-  
+    <h1>#mlabtalk Minecraft im Kunstunterricht</h1>
+
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe name='embed_readwrite' src='http://medienpad.de/p/zuericraft?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=600 height=400></iframe>
+   					<iframe src="//www.youtube.com/embed/vpzsYE1xR2E?" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Minecraft_Z%C3%BCrich" target="_blank">AG                   		Minecraft Zürich</a> 
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Mlab_talks" target="_blank">AG #mlabtalk</a> 
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
@@ -27,8 +27,8 @@
                 	<li><span>///</span></li>
                     <li><span>Minecraft</span></li>
                     <li><span>Schule</span></li>
-                    <li><span>Bildung</span></li>
-                    <li><span>Reflexion</span></li>
+                    <li><span>Kunst</span></li>
+                    <li><span>Renaissance</span></li>
                     <li><span>\\\</span></li>
                     
                 </ul>
@@ -36,7 +36,10 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">In dem Etherpad sind zunächst Materialien rund um Minecraft von und mit Jugendlichen zu finden. Darüber hinaus haben die AG-Mitglieder interessante Links ausgewählt und reflektiert, was MC für Kinder und Jugendliche bedeutet, was Potenziale und Knackpunkte für die Bildungsarbeit sind. Die Diskussion ist lokal noch nicht abgeschlossen.</p>
-
+    <p style="text-align: justify">Anja Abele (Künstlerin sowie Kunst- und Theaterlehrerin am Friedrich-Schiller Gymnasium Marbach) berichtet davon, wie man mit Minecraft künstlerisch arbeiten kann. Sie erklärt, dass Minecraft und Kunst ganz gut zusammen gehen und was man damit alles machen kann. Auch Schülerin Lisa kommt zu Wort und erzählt von ihren Erfahrungen.
+<br/>
+<br/>
+Talk-Gast: <i>Anja Abele</i> | Moderation: <i>Niklas Berend, Friederike Siller</i> | Produktion: <i>Blanche Fabri</i>
+</p> 
        
 </div>

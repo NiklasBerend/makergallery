@@ -13,7 +13,7 @@
    					<iframe src="//www.youtube.com/embed/videoseries?list=PLUymajA6PlKAYPSUsCJKY2DzZs-pWUs41" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> Medialiteracylab 
+                    	<strong>Urheber:</strong> <a href="http://medialiteracylab.de" target="_blank">Medialiteracylab</a> 
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>

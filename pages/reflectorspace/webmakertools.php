@@ -40,7 +40,7 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Das Sammlungsdokument bündelt alle wichtigen Kenntnisse der AG, neben allgemeinen Dingen, wie einer Annäherungen zum Webmaker, finden sich Toolbeschreibungen, Einschätzungen zu den einzelnen Instrumenten und Ideen zu Konzepten in der Arbeit mit den Tools des Webmakers.  </p>
+    <p style="text-align: justify">Das Doc bündelt die Kenntnisse der AG Mozilla Webmaker. Der Webmaker ist eine Webcommunity, die Menschen zum gemeinsamen “Programmieren” zusammenbringt, nach dem Grundgedanken, aus passiven Internetnutzern aktive Coder zu machen, die verstehen, wie sich das Netz aufbaut und es selbst mitgestalten können. Die Tools ermöglichen das Verändern bzw. Erstellen von Online-Inhalten. Das Doc bündelt eine Beschreibung zum Webmaker, Toolbeschreibungen & Einschätzungen zu den Tools sowie Ideen zu Konzepten in der Arbeit mit den Tools. Das Doc soll offen bleiben & Interessierte einladen, zu ergänzen! </p>
 
        
 </div>

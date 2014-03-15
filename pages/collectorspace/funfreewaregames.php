@@ -14,7 +14,7 @@
 
       			</div>
                      <div class="creator">
-                    	<strong>Urheber:</strong> AG Fun-Freeware-Games
+                    	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Fun_ohne_Onlinezwang_mit_Freeware-Games_f%C3%BCr_Kidz" target"_blank">AG Fun-Freeware-Games</a>
                     </div>
                     <div class="license">
 	      				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Lizenzvertrag"                         style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
