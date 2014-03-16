@@ -38,10 +38,14 @@
     <hr/>
 	<h2>Über das Exponat</h2>
     <p style="text-align: justify">Simon Zwick von Actionbound berichtet in diesem #mlabtalk von der Entstehungsgeschichte der App "Actionbound", mit der sich Handy-Rallyes selbst bauen und Städteführungen per QR-Code nachspielen lassen. Es werden bestimmte Einsatzmöglichkeiten, auch für die Erlebnis- und Medienpädagogik diskutiert und die Voraussetzungen zum Spielen erklärt. 
-
-<br />
-<br />
-Talk-Gast: <i>Simon Zwick</i> | Moderation: <i>Niklas Berend, Tabea Siebertz</i> | Produktion: <i>Blanche Fabri</i>
+    <br/>
+    <br/>
+    Weiterführende Links:<br/>
+    <a href="http://pb21.de/2013/08/mobiles-lernen-mit-actionbound/" target="_blank">http://pb21.de/2013/08/mobiles-lernen-mit-actionbound/</a><br/>
+	<a href="http://www.medienpaedagogik-praxis.de/2013/10/23/erstellen-einer-gps-rallye-mit-actionbound/" target="_blank">http://www.medienpaedagogik-praxis.de/2013/10/23/erstellen-einer-gps-rallye-mit-actionbound/</a>
+	<br />
+	<br />
+	Talk-Gast: <i>Simon Zwick</i> | Moderation: <i>Niklas Berend, Tabea Siebertz</i> | Produktion: <i>Blanche Fabri</i>
 
 </p>
 

@@ -37,8 +37,8 @@
     <hr/>
 	<h2>Über das Exponat</h2>
     <p style="text-align: justify">
-Was bedeutet Jugendmedienschutz und warum ist es wichtig, mit Kindern und Jugendlichen darüber zu sprechen?
-Und wie müssen einzelne Professionen zusammenarbeiten, um für die jeweilige Zielgruppe adäquat zu agieren? Und was heißt das überhaupt "adäquat agieren"? Innerhalb des #mlabtalks mit Björn Schreiber werden viele Fragen gestellt und eine klare Aufgabe formuliert: Wir müssen die Zielgruppe, also Kinder und Jugendliche hören! Der Herausforderung dieses Perspektivwechsels stellt sich Björn Schreiber im Fortgang des Kurses mit der <a href="http://wiki.medialiteracylab.de/index.php?title=Jugendliche_als_Experten_des_Jugendmedienschutzes_-_eine_Befragung" target="_blank">AG Jugendliche als Experten des Jugendmedienschutzes.</a> 
+Was bedeutet Jugend - Medien - Schutz und warum ist es wichtig, mit Kindern und Jugendlichen darüber zu sprechen?
+Und wie müssen einzelne Professionen zusammenarbeiten, um für die jeweilige Zielgruppe adäquat zu agieren? Und was heißt das überhaupt "adäquat agieren"? Innerhalb des #mlabtalks mit Björn Schreiber werden viele Fragen gestellt und eine klare Aufgabe formuliert: Wir müssen die Zielgruppe, also Kinder und Jugendliche hören! Der Herausforderung dieses Perspektivwechsels stellt sich Björn Schreiber im Fortgang des" Kurses mit der AG (Link). Entstanden sind hierbei ein <a href="http://www.demo.makergallery.de/collectorspace/jugendmedienschutz">Podcast</a> sowie die Ausarbeitung der Ergebnisse von <a href="http://www.demo.makergallery.de/reflectorspace/jugendmedienschutzeinebefragung">fünf Experteninterviews mit Jugendlichen</a>.
 <br />
 <br />
 Talk mit: <i>Björn Schreiber</i> | Moderation: <i>Jasmin Bastian, Tabea Siebertz</i> | Produktion: <i>Blanche Fabri</i>

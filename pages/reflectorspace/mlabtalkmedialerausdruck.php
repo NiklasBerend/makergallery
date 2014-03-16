@@ -38,7 +38,14 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Dr. Angelika Beranek berichtet aus ihrer Arbeit mit Jugendlichen im Infocafé Neu-Isenburg. Dort werden Ideen und Wünsche aus dem Alltag der Jugendlichen aufgegriffen und in pädagogische  Projekte umgemünzt.
+    <p style="text-align: justify">Dr. Angelika Beranek berichtet aus ihrer Arbeit mit Jugendlichen im Infocafé Neu-Isenburg. Dort werden Ideen und Wünsche aus dem Alltag der Jugendlichen aufgegriffen und in pädagogische Projekte umgemünzt. Innerhalb des #mlabtalks berichtet Angelika Beranek, warum Minecraft in der Welt der Jugendlichen eine so große Rolle spielt, wie sich Konflikte innerhalb von League of Legends in der persönlichen Begegnung klären lassen und was es mit dem Infoclub-Stimmungs-Barometer (ISB) auf sich hat. <br/>
+    <br/>
+Weiterführende Links: <br/>
+<a href="http://www.youtube.com/watch?v=JNXE6ABGQ04" target="_blank">YouTube Let's Play-Video</a><br/>
+<a href="http://www.youtube.com/user/Infocafe" target="_blank">Infocafé Yuo-Tube-Channel</a><br/>
+<a href="http://infocafe.org" target="_blank">infocafe.org</a><br/>
+<a href="https://www.facebook.com/infocafe" target="_blank">www.facebook.com/infocafe</a><br/>
+<a href="http://www.angelika-beranek.de" target="_blank">www.angelika-beranek.de</a>
 <br/>
 <br/>
 Talk-Gast: <i>Dr. Angelika Beranek</i> | Moderation: <i>Jasmin Bastian, Tabea Siebertz, Friederike Siller</i> | Produktion: <i>Blanche Fabri</i>

@@ -39,7 +39,16 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Tobias Albers-Heinemann (Medienbildung der Evangelischen Kirche Hessen/Nassau), Eike Rösch (Medienbildung PH Zürich; Medienpädagogik Praxisblog) und Daniel Seitz (Mediale Pfade; Medienpädagogik Praxisblog) sprechen mit uns darüber, wie es seit den Enthüllungen von Snowden mit der "Medienkompetenzförderung" in Deutschland weitergehen kann. Sie diskutieren wann wir digital mündige Bürger sind und was wir unseren Kindern mit auf den Weg in die digitale Gesellschaft geben können. 
+    <p style="text-align: justify">Tobias Albers-Heinemann (Medienbildung der Evangelischen Kirche Hessen/Nassau), Eike Rösch (Medienbildung PH Zürich; Medienpädagogik Praxisblog) und Daniel Seitz (Mediale Pfade; Medienpädagogik Praxisblog) sprechen mit uns darüber, wie es seit den Enthüllungen von Snowden mit der "Medienkompetenzförderung" in Deutschland weitergehen kann. Sie diskutieren wann wir digital mündige Bürger sind und was wir unseren Kindern mit auf den Weg in die digitale Gesellschaft geben können.<br/>
+    <br/>
+Weiterführende Links:</br>
+<a href="http://www.medienpaedagogik-praxis.de/2014/02/26/datenschutz-bei-mobilen-messengern-teil-1-grundlagen-einer-sicheren-kommunikation/" target="_blank">Grundlegende Einführung in Verschlüsselung und Konsequenzen für die medienpädagogische Praxis</a><br/>
+<a href="http://pb21.de/2014/02/nach-snowden-eine-bildungsagentur-steigt-aus/" target="_blank">Artikelserie zum Ausstieg aus überwachten Diensten</a><br/>
+<a href=" www.ausserreichweite.org " target="_blank">#wastun gegen Vollüberwachung!– BarCamp am 5.4. in Berlin</a><br/>
+<br/>
+<i>Games mit der Thematik Überwachung:</i><br/>
+<a href="https://back.nothingtohide.cc/" target="_blank">https://back.nothingtohide.cc/</a><br/>
+<a href="https://datadealer.com/de" target="_blank">https://datadealer.com/de</a>
 <br/>
 <br/>
 Talk-Gäste: <i>Tobias Albers-Heinemann, Eike Rösch und Daniel Seitz</i> | Moderation: <i>Jasmin Bastian, Tabea Siebertz, Friederike Siller</i><br/> Produktion: <i>Blanche Fabri</i>

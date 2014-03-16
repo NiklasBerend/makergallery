@@ -10,7 +10,7 @@
        
     <div class="info">
         <div class="left">
-    			<img src="<?php print $global_url_prefix?>files/img/joeran.jpg"</img>
+    			<img src="<?php print $global_url_prefix?>files/img/blanche.jpg"</img>
    		</div>
    		<div class="right">
             <h3>Kontakt</h3>

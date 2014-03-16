@@ -19,7 +19,7 @@ body.mobile {
 }
 p a {
 	text-decoration: none;
-	color: #66F;
+	color: rgb(221, 118, 131);
 	padding: 0 3px;
 }
 p a:focus ,

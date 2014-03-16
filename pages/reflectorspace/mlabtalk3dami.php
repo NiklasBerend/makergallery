@@ -39,6 +39,14 @@
     <hr/>
 	<h2>Über das Exponat</h2>
     <p style="text-align: justify">Peter Kemp berichtet, wie er in nur 7 Tagen mit einer Menge junger Leute einen 3D animierten Kurzfilm produziert hat. Die Geschichte einer Digital Summer School, die es sich zum Ziel gesetzt hat, Studienanwärtern das Thema "Digital Art" näher zu bringen.
+    
+    Peter Kemp berichtet, wie er in nur 7 Tagen mit einer Menge junger Leute einen 3D animierten Kurzfilm produziert hat. Die Geschichte einer Digital Summer School, die es sich zum Ziel gesetzt hat, Studienanwärtern das Thema "Digital Art" näher zu bringen.<br/>
+    <br/>
+Weiterführende Links:<br/>
+<a href="http://www.youtube.com/watch?v=BFKJlHjmsV8" target="_blank">Summer Never Comes</a><br/>
+<a href="http://www.youtube.com/watch?v=Xqr3OdToU78" target="_blank">Hook, Line and Summer, Director's Clean Up</a><br/> 
+<a href="http://www.youtube.com/watch?v=D1v1mR_r7Mw" target="_blank">The Making of</a><br/>
+<a href="https://docs.google.com/presentation/d/1Ag7jqAINBWpeTgOgf7tTFfjzsaL_xi8RC_wru-ml-Y8/edit#slide=id.g1010fd6a_0_0" target="_blank">Folien zum #mlabtalk</a>
 <br/>
 <br/>
 Talk-Gast: <i>Peter Kemp </i> | Moderation: <i>Tabea Siebertz, Friederike Siller</i> | Produktion: <i>Blanche Fabri</i>

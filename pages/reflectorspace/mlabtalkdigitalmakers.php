@@ -39,6 +39,14 @@
     <hr/>
 	<h2>Über das Exponat</h2>
     <p style="text-align: justify">Julian Sefton-Green (Uni Oslo; Uni Nottingham; Hong Kong Institute of Education) erzählt, was Maker Education für ihn bedeutet. Er beginnt dabei in den 1980s und arbeitet sich bis in die digitale Macher-Landschaft der Zukunft vor. Dabei erklärt er, warum Medienkompetenz so wichtig ist.
+    
+    Julian Sefton-Green (Uni Oslo; Uni Nottingham; Hong Kong Institute of Education) erzählt in diesem #mlabtalk, was Maker Education für ihn bedeutet. Hierfür beginnt er in den 1980s und arbeitet sich bis in die digitale Macher-Landschaft der Zukunft vor. Er erläutert, warum Medienkompetenz so wichtig ist, warum Programmieren diese fördern kann und wie Schulen Programmieren in das Curriculum aufnehmen könnten.<br/>
+    <br/>
+Weiterführende Links:<br/>
+<a href="http://www.julianseftongreen.net/" target="_blank">http://www.julianseftongreen.net/</a><br/> 
+<a href="http://www.appsforgood.org/" target="_blank">http://www.appsforgood.org/</a><br/> 
+<a href="https://www.codeclub.org.uk/" target="_blank">https://www.codeclub.org.uk/</a><br/> 
+<a href="http://www.codecademy.com/" target="_blank">http://www.codecademy.com/</a>
 <br/>
 <br/>
 Talk-Gast: <i>Julian Sefton-Green </i> | Moderation: <i>jasmin Bastian, Tabea Siebertz, Friederike Siller</i> | Produktion: <i>Blanche Fabri</i>
