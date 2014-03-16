@@ -10,7 +10,7 @@
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe src="http://www.slideshare.net/slideshow/embed_code/32212195" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+   					<iframe src="http://www.slideshare.net/slideshow/embed_code/32212195" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">	   					</iframe>
       			</div>
                      <div class="creator">
                     	<strong>Urheber:</strong> @iTOtto, @unverzollt

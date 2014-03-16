@@ -779,7 +779,7 @@ section[ref='reflectorspace'].in_room .absolute {
 }
 
 section[ref=''] {
-	background-image: url(background.jpg);
+	background-image: url(hintergrund.jpg);
 	background-size: cover;
 }
 section[ref=''] h2 {

@@ -41,9 +41,10 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Im Kontext Medienkomptenz(vermittlung) mit dem Fokus auf Games hat sich das Modul "Spielfiguren" bzw. der Ansatz mit Spielfiguren und Fotos zu arbeiten als sehr geeignet erwiesen. Zudem hat es allen Beteiligten (Grundschüler, ältere Schüler, Studierende und Multiplikatoren) stets Spaß gemacht. 
-Vorgehensweise - kompakt beschrieben: 
-Man nehme eine Zielgruppe, stelle ein paar Spielfiguren zur Verfügung, etwas Zeit und eine Kamera. So entstehen tolle Fotos / Foto-Storys und “nebenbei” stellt es einen kreativen Einstieg in das Thema Games dar. </p>
+    <p style="text-align: justify">Im Kontext Medienkomptenz(vermittlung) mit dem Fokus auf Games hat sich das Modul "Spielfiguren" bzw. der Ansatz mit Spielfiguren und Fotos zu arbeiten als sehr geeignet erwiesen.
+Spielfiguren haben einen großen Wiedererkennungs- und Sympathiewert.<br/> 
+Die ansonsten “unfassbaren” Game-Heroes tauchen in GamePics in der Lebenswirklichkeit der Beteiligten auf. Gemeinsam werden neue Geschichten erzählt.. 
+GamePics bietet einen einfachen, schnellen Einstieg in das Themenfeld, der aber flexibel, modular und der Zielgruppe, der Ressourcen und der Projektziele entsprechend angepasst werden kann.</p>
 
        
 </div>

@@ -79,6 +79,12 @@
 					<href>collectorspace/impressionen</href>
 					<description>cory doctorow, makers, lektüre, buch, creative commons, #mlab14</description>
 				</exhibit>
+				<exhibit type="page">
+					<title>Kreatives für Kinder</title>
+					<thumbnail>files/thumbnails/primolothumb.png</thumbnail>
+					<href>collectorspace/primolo</href>
+					<description>Kinderseite, Kinderinternet, Film, Trickfilm, Podcast, Audio, Hörspiel, Foto, Community, Video, Website, Medienkompetenz, Medienarbeit, Internet, Kinder, Kreativität, produzieren, gestalten</description>
+				</exhibit>
 			</exhibits>
 		</content>
 	</elem>
@@ -165,12 +171,6 @@
 					<thumbnail>files/thumbnails/raspberrypi.jpg</thumbnail>
 					<href>makerspace/raspberrypi</href>
 					<description>Raspberry Pi, Minecraft auf Raspberry, Einsteiger, erste Schritte mit Raspberry</description>
-				</exhibit>
-				<exhibit type="page">
-					<title>Kreatives für Kinder</title>
-					<thumbnail>files/thumbnails/primolothumb.png</thumbnail>
-					<href>makerspace/primolo</href>
-					<description>Kinderseite, Kinderinternet, Film, Trickfilm, Podcast, Audio, Hörspiel, Foto, Community, Video, Website, Medienkompetenz, Medienarbeit, Internet, Kinder, Kreativität, produzieren, gestalten</description>
 				</exhibit>
 			</exhibits>
 		</content>
