@@ -31,6 +31,18 @@
 					<href>collectorspace/appsfuerskinderzimmer</href>
 					<description>iOS,Android,Tablet,Smartphone,iPhone,iPad,</description>
 				</exhibit>
+				<exhibit type="prezi">
+					<title>Kreatives Schreiben</title>
+					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
+					<href>collectorspace/kreativesschreiben</href>
+					<description>Kreatives Schreiben,Handyroman,SMS-Märchen,Schreibwettbewerbe,Twitteratur,Mitschreibprojekte,Buchbesprechungen,Schreibwerkstätten,</description>
+				</exhibit>
+				<exhibit type="page">
+					<title>selfies vs. guidies</title>
+					<thumbnail>files/thumbnails/guidies.png</thumbnail>
+					<href>collectorspace/selfiesvsguidies</href>
+					<description>Jugendliche,Medienpädagogik,Lebensweltbezug,Eigeninitiative,Kreativität,Produktivität,Medienmacher</description>
+				</exhibit>
 				<exhibit type="video">
 					<title>mlabtalks</title>
 					<thumbnail>files/thumbnails/mlab.jpg</thumbnail>
@@ -48,18 +60,6 @@
 					<thumbnail>files/thumbnails/freewaregames.png</thumbnail>
 					<href>collectorspace/funfreewaregames</href>
 					<description>Freeware,Computerspiele,Freeware-Spiele,Freewarespiel,Schule,Jugendarbeit,Grundschule</description>
-				</exhibit>
-				<exhibit type="prezi">
-					<title>Kreatives Schreiben</title>
-					<thumbnail>files/thumbnails/kreativesschreiben.png</thumbnail>
-					<href>collectorspace/kreativesschreiben</href>
-					<description>Kreatives Schreiben,Handyroman,SMS-Märchen,Schreibwettbewerbe,Twitteratur,Mitschreibprojekte,Buchbesprechungen,Schreibwerkstätten,</description>
-				</exhibit>
-				<exhibit type="page">
-					<title>selfies vs. guidies</title>
-					<thumbnail>files/thumbnails/guidies.png</thumbnail>
-					<href>collectorspace/selfiesvsguidies</href>
-					<description>Jugendliche,Medienpädagogik,Lebensweltbezug,Eigeninitiative,Kreativität,Produktivität,Medienmacher</description>
 				</exhibit>
 				<exhibit type="document">
 					<title>"Makers"-Erfindungen</title>
@@ -101,6 +101,12 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
+					<title>Kinder machen Medien</title>
+					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
+					<href>makerspace/reichebeute</href>
+					<description>Piraten, Stop-Motion</description>
+				</exhibit>
+				<exhibit type="video">
 					<title>MakeyMakey</title>
 					<thumbnail>files/thumbnails/makeymakey.jpg</thumbnail>
 					<href>makerspace/makeymakey</href>
@@ -111,6 +117,18 @@
 					<thumbnail>files/thumbnails/mindstorm.png</thumbnail>
 					<href>makerspace/mindstorms</href>
 					<description>LEGO,Mindstorms,Roboter,Parcours,Programmieren</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>3D-Druck für alle</title>
+					<thumbnail>files/thumbnails/3drobi.png</thumbnail>
+					<href>makerspace/3ddruckfueralle</href>
+					<description>3D, 3D-Drucker, Mannheim, Stadtbibliothek, MakerBot, Replicator 2, Roboter, Makerspace, mlab14</description>
+				</exhibit>
+				<exhibit type="prezi">
+					<title>Gamepics</title>
+					<thumbnail>files/thumbnails/gamepics.png</thumbnail>
+					<href>makerspace/gamepics</href>
+					<description>Spielfiguren,Foto-Story,Games,Game-Heroes,Helden,Computerspiele,Videospiele,Medienkompetenz,Fotos</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>LeFloid</title>
@@ -130,12 +148,6 @@
 					<href>makerspace/kodu</href>
 					<description>Kodu, Welten, Programmieren, Erkunden</description>
 				</exhibit>
-				<exhibit type="prezi">
-					<title>Gamepics</title>
-					<thumbnail>files/thumbnails/gamepics.png</thumbnail>
-					<href>makerspace/gamepics</href>
-					<description>Spielfiguren,Foto-Story,Games,Game-Heroes,Helden,Computerspiele,Videospiele,Medienkompetenz,Fotos</description>
-				</exhibit>
 				<exhibit type="video">
 					<title>Superfabbies</title>
 					<thumbnail>files/thumbnails/superfabbies.png</thumbnail>
@@ -147,12 +159,6 @@
 					<thumbnail>files/thumbnails/webmakertools.png</thumbnail>
 					<href>makerspace/webmakerthimble</href>
 					<description> Thimble,Sprache,Webmaker,Webdesign,HTML,Programmieren,Web lernen,Kreativität</description>
-				</exhibit>
-				<exhibit type="video">
-					<title>Kinder machen Medien</title>
-					<thumbnail>files/thumbnails/reichebeute.png</thumbnail>
-					<href>makerspace/reichebeute</href>
-					<description>Piraten, Stop-Motion</description>
 				</exhibit>
 				<exhibit type="document">
 					<title>Raspberry Pi</title>
@@ -188,12 +194,6 @@
 			</info>
 			<exhibits>
 				<exhibit type="video">
-					<title>Minecraft für Eltern</title>
-					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
-					<href>reflectorspace/minecraftfuereltern</href>
-					<description>Minecraft, Eltern, Erkunden, Anleitung</description>
-				</exhibit>
-				<exhibit type="video">
 					<title>#mlabtalk Eric Rosenbaum</title>
 					<thumbnail>files/thumbnails/eric.png</thumbnail>
 					<href>reflectorspace/mlabtalkmakeymakey</href>
@@ -204,6 +204,12 @@
 					<thumbnail>files/thumbnails/tara.png</thumbnail>
 					<href>reflectorspace/mlabtalklamakerspace</href>
 					<description>LA Makerspace,Make,Hackerspace,DIY,Tinker</description>
+				</exhibit>
+				<exhibit type="document">
+					<title>Minecraft in der Bildung</title>
+					<thumbnail>files/thumbnails/minecraft2.png</thumbnail>
+					<href>reflectorspace/zuericraft</href>
+					<description>Minecraft, Schule, Bildung, Reflexion</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>Lernumgebung WDR Maus</title>
@@ -216,12 +222,6 @@
 					<thumbnail>files/thumbnails/readingasmaking.png</thumbnail>
 					<href>reflectorspace/readingasmaking</href>
 					<description>Cory Doctorow,Buch,e-Book,Makers,Roman,Lektüre,freie Lizenz,OER,Literatur</description>
-				</exhibit>
-				<exhibit type="document">
-					<title>Minecraft in der Bildung</title>
-					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
-					<href>reflectorspace/zuericraft</href>
-					<description>Minecraft, Schule, Bildung, Reflexion</description>
 				</exhibit>
 				<exhibit type="document">
 					<title>Webmakertools</title>
@@ -252,6 +252,12 @@
 					<thumbnail>files/thumbnails/fragfinn.png</thumbnail>
 					<href>reflectorspace/mlabtalkfragfinn</href>
 					<description>YouTube, Kinder, Jugendliche, Selbstdarstellung</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>Minecraft für Eltern</title>
+					<thumbnail>files/thumbnails/minecraft.jpg</thumbnail>
+					<href>reflectorspace/minecraftfuereltern</href>
+					<description>Minecraft, Eltern, Erkunden, Anleitung</description>
 				</exhibit>
 				<exhibit type="video">
 					<title>#mlabtalk Björn Schreiber</title>
@@ -290,7 +296,7 @@
 					<description>Machinima, Games, Videospiele, Jugendarbeit, Michael Grunewald, #mlab14</description>
 				</exhibit>
 				<exhibit type="video">
-					<title>#mlabtalk mit Tobias, Eike und Daniel</title>
+					<title>#mlabtalk The Kids are alright</title>
 					<thumbnail>files/thumbnails/eike.png</thumbnail>
 					<href>reflectorspace/mlabtalkthekidsarealright</href>
 					<description>#mlab14, eike, rösch, daniel, seitz, jugendmedienschutz, medienkompetenz, digitale gesellschaft, medienbildung</description>
@@ -417,11 +423,13 @@ Veranstalter war das <a href="http://medialiteracylab.de" target="_blank"><stron
 						<div class="clear"></div>
 						<div class="left">
 							<p>
-							<strong>Makergallery.de</strong> ist ein Projekt<br/> 
-							von<br/> 
+							<strong>Makergallery.de</strong><br/>
+						 	ist ein Projekt	von<br/>
 							
 							<i>Jun.-Prof. Dr. Friederike Siller</i>,<br/>
-							<i>Dr. Jasmin Bastian</i> sowie<br/> 
+							<i>Dr. Jasmin Bastian</i><br/>
+							sowie<br/> 
+							<i>Jöran Muuß-Merholz</i>,<br/>
 							<i>Tabea Siebertz</i> und<br/> 
 							<i>Niklas Berend</i><br/>
 							

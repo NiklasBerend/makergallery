@@ -10,7 +10,7 @@
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe src="//www.youtube.com/embed/videoseries?list=PLUymajA6PlKAYPSUsCJKY2DzZs-pWUs41" style="float: left; margin: 0 0 20 0;" allowfullscreen></iframe>
+   					<a href="http://mlab-selfies.tumblr.com/" target="_blank"><img src="<?php print $global_url_prefix?>files/img/selfie.png"/></a>
       			</div>
                      <div class="creator">
                     	<strong>Urheber:</strong> <a href="http://wiki.medialiteracylab.de/index.php?title=Selfies_vs._Guidies_-_was_machen_Jugendliche,_was_macht_Medienp%C3%A4dagogik_Berlin" target="_blank">AG Selfies vs. Guidies - was machen Jugendliche, was macht Medienpädagogik</a>
@@ -38,7 +38,11 @@
           </div>
     <hr/>
 	<h2>Über das Exponat</h2>
-    <p style="text-align: justify">Ausgehend von der Gesamtfrage des MLAB Kurses “Was machen Jugendliche in digitalen Welten” hat die AG Selfies vs. Guidies Trends jugendlicher Produktivität und Kreativität aufgespürt und diese Trends in der Medienpädagogik gegenübergestellt. Dabei wollten wir herausfinden, wie nah medienpädagogische Praxis tatsächlich an der Lebenswelt der Jugendlichen ist, wo medienpädogische Arbeit Jugendlichen Impulse liefert und wo jugendliche Lebenswelt Anreize für medienpädagogische Arbeit schafft. 
+    <p style="text-align: justify">Ausgehend von der Gesamtfrage des MLAB Kurses “Was machen Jugendliche in digitalen Welten” hat die AG Selfies vs. Guidies Trends jugendlicher Produktivität und Kreativität aufgespürt und diese Trends in der Medienpädagogik gegenübergestellt. Dabei wollten wir herausfinden, wie nah medienpädagogische Praxis tatsächlich an der Lebenswelt der Jugendlichen ist, wo medienpädogische Arbeit Jugendlichen Impulse liefert und wo jugendliche Lebenswelt Anreize für medienpädagogische Arbeit schafft. <br/>
+    <br/>
+Zu den Tumblr-Blogs: 
+<a href="http://mlab-selfies.tumblr.com/" target="_blank">Selfie-Blog</a> | 
+<a href="http://mlab-guidies.tumblr.com/" target="_blank">Guidies-Blog</a><br/>
 </p>
 
        

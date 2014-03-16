@@ -17,7 +17,7 @@
             <p>
             <ul>
             <li><span>Twitter</span> <a href="https://twitter.com/jmm_hamburg" target="_blank">@jmm_hamburg</a></li>
-            <li><span>Mail</span> <a href="mailto: post@joeran.de">post@joeran.de</a></li>
+            <li><span>Mail</span> <a href="mailto: joeran@medialiteracylab.de">joeran@medialiteracylab.de</a></li>
             <li><span>Website</span> <a href="http://www.joeran.de" target="_blank">joeran.de</a></li>
             <li><span>Rolle</span> Konzept & Organisation</li>
             <p>
