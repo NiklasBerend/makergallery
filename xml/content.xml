@@ -187,7 +187,7 @@
 						Hier finden Sie die Ergebnisse von Präsentationen, Diskussionen und Brainstormings,<br/> 
 						z.B. Video-Talks von Experten/innen aus Wissenschaft und Praxis. 
 						Alles rund um die Frage:<br/> 
-						Was <strong>machen</strong> Kinder und Jugendliche in mit digitalen Welten?
+						Was <strong>machen</strong> Kinder und Jugendliche in digitalen Welten?
 						</p>
 					</div>
 				</div>
@@ -336,6 +336,12 @@
 					<thumbnail>files/thumbnails/anja.png</thumbnail>
 					<href>reflectorspace/mlabtalkminecraftimkunstunterricht</href>
 					<description>Anja Abele, Minecraft, Kunst, Renaissance, Schule, Klassizismus</description>
+				</exhibit>
+				<exhibit type="video">
+					<title>#mlabtalk Konstruktivismus</title>
+					<thumbnail>files/thumbnails/stefan.png</thumbnail>
+					<href>reflectorspace/mlabtalkkonstruktivismus</href>
+					<description>Stefan Aufenanger, Uni Mainz, Konstruktivismus, Mindstorms, Papert, Maker-Education</description>
 				</exhibit>
 			</exhibits>
 		</content>
