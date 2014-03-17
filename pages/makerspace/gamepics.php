@@ -10,7 +10,7 @@
         <div class="info">
     		<div class="left">
         		<div class="iframe-container">
-   					<iframe src="http://www.slideshare.net/slideshow/embed_code/32117753" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+   					<iframe src="http://www.slideshare.net/slideshow/embed_code/32391345" width="476" height="400" frameborder="0" marginwidth="0"        	    				marginheight="0" scrolling="no"></iframe>
       			</div>
                      <div class="creator">
                     	<strong>Urheber:</strong> Jürgen Sleegers, Björn Friedrich, Heiko W, Kristin Heitmann, Se Bastian, Eni Paschen,                		   						ObeytheSchnabeltier  
