@@ -25,7 +25,7 @@
         </div>
     </div>
     <hr/>
-	<h2>Über Jöran</h2>
+	<h2>Über Blanche</h2>
     <p style="text-align: justify"> <bold>Blanche Fabri</bold> studierte Medienkultur und politische Wissenschaft an der Universität Hamburg. Sie ist Projektleitung bei der <a href="http://www.joeran.de" target="_blank">Agentur Jöran und Konsorten</a>. Als Konsortin organisiert sie (Bildungs-)Kongresse und Tagungen, produziert Livestreams, WebTalks und Webvideos, koordiniert online und offline Projekte im Bildungsbereich und schreibt für Online-Redaktionen. Außerdem ist sie als Dozentin in der Erwachsenenbildung tätig.</p>
     
 </div>
